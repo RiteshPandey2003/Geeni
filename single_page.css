@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+
+  font-family: "Luckiest Guy", cursive;
+}
+#About-us-section {
+  padding: 2rem 0rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+  background: rgb(209, 242, 255);
+}
+
+.company-img-genni {
+  border-radius: 12px;
+  height: 380px;
+  width: 600px;
+}
+.company-img-genni1 {
+  height: 380px;
+  width: 700px;
+}
+.genni {
+  width: fit-content;
+  font-size: 2rem;
+  font-weight: 900;
+  color: white;
+  background: blue;
+  padding: 0.3rem;
+}
+.certificate_title {
+  padding: 1rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.time-limit {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: fit-content;
+  font-size: 1.2rem;
+}
+.price {
+  font-size: x-large;
+  font-weight: bolder;
+  margin-top: 2rem;
+}
+
+@media (max-width: 900px) {
+  .company-img-genni,
+  .company-img-genni1 {
+    width: 100%;
+    height: fit-content;
+    padding: 1rem;
+  }
+}
+.page-container {
+text-align: center;
+padding: 20px;
+}
+
+.page {
+display: none;
+}
+
+.visible {
+display: block;
+}
+
+.button-container {
+margin-top: 20px;
+}
+
+.page-button {
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+margin: 0 10px;
+}
+
+
+#benefits{
+  margin-top: 3rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.benifits-discription{
+  width: 40%;
+  text-align: left;
+  display: flex;
+}
+.fa-check{
+  padding: 0 0.5rem;
+  font-weight: bolder;
+}
+@media (max-width : 800px) {
+  .benifits-discription{
+  width: 80%;
+}
+}
+.benifits-discription {
+    display: none;
+  }
+
+  .visible .benifits-discription {
+    display: block;
+  }
