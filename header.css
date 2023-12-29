@@ -695,10 +695,11 @@ span {
   gap: 4rem;
   align-items: center;
   justify-content: center;
+  margin-bottom: 5rem;
 }
 
 .company-img-genni {
-  border: 2px solid lightgray;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07);
   border-radius: 12px;
   height: 380px;
   width: 600px;
@@ -709,6 +710,7 @@ span {
   text-align: center;
   font-weight: bolder;
   font-size: 2rem;
+  
 }
 
 .company-name-after-img {
@@ -737,6 +739,7 @@ span {
   height: 50px;
   width: 50px;
   padding: 0.5rem;
+  /* box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07); */
 }
 .company-introduciton-section{
   border-radius: 12px;
@@ -768,13 +771,11 @@ span {
 }
 
 @media (max-width:1200px) {
-  .company-img-genni {
-    width: 280px;
-  }
+  
 
   .company-img-genni {
     width: 100%;
-    height: 280px;
+    height: 180px;
   }
 
   .company-name-after-img span {
@@ -793,7 +794,7 @@ span {
     font-size: 1rem;
   }
   .about-us-heading{
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 2rem 0;
 
   }
@@ -822,11 +823,14 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07);
+ 
   
 }
 .bxslider{
   min-width: 100%;
   min-height:100%;
+  
 }
 li{
   min-height:100%; 
@@ -845,6 +849,7 @@ li{
   align-items: center;
   justify-content: center;
   margin-top:8rem;
+  
 }
 
 .counter-section{
@@ -902,7 +907,7 @@ li{
     font-size: 1.5rem;
   }
   #counter-section-container{
-    margin-top: 5rem;
+    margin-top: 10rem;
   }
 }
 
@@ -914,7 +919,6 @@ li{
 .section-popular-course-container{
   margin-top: 5rem;
   width: 100%;
-  margin-bottom: 5rem;
 
 }
 .popular-course-container-heading{
@@ -936,7 +940,7 @@ li{
   
   padding: 2rem;
   width: 300px;
-  border: 2px solid lightgray;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07);
   margin: 5px; /* Adjust as needed for spacing */
 }
 
@@ -1126,6 +1130,12 @@ li{
     font-size: 2rem;
     padding: 1rem;
     margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+  #timeline-section-child1 img{
+    height: 75%;
+    width: 89%;
+    border-radius: 15px;
   }
  }
 
