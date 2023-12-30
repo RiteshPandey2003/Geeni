@@ -1283,7 +1283,36 @@ li{
   }
 }
 
+.address{
+  position: relative;
+  margin-top: 10rem;
+}
+.address-section-genni{
+  
+  background: white;
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.address-section-genni h4{
+  text-align: center;
+}
+
 
 #geeni-location{
-  margin-top: 5rem;;
+  margin-top: 5rem;
+}
+.contact_deatils{
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+@media (max-width : 800px) {
+  .contact_deatils,  .contact_deatils p{
+    gap: 0.5rem;
+    font-size: 10px;
+  }
 }
