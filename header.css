@@ -794,8 +794,13 @@ span {
     font-size: 1.2rem;
   }
   .our-goal{
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
+  }
+  .about-us-introduction-container img{
+    height: 20px;
+    width: 20px; 
+    margin: 0 0.3rem;
   }
   
   .about-us {
