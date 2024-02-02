@@ -395,7 +395,8 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 
 .main-bg-color{
-    background: linear-gradient(160deg, rgb(255, 193, 255),white)
+    background: linear-gradient(160deg, rgb(255, 193, 255),white , rgb(208, 69, 208));
+    padding: 1rem 0;
 }
 
 /* main-section-home */
@@ -484,7 +485,7 @@ text {
 .pillor-content {
   padding-top: 5rem;
   position: absolute;
-  bottom: 10rem;
+  bottom: 12rem;
   height: 600px;
 
   /* border: 2px solid black; */
@@ -495,8 +496,8 @@ text {
 }
 
 .geeni-logo img {
-  width: 400px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
 }
 
 .GITAM {
@@ -507,14 +508,14 @@ text {
 }
 
 .managed-by {
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-size: 14px;
   font-weight: 500;
   text-align: center;
 }
 
 .GEENI-EDUCATIONAL-sOCITY {
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-size: x-large;
   font-weight: bold;
   text-align: center;
@@ -531,7 +532,7 @@ span {
 }
 
 .GEENI-EDUCATIONAL-sOCITY-tail-thumb-container {
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .GEENI-EDUCATIONAL-sOCITY-tail-thumb {
@@ -541,7 +542,7 @@ span {
 }
 
 .register-now-button-btn {
-  margin-top: 2rem;
+  margin-top: 1rem;
   appearance: button;
   background-color: purple;
   border: 1px solid purple;
@@ -624,7 +625,7 @@ span {
 
   .geeni-logo img {
     height: 100px;
-    width: 200px;
+    width: 150px;
   }
 
   .GEENI-EDUCATIONAL-sOCITY-tail-thumb {
@@ -707,7 +708,8 @@ span {
 .company-img-genni {
   border: 3px solid gray;
   border-radius: 12px;
-  
+  width: 400px;
+  height: 300px;
 }
 
 .company-name-after-img,
@@ -741,9 +743,10 @@ span {
   display: flex;
 }
 .about-us-introduction-container img{
-  height: 50px;
-  width: 50px;
-  padding: 0.5rem;
+  height: 30px;
+  width: 30px;
+  padding: 0.2rem;
+  margin: 0 0.5rem;
 }
 .company-introduciton-section{
   border-radius: 12px;
@@ -756,7 +759,7 @@ span {
   font-size: 1.5rem;
 }
 .our-goal{
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 .about-us-heading{
@@ -779,21 +782,22 @@ span {
 
   .company-img-genni {
     width: 80%;
-    height: 180px;
+    height: 220px;
   }
 
   .company-name-after-img span {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .company-name-after-img,
   .est-date {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .our-goal{
-    font-size: 2rem;
+    font-size: 1.2rem;
     text-align: center;
   }
+  
   .about-us {
     font-weight:600;
     font-size: 1rem;
@@ -821,6 +825,7 @@ span {
   #About-us-section {
     gap: 1rem;
     margin-bottom: 3rem;
+    margin-top: 3rem;
   }
  
 }
