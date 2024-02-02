@@ -794,13 +794,8 @@ span {
     font-size: 1.2rem;
   }
   .our-goal{
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
-  }
-  .about-us-introduction-container img{
-    height: 20px;
-    width: 20px; 
-    margin: 0 0.3rem;
   }
   
   .about-us {
@@ -830,7 +825,7 @@ span {
   #About-us-section {
     gap: 1rem;
     margin-bottom: 3rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
  
 }
