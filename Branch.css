@@ -25,7 +25,7 @@
     padding: 1rem;
     box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07);
     border-radius: 6px;
-    width: 30%;
+    width: 26%;
     margin-top: 8rem;
 }
 
@@ -91,7 +91,7 @@
 
 @media (max-width : 1200px) {
     .card {
-       width: 45%;
+       width:80%;
     }
     .card_img {
         width: 80px;
@@ -125,7 +125,7 @@
     .view-all-course-btn{
         margin: 2rem 0;
         align-content: center;
-        font-size: x-large;
+        font-size: 13px;
         font-weight: bolder;
         padding: 1rem 1rem;
         background: blue;

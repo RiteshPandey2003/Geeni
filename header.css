@@ -394,13 +394,14 @@ nav .navbar .links li:hover .js-sub-menu {
   border-color: #0039D7;
 }
 
-
+.main-bg-color{
+    background: linear-gradient(160deg, rgb(255, 193, 255),white)
+}
 
 /* main-section-home */
 
 
 .main-section-home {
-  margin-top: 1rem;
   width: 100%;
   display: flex;
   align-items: center;
@@ -642,7 +643,6 @@ span {
 .marquee-container {
   /* padding: 2rem; */
   background: purple;
-  margin-top: 2rem;
   height: 30px;
   overflow: hidden;
   line-height: 30px;
@@ -688,21 +688,26 @@ span {
 }
 
 #About-us-section {
-  margin-top: 5rem;
+ margin-top: 5rem;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: 4rem;
   align-items: center;
   justify-content: center;
-  margin-bottom: 5rem;
+  margin-bottom: 8rem;
+}
+.company-img-and-est-date{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .company-img-genni {
-  box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07);
+  border: 3px solid gray;
   border-radius: 12px;
-  height: 380px;
-  width: 600px;
+  
 }
 
 .company-name-after-img,
@@ -739,7 +744,6 @@ span {
   height: 50px;
   width: 50px;
   padding: 0.5rem;
-  /* box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07); */
 }
 .company-introduciton-section{
   border-radius: 12px;
@@ -774,7 +778,7 @@ span {
   
 
   .company-img-genni {
-    width: 100%;
+    width: 80%;
     height: 180px;
   }
 
@@ -787,7 +791,8 @@ span {
     font-size: 1.5rem;
   }
   .our-goal{
-    font-size: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
   }
   .about-us {
     font-weight:600;
@@ -800,7 +805,7 @@ span {
   }
   .company-introduciton-section{
     width: 100%;
-    height: 420px;
+    height: fit-content;
     padding: 2rem;
   }
   .more-about-us{
@@ -813,34 +818,34 @@ span {
     background: blue;
     border-radius: 12px;
   }
+  #About-us-section {
+    gap: 1rem;
+    margin-bottom: 3rem;
+  }
  
 }
 
 
 .example__slider{
   width: 100%;
-  margin-top: 5rem;
+  margin-top: 5em;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07);
+
  
   
 }
-.bxslider{
-  min-width: 100%;
-  min-height:100%;
-  
-}
+
 li{
   min-height:100%; 
 }
 
-.sloder-seciton-heading{
+.slider-seciton-heading{
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
-  margin-top: 8rem;
+
 }
 
 #counter-section-container{
@@ -906,9 +911,13 @@ li{
      padding: 1rem; 
     font-size: 1.5rem;
   }
-  #counter-section-container{
-    margin-top: 10rem;
-  }
+  
+  .slider-seciton-heading{
+     margin-top: 1rem;
+   }
+   #counter-section-container{
+    margin-top: 3rem;
+   }
 }
 
 @media(max-width:1233px){
@@ -940,8 +949,9 @@ li{
   
   padding: 2rem;
   width: 300px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07);
-  margin: 5px; /* Adjust as needed for spacing */
+  /* box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07); */
+  border: 2px solid gray;
+  margin: 25px 0; /* Adjust as needed for spacing */
 }
 
 .popular-course-rectangle p{
@@ -962,7 +972,9 @@ li{
   color: white;
   border-radius: 10px;
 }
-
+.popular-course-rectangle1{
+  background: #ffd7ff;
+}
 @media (max-width:800px) {
   .popular-course-container-heading button{
     font-size: 12px;
@@ -992,7 +1004,8 @@ li{
   justify-content: center;
   align-items: center;
   gap: 3rem;
- 
+  padding: 1rem;
+ background: rgb(255, 205, 255);
 }
 
 #timeline-section-child1{
@@ -1143,14 +1156,16 @@ li{
 
 
  .faq-container {
-  margin-top: 5rem;
+  margin-top: 7rem;
   margin: 0 auto;
-  width: 60%;
+  width: 80%;
 }
 
-.faq-container h2 {
+.faq-heading {
   text-align: center;
   padding: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .accordion .accordion-item {

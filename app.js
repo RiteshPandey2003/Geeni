@@ -84,3 +84,13 @@ function toggleAccordion() {
 }
 
 items.forEach(item => item.addEventListener('click', toggleAccordion));
+
+
+$(".bxslider").bxSlider({
+  minSlides: 8,
+  maxSlides: 8,
+  slideWidth: 170,
+  slideMargin: 300,
+  ticker: true,
+  speed: 31000,
+});
