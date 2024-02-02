@@ -90,7 +90,7 @@ $(".bxslider").bxSlider({
   minSlides: 8,
   maxSlides: 8,
   slideWidth: 170,
-  slideMargin: 300,
+  slideMargin: 200,
   ticker: true,
   speed: 31000,
 });

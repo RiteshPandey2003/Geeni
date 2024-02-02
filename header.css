@@ -739,7 +739,6 @@ span {
 }
 
 .about-us-introduction-container {
-  margin-top: 0.5rem;
   display: flex;
 }
 .about-us-introduction-container img{
@@ -804,7 +803,7 @@ span {
   }
   .about-us-heading{
     font-size: 1.5rem;
-    padding: 2rem 0;
+    padding: 1rem 0;
 
   }
   .company-introduciton-section{
@@ -840,6 +839,10 @@ span {
 
  
   
+}
+.center-block{
+  height: 180px;
+  width: 180px;
 }
 
 li{
@@ -923,6 +926,10 @@ li{
    #counter-section-container{
     margin-top: 3rem;
    }
+   .center-block{
+          height: 120px;
+          width: 120px;
+   }
 }
 
 @media(max-width:1233px){
@@ -944,7 +951,7 @@ li{
 
 .popular-course-container{
 
-  padding: 3rem;
+  padding: 1rem 3rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; /* Adjust as needed */
@@ -1009,12 +1016,11 @@ li{
   justify-content: center;
   align-items: center;
   gap: 3rem;
-  padding: 1rem;
+  padding: 2rem;
  background: rgb(255, 205, 255);
 }
 
 #timeline-section-child1{
-  height: 600px;
   max-width: 550px;
   display: flex;
   align-items: center;
@@ -1022,15 +1028,15 @@ li{
 
 }
 #timeline-section-child2{
-  height: 600px;
+
   max-width: 550px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#timeline-section-child1 img{
-  height: 75%;
-  width: 75%;
+.timeline-images{
+  height: 500px;
+  width: 400px;
   border-radius: 15px;
 }
 
@@ -1087,11 +1093,13 @@ li{
 	 border-radius: 50%;
 }
  .timeline .timeline-container .timeline-body {
-  color: blue;
-
+  
+   padding: 0.5rem 0;
 	 border-radius: 3px;
-	 padding: 20px 20px 15px;
-	 box-shadow: 1px 3px 9px rgba(0, 0, 0, .1);
+	color: black;
+}
+.time_line_container h2{
+  padding: 1rem 2rem;
 }
  .timeline .timeline-container .timeline-body:before {
 	 content: '';
@@ -1105,7 +1113,7 @@ li{
 	 border-radius: 0 0 0 2px;
 }
  .timeline .timeline-container .timeline-body .timeline-title {
-	 margin-bottom: 1.4rem;
+	 margin-bottom: 1.2rem;
 }
  .timeline .timeline-container .timeline-body .timeline-title .badge {
 	 background: #4f537b;
@@ -1150,9 +1158,9 @@ li{
     margin-bottom: 3rem;
     margin-top: 3rem;
   }
-  #timeline-section-child1 img{
-    height: 75%;
-    width: 89%;
+  .timeline-images{
+    height: 400px;
+    width: 95%;
     border-radius: 15px;
   }
  }
