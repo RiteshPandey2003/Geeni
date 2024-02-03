@@ -138,6 +138,11 @@
     cursor: pointer;
   }
 
+  .moto{
+    background-color: rgb(254, 254, 126);
+    border: 50px;
+  }
+
 
 @media (max-width : 800px) {
     .card {
