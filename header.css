@@ -625,7 +625,7 @@ span {
 
   .geeni-logo img {
     height: 100px;
-    width: 150px;
+    width: 120px;
   }
 
   .GEENI-EDUCATIONAL-sOCITY-tail-thumb {
@@ -672,6 +672,10 @@ span {
     padding-left: 10px;
   }
 }
+.marquee span{
+  font-size: 12px;
+  font-weight: 500;
+}
 
 .Adveritsement-text {
   background: purple;
@@ -689,7 +693,7 @@ span {
 }
 
 #About-us-section {
- margin-top: 5rem;
+ margin-top: 8rem;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -745,7 +749,10 @@ span {
   height: 30px;
   width: 30px;
   padding: 0.2rem;
-  margin: 0 0.5rem;
+  margin:0 0.5rem;
+}
+.our-goal-discription{
+  margin: 0.5rem 0;
 }
 .company-introduciton-section{
   border-radius: 12px;
@@ -755,15 +762,16 @@ span {
 
 .about-us {
   font-weight:600;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .our-goal{
   font-size: 1.5rem;
   font-weight: 500;
 }
 .about-us-heading{
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 500;
+  margin: 1rem 0;
 }
 .more-about-us{
   margin-top: 2rem;
@@ -824,7 +832,7 @@ span {
   #About-us-section {
     gap: 1rem;
     margin-bottom: 3rem;
-    margin-top: 2rem;
+    margin-top: 8rem;
   }
  
 }
@@ -925,9 +933,7 @@ li{
   .slider-seciton-heading{
      margin-top: 1rem;
    }
-   #counter-section-container{
-    margin-top: 3rem;
-   }
+
    .center-block{
           height: 120px;
           width: 120px;
@@ -991,7 +997,7 @@ li{
   border-radius: 10px;
 }
 .popular-course-rectangle1{
-  background: #ffd7ff;
+  background: rgb(239 232 239);;
 }
 @media (max-width:800px) {
   .popular-course-container-heading button{
@@ -1016,7 +1022,7 @@ li{
   }
 }
 .GeeniDeclaration{
-  background: rgb(237, 207, 237);
+  background: rgb(239 232 239);
 }
 
 #timeline-section-parent{
@@ -1026,7 +1032,7 @@ li{
   align-items: center;
   gap: 3rem;
   padding: 2rem;
- background: rgb(237, 207, 237);
+ background: rgb(239 232 239);
 }
 
 #timeline-section-child1{
@@ -1343,4 +1349,17 @@ span{
     gap: 0.5rem;
     font-size: 10px;
   }
+}
+.address1{
+  position: relative;
+  
+}
+.address-section-genni1{
+  
+  background: white;
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -100%);
 }
