@@ -1021,9 +1021,7 @@ li{
     font-weight: 400;
   }
 }
-.GeeniDeclaration{
-  background: rgb(239 232 239);
-}
+
 
 #timeline-section-parent{
   display: flex;
@@ -1167,7 +1165,7 @@ li{
     border-radius: 15px;
   }
   #timeline-section-parent{
-    gap: 1rem;
+    gap: 1rem
   }
  }
 
