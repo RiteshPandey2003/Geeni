@@ -395,7 +395,7 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 
 .main-bg-color{
-    background: linear-gradient(160deg, rgb(255, 193, 255),white , rgb(208, 69, 208));
+    background: linear-gradient(120deg, rgb(245, 189, 245),white , rgb(208, 69, 208));
     padding: 1rem 0;
 }
 
@@ -874,6 +874,7 @@ li{
   align-items: center;
   justify-content: center;
   border-radius: 12px;
+  padding: 1rem;
 }
 
 .counter-container {
@@ -881,16 +882,17 @@ li{
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin: 10px 50px;
+  padding:0 3rem ;
+  border-right: 2px solid red;
   
 }
 
 .counter {
-  font-size: 60px;
+  font-size: 1.2rem;
   margin-top: 10px;
 }
 .fa-solid{
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .count-one-by-one{
   display: flex;
@@ -899,7 +901,7 @@ li{
 .counter-section-heading{
   text-align: center;
    padding: 2rem; 
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 @media (max-width: 890px) {
@@ -935,6 +937,10 @@ li{
 @media(max-width:1233px){
   .count-one-by-one{
     flex-direction: column;
+    padding: 1rem;
+  }
+  .counter-container{
+    border-style: none;
   }
 }
 .section-popular-course-container{
@@ -967,7 +973,7 @@ li{
 }
 
 .popular-course-rectangle p{
-  font-size: x-large;
+  font-size: 1.3rem;
   font-weight: bold;
 }
 .popular-course-heading{
@@ -1009,6 +1015,9 @@ li{
     font-weight: 400;
   }
 }
+.GeeniDeclaration{
+  background: rgb(237, 207, 237);
+}
 
 #timeline-section-parent{
   display: flex;
@@ -1017,7 +1026,7 @@ li{
   align-items: center;
   gap: 3rem;
   padding: 2rem;
- background: rgb(255, 205, 255);
+ background: rgb(237, 207, 237);
 }
 
 #timeline-section-child1{
@@ -1046,6 +1055,7 @@ li{
 	 max-width: 550px;
 	 margin: 50px auto;
 }
+
  p {
 	 font-weight: 300;
 	 line-height: 1.5;
@@ -1099,7 +1109,8 @@ li{
 	color: black;
 }
 .time_line_container h2{
-  padding: 1rem 2rem;
+  padding: 2rem 0rem;
+  padding-left: 3rem;
 }
  .timeline .timeline-container .timeline-body:before {
 	 content: '';
@@ -1129,21 +1140,7 @@ li{
 	 margin-top: 16px;
 	 font-size: 11px;
 }
- .timeline .timeline-container.primary .badge, .timeline .timeline-container.primary .timeline-icon {
-	 background: #1d8cf8 !important;
-}
- .timeline .timeline-container.info .badge, .timeline .timeline-container.info .timeline-icon {
-	 background: #11cdef !important;
-}
- .timeline .timeline-container.success .badge, .timeline .timeline-container.success .timeline-icon {
-	 background: #00bf9a !important;
-}
- .timeline .timeline-container.warning .badge, .timeline .timeline-container.warning .timeline-icon {
-	 background: #ff8d72 !important;
-}
- .timeline .timeline-container.danger .badge, .timeline .timeline-container.danger .timeline-icon {
-	 background: #fd5d93 !important;
-}
+
 .timeline-section-parent-heading{
   text-align: center;
   padding: 2rem;
@@ -1194,7 +1191,7 @@ li{
   display: block;
   text-align: left;
   width: 100%;
-  padding: 1em 0;
+  padding: 1.5em 0;
   font-size: 0.5rem;
   word-wrap: break-word;
   font-weight: 400;
@@ -1205,6 +1202,9 @@ li{
 
 .accordion button .accordion-title {
   padding: 2rem 1.5rem 2rem 0;
+}
+span{
+  font-size: 1.2rem;
 }
 
 .accordion button .icon {
@@ -1304,7 +1304,7 @@ li{
     transform: translateY(-50%);
   }
   .accordion-title{
-    font-size: 12px;
+    font-size: 16px;
   }
   .accordion-content-answere{
     font-size: 10px;
