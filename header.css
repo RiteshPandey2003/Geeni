@@ -1031,7 +1031,7 @@ li{
   justify-content: center;
   align-items: center;
   gap: 3rem;
-  padding: 2rem;
+  padding:2rem 2rem;
  background: rgb(239 232 239);
 }
 
@@ -1149,22 +1149,25 @@ li{
 
 .timeline-section-parent-heading{
   text-align: center;
-  padding: 2rem;
+  padding:1rem 2rem 0 2rem;
   font-size: xx-large;
   font-weight: bolder;
+  padding: 2rem;
 }
 
  @media (max-width : 800px){
   .timeline-section-parent-heading{
     font-size: 2rem;
-    padding: 1rem;
-    margin-bottom: 3rem;
     margin-top: 3rem;
+    padding: 0.2rem;
   }
   .timeline-images{
     height: 400px;
     width: 95%;
     border-radius: 15px;
+  }
+  #timeline-section-parent{
+    gap: 1rem;
   }
  }
 
