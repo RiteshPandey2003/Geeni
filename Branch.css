@@ -27,6 +27,7 @@
     border-radius: 6px;
     width: 26%;
     margin-top: 8rem;
+    box-shadow: 0 2px 2px 2px lightgray;
 }
 
 .card_img {
@@ -90,10 +91,8 @@
     justify-content: center;
 }
 
-@media (max-width : 1200px) {
-    .card {
-       width:80%;
-    }
+@media (max-width : 1070px) {
+    
     .card_img {
         width: 80px;
         height: 80px;
@@ -132,6 +131,17 @@
         background: blue;
         color: white;
         border-radius: 12px;
+    }
+    
+}
+
+@media (max-width : 870px) {
+    .card{
+        width: 90%;
+        text-align: center;
+    }
+    .details{
+        place-content: center;
     }
     
 }
