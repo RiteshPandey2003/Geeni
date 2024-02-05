@@ -394,7 +394,7 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 
 .main-bg-color{
-    background: linear-gradient(170deg,rgb(70, 90, 240) , rgb(255, 255, 255), rgb(208, 69, 208));
+    background: linear-gradient(170deg,rgb(192, 199, 255) , rgb(255, 255, 255), rgb(255, 138, 255));
     padding: 1rem 0;
 }
 
@@ -954,7 +954,7 @@ li{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 5rem;
+  padding: 0 6rem;
 }
 
 .popular-course-container{
@@ -962,16 +962,17 @@ li{
   padding: 1rem 3rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; /* Adjust as needed */
+  justify-content: center; /* Adjust as needed */
+  gap: 2rem;
 }
 
 .popular-course-rectangle {
   
   padding: 2rem;
   width: 300px;
+  height: 200px;
   /* box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07); */
-  border: 2px solid gray;
-  margin: 25px 0; /* Adjust as needed for spacing */
+  border: 2px solid gray;/* Adjust as needed for spacing */
 }
 
 .popular-course-rectangle p{
@@ -998,7 +999,7 @@ li{
 @media (max-width:800px) {
   .popular-course-container-heading button{
     font-size: 12px;
-    padding: 0.2rem;
+    padding: 0.3rem;
    
   }
   .popular-course-container-heading{
@@ -1015,6 +1016,9 @@ li{
   .popular-course-rectangle p{
     font-size: medium;
     font-weight: 400;
+  }
+  .popular-course-heading{
+    font-size: 1.5rem;
   }
 }
 

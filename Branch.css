@@ -17,7 +17,8 @@
 #Our_Branch_section{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 2rem;
     padding: 1rem;
 }
 

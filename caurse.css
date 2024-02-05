@@ -17,7 +17,8 @@
 #Our_Branch_section{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     padding: 1rem;
 }
 @media (max-width : 800px) {
@@ -34,7 +35,8 @@
 .container {
   display: flex;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 2rem;
   flex-wrap: wrap;
 }
 .card {
