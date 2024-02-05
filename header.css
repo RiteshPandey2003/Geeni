@@ -355,8 +355,7 @@ nav .navbar .links li:hover .js-sub-menu {
 
 .button-26 {
   appearance: button;
-  background-color: purple;
-  border: 1px solid purple;
+  background-color: blue;
   border-radius: 4px;
   box-sizing: border-box;
   color: #FFFFFF;
@@ -395,7 +394,7 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 
 .main-bg-color{
-    background: linear-gradient(120deg, rgb(245, 189, 245),white , rgb(208, 69, 208));
+    background: linear-gradient(170deg,rgb(70, 90, 240) , rgb(255, 255, 255), rgb(208, 69, 208));
     padding: 1rem 0;
 }
 
@@ -412,12 +411,13 @@ nav .navbar .links li:hover .js-sub-menu {
 .gate-section-cureve {
   width: 70%;
   font-size: 15px;
-  color: purple;
+  color: blue;
+  font-weight: 400;
 }
 
 text {
   text-align: center;
-  fill: purple;
+  fill: blue;
   text-anchor: middle;
 
 }
@@ -434,9 +434,6 @@ path {
   display: none;
 }
 
-text {
-  fill: purple;
-}
 
 @media (max-width:800px) {
   .button-26 {
@@ -544,8 +541,7 @@ span {
 .register-now-button-btn {
   margin-top: 1rem;
   appearance: button;
-  background-color: purple;
-  border: 1px solid purple;
+  background-color: blue;
   border-radius: 4px;
   box-sizing: border-box;
   color: #FFFFFF;
@@ -710,7 +706,7 @@ span {
 }
 
 .company-img-genni {
-  border: 3px solid gray;
+  border: 2px solid gray;
   border-radius: 12px;
   width: 400px;
   height: 300px;
@@ -1362,5 +1358,5 @@ span{
   position: absolute;
   top: 0;
   left: 50%;
-  transform: translate(-50%, -100%);
+  transform: translate(-50%, -70%);
 }
