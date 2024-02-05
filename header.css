@@ -886,7 +886,7 @@ li{
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  padding:0 3rem ;
+  padding:1rem 3rem ;
   border-right: 2px solid red;
   
 }
@@ -923,7 +923,7 @@ li{
   }
   .counter-section-heading{
      padding: 1rem; 
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   
   .slider-seciton-heading{
@@ -954,12 +954,13 @@ li{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 6rem;
+  padding: 1.5rem 5.5rem;
+
 }
 
 .popular-course-container{
 
-  padding: 1rem 3rem;
+  padding-bottom: 2rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center; /* Adjust as needed */
@@ -1093,7 +1094,7 @@ li{
 	 border-radius: 50%;
 	 text-align: center;
 	 font-size: 2rem;
-	 background: #4f537b;
+	 background: white;
 }
  .timeline .timeline-container .timeline-icon i {
 	 position: absolute;
@@ -1304,6 +1305,9 @@ span{
   .faq-container {
     padding: 1rem;
     width: 100%;
+  }
+  .faq-heading{
+    font-size: 1.5rem;
   }
 
   .accordion button .icon {
