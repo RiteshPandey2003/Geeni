@@ -9,12 +9,12 @@
 
 body {
   min-height: 100vh;
-
   font-family: "Luckiest Guy", cursive;
 }
 
 #About-us-section {
   width: 100%;
+  height: fit-content;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -188,9 +188,9 @@ body {
     width: 80%;
   }
 
-  #About-us-section {
+  /* #About-us-section {
     height: 900px;
-  }
+  } */
   .time-limit, .certicate_discription,.button-29{
     font-size: 1.2rem;
   }
