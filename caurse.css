@@ -46,6 +46,7 @@
   overflow: hidden;
   width: 25%;
   margin: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .card-header img {
   width: 100%;
@@ -57,7 +58,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 20px;
+  padding: 2rem 3rem;
   min-height: 250px;
 }
 
@@ -71,15 +72,7 @@
   text-transform: uppercase;
   cursor: pointer;
 }
-.tag-teal {
-  background-color: #47bcd4;
-}
-.tag-purple {
-  background-color: #5e76bf;
-}
-.tag-pink {
-  background-color: #cd5b9f;
-}
+
 
 .card-body {
   font-size: 13px;
@@ -102,7 +95,12 @@
 .user-info small {
   color: #545d7a;
 }
-
+.user a{
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+  border-radius: 12px;
+}
 .slogan{
 
     background: 100%;
@@ -111,44 +109,69 @@
 }
 .course-count{
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 0.2rem;
-    margin-top: 1rem;
+    margin: 1rem 0;
+    font-size: 1.5rem;
 }
 
-.moto{
-    font-size: 13px;
-    display: flex;
-    word-wrap: break-word;
-    gap: 0.2rem;
-}
+
 .caurse-card-heading{
     font-size: 1.5rem;
     word-wrap: break-word;
     font-weight: 900;
+    padding: 1rem 0rem;
 }
-.fullWidthButton {
-    width: 100%;
+.user{
+  width: 100%;
+}
+.fullWidthButton{
     padding: 10px; /* Adjust padding as needed */
     background-color: blue;
     color: white;
     border: none;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     cursor: pointer;
+    margin: 2rem 0rem;
+    width: 90%;
+    position: absolute;
+    left: 50%;
+   transform: translate(-50%, -50%);
+   bottom: -2rem;
+   border-radius: 12px;
   }
 
   .moto{
+    width: 100%;
+    font-size: 1rem;
     background-color: rgb(254, 254, 126);
     border: 50px;
+    align-content: center;
+    padding: 0.5rem;
+    display: flex;
+    word-wrap: break-word;
+    gap: 0.2rem;
   }
 
 
-@media (max-width : 800px) {
+@media (max-width : 1250px) {
     .card {
          width: 90%;
         
       }
-     
+      .card-body{
+        padding: 2rem 1rem;
+      }
+      .caurse-card-heading{
+       font-size: 1.5rem;
+      }
+      .moto{
+        font-size: 14px;
+      }
+     .course-count{
+      font-size: 1.3rem;
+     }
 }

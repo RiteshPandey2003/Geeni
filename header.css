@@ -96,7 +96,7 @@ nav .navbar .links li .sub-menu {
   top: 70px;
   left: 0;
   line-height: 40px;
-  background: #3E8DA8;
+
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   border-radius: 0 0 4px 4px;
   display: none;
@@ -165,7 +165,6 @@ nav .navbar .links li:hover .js-sub-menu {
   top: 80px;
   height: 60px;
   width: 300px;
-  background: #3E8DA8;
   border-radius: 6px;
   opacity: 0;
   pointer-events: none;
@@ -176,7 +175,7 @@ nav .navbar .links li:hover .js-sub-menu {
   top: 65px;
   opacity: 1;
   pointer-events: auto;
-  background: #3E8DA8;
+
 }
 
 .search-box .input-box::before {
@@ -184,7 +183,6 @@ nav .navbar .links li:hover .js-sub-menu {
   position: absolute;
   height: 20px;
   width: 20px;
-  background: #3E8DA8;
   right: 10px;
   top: -6px;
   transform: rotate(45deg);
@@ -248,7 +246,7 @@ nav .navbar .links li:hover .js-sub-menu {
     display: block;
     max-width: 270px;
     width: 100%;
-    background: #3E8DA8;
+    background: #fdfdfd;
     line-height: 40px;
     padding: 20px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -264,7 +262,7 @@ nav .navbar .links li:hover .js-sub-menu {
 
   .sidebar-logo .logo-name {
     font-size: 25px;
-    color: #fff;
+    color: black;
   }
 
   .sidebar-logo i,
@@ -394,7 +392,7 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 
 .main-bg-color {
-  background: linear-gradient(170deg, rgb(192, 199, 255), rgb(255, 255, 255), rgb(255, 138, 255));
+  background: linear-gradient(170deg, rgb(192, 199, 255), rgb(255, 255, 255), rgb(252, 204, 252));
   padding: 1rem 0;
 }
 
@@ -777,7 +775,7 @@ span {
 .about-us-heading {
   font-size: 2.5rem;
   font-weight: bolder;
-  margin-bottom: 2rem ;
+  margin-bottom: 2rem;
 }
 
 .more-about-us {
@@ -860,7 +858,8 @@ span {
   justify-content: center;
 
 }
-.slider-seciton{
+
+.slider-seciton {
   margin-top: 10rem;
 }
 
@@ -931,7 +930,7 @@ li {
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  
+
 }
 
 .counter-section-heading {
@@ -940,7 +939,8 @@ li {
   font-size: 2.5rem;
   font-weight: bolder;
 }
-.more-about-us1{
+
+.more-about-us1 {
   margin-top: 3rem;
   padding: 0.5rem 2rem;
   font-size: large;
@@ -970,25 +970,29 @@ li {
 
   .slider-seciton-heading {
     margin: 1rem;
-    
+
   }
 
   .center-block {
     height: 120px;
     width: 120px;
   }
-  .slider-seciton{
+
+  .slider-seciton {
     margin-top: 8rem;
   }
-  #counter-section-container{
+
+  #counter-section-container {
     margin-top: 8rem;
   }
-  .counter-container span{
+
+  .counter-container span {
     font-size: 1rem;
   }
-  .count-one-by-one{
+
+  .count-one-by-one {
     gap: 0;
-    
+
   }
 }
 
@@ -999,16 +1003,18 @@ li {
     border-style: none;
 
   }
-  .counter-container{
+
+  .counter-container {
     margin: 0.5rem;
     gap: 2rem;
   }
-  
+
 }
+
 @media (max-width: 890px) {
-  .count-one-by-one{
+  .count-one-by-one {
     gap: 0;
-    
+
   }
 }
 
@@ -1037,7 +1043,7 @@ li {
 }
 
 .popular-course-rectangle {
-  
+
   padding: 2rem;
   width: 400px;
   height: 250px;
@@ -1045,7 +1051,7 @@ li {
 }
 
 .popular-course-rectangle p {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -1068,7 +1074,7 @@ li {
 
 .popular-course-rectangle1 {
   background: rgb(239 232 239);
-  
+
 }
 
 .fa-solid,
@@ -1096,7 +1102,7 @@ li {
 
   .popular-course-rectangle {
     width: 120px;
-    height: 220px;
+    height: 200px;
     border: 2px solid lightgray;
     padding: 0.5rem;
     font-weight: bold;
@@ -1112,10 +1118,12 @@ li {
   .popular-course-heading {
     font-size: 1.2rem;
   }
-  .fc{
+
+  .fc {
     font-size: 3rem;
   }
-  .section-popular-course-container{
+
+  .section-popular-course-container {
     margin-top: 8rem;
   }
 }
@@ -1249,7 +1257,8 @@ p {
   margin-bottom: 1rem;
   font-size: 1.5rem;
 }
-.timeline .timeline-container .timeline-body .timeline-title p{
+
+.timeline .timeline-container .timeline-body .timeline-title p {
   margin-bottom: 1rem;
   font-size: 1rem;
 }
@@ -1295,10 +1304,12 @@ p {
   #timeline-section-parent {
     gap: 1rem
   }
+
   .timeline .timeline-container .timeline-body .timeline-title {
     font-size: 1rem;
   }
-  .timeline .timeline-container .timeline-body .timeline-title p{
+
+  .timeline .timeline-container .timeline-body .timeline-title p {
     font-size: 10px;
   }
 }
@@ -1318,7 +1329,7 @@ p {
 .faq-heading {
   text-align: center;
   padding: 2rem;
-  margin-bottom: 3rem;
+  margin: 3rem 0;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -1429,6 +1440,7 @@ span {
 
   .faq-heading {
     font-size: 1.5rem;
+    margin: 2rem 0;
   }
 
   .accordion button .icon {
@@ -1451,6 +1463,7 @@ span {
 .address {
   position: relative;
   margin-top: 10rem;
+  font-size: 1rem;
 }
 
 .address-section-genni {
@@ -1478,26 +1491,66 @@ span {
   padding: 2rem;
 }
 
-@media (max-width : 800px) {
 
-  .contact_deatils,
-  .contact_deatils p {
-    gap: 0.5rem;
-    font-size: 7px;
-  }
-}
 
 .address1 {
   position: relative;
 
 }
 
+.header-heading-bottom {
+  background-color: blue;
+  padding: 0.5rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  transform: skewx(-20deg);
+}
+
+.header-heading-bottom h4 {
+  text-align: center;
+  color: white;
+  padding: 1rem;
+}
+
+.header-heading-bottom a {
+  color: white;
+  font-weight: bold;
+  border: 2px solid white;
+  text-decoration: none;
+}
+
+
 .address-section-genni1 {
 
-  background: white;
   z-index: 99;
   position: absolute;
   top: 0;
   left: 50%;
-  transform: translate(-50%, -70%);
+  transform: translate(-50%, -15%);
+}
+
+@media (max-width : 800px) {
+
+  .contact_deatils,
+  .contact_deatils p {
+    gap: 0.5rem;
+    font-size: 10px;
+  }
+  .header-heading-bottom a,.header-heading-bottom h4  {
+    font-size: 10px;
+    padding: 0;
+  }
+}
+@media (max-width : 300px) {
+  .contact_deatils,
+  .contact_deatils p {
+    gap: 0.5rem;
+    font-size: 8px;
+  }
+  .header-heading-bottom a,.header-heading-bottom h4  {
+    font-size: 8px;
+    padding: 0;
+  }
 }

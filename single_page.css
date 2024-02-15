@@ -12,15 +12,14 @@ body {
 
   font-family: "Luckiest Guy", cursive;
 }
+
 #About-us-section {
-  padding: 2rem 0rem;
   width: 100%;
+  height: 600px;
   display: flex;
   flex-wrap: wrap;
-  gap: 4rem;
-  align-items: center;
   justify-content: space-around;
-  margin-bottom: 5rem;
+  padding: 2rem 0;
   background: rgb(209, 242, 255);
 }
 
@@ -29,10 +28,12 @@ body {
   height: 380px;
   width: 600px;
 }
+
 .company-img-genni1 {
-  height: 380px;
+  height: 280px;
   width: 700px;
 }
+
 .genni {
   width: fit-content;
   font-size: 2rem;
@@ -41,27 +42,35 @@ body {
   background: blue;
   padding: 0.3rem;
 }
+
 .certificate_title {
   padding: 1rem 0;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
+
+.certicate_discription {
+  font-size: 1.5rem;
+}
+
 .time-limit {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
   width: fit-content;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
+
 .price {
-  font-size: x-large;
+  font-size: 2rem;
   font-weight: bolder;
   margin-top: 2rem;
 }
 
 @media (max-width: 900px) {
+
   .company-img-genni,
   .company-img-genni1 {
     width: 100%;
@@ -69,32 +78,33 @@ body {
     padding: 1rem;
   }
 }
+
 .page-container {
-text-align: center;
-padding: 20px;
+  text-align: center;
+  padding: 20px;
 }
 
 .page {
-display: none;
+  display: none;
 }
 
 .visible {
-display: block;
+  display: block;
 }
 
 .button-container {
-margin-top: 20px;
+  margin-top: 20px;
 }
 
 .page-button {
-padding: 10px 5px;
-font-size: 16px;
-cursor: pointer;
+  padding: 10px 5px;
+  font-size: 16px;
+  cursor: pointer;
 
 }
 
 
-#benefits{
+#benefits {
   margin-top: 3rem;
   width: 100%;
   display: flex;
@@ -103,60 +113,100 @@ cursor: pointer;
   justify-content: center;
   gap: 3rem;
 }
-.benifits-discription{
+
+.benifits-discription {
   width: 40%;
   text-align: left;
   display: flex;
+
 }
-.fa-check{
+
+.fa-check {
   padding: 0 0.5rem;
   font-weight: bolder;
 }
-@media (max-width : 800px) {
-  .benifits-discription{
-  width: 80%;
-}
-}
+
+
 .benifits-discription {
-    display: none;
+  display: none;
+}
+
+.visible .benifits-discription {
+  display: block;
+}
+
+
+.button-29 {
+  width: fit-content;
+  align-items: center;
+  appearance: none;
+  background-color: blue;
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px,
+    rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.button-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.page-button{
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 1rem;
+}
+.page-button:active{
+  border-bottom: 5px solid blue;
+}
+
+
+@media (max-width : 800px) {
+  .benifits-discription {
+    width: 80%;
   }
 
-  .visible .benifits-discription {
-    display: block;
+  #About-us-section {
+    height: 900px;
   }
-
-
-  .button-29 {
-    width: fit-content;
-    align-items: center;
-    appearance: none;
-    background-color: blue;
-    border: 0;
-    border-radius: 6px;
-    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
-      rgba(45, 35, 66, 0.3) 0 7px 13px -3px,
-      rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
-    box-sizing: border-box;
-    color: #fff;
-    cursor: pointer;
-    display: inline-flex;
-    font-family: "JetBrains Mono", monospace;
-    height: 48px;
-    justify-content: center;
-    line-height: 1;
-    list-style: none;
-    overflow: hidden;
-    padding-left: 16px;
-    padding-right: 16px;
-    position: relative;
-    text-align: left;
-    text-decoration: none;
-    transition: box-shadow 0.15s, transform 0.15s;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    white-space: nowrap;
-    will-change: box-shadow, transform;
-    font-size: 18px;
-    margin-top: 2rem;
+  .time-limit, .certicate_discription,.button-29{
+    font-size: 1.2rem;
   }
+  .price{
+   font-size: 1.5rem;
+  }
+  .certificate_title{
+    font-size: 1.8rem;
+  }
+  .page-button{
+    font-size: 1.2rem;
+  }
+  .page-button:hover{
+    border-bottom: 5px solid blue;
+  }
+}

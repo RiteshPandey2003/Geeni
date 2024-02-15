@@ -19,9 +19,9 @@
         <p class="genni">GEENI</p>
         <p class="certificate_title">certificate spoken english</p>
         <p class="certicate_discription">
-          <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, odio
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, odio
           quae animi, magni mollitia voluptates expedita quis a ut vitae cum
-          adipisci sequi.</P>
+          adipisci sequi.
         </p>
         <div class="time-limit">
           <i class="fa-solid fa-clock"></i>
@@ -40,9 +40,9 @@
 
     <div class="page-container">
         <div class="button-container">
-            <button class="page-button" onclick="showPage('benefits')">Benefits</button>
-            <button class="page-button" onclick="showPage('syllabus')">Syllabus</button>
-            <button class="page-button" onclick="showPage('faq')">FAQ</button>
+            <p class="page-button" onclick="showPage('benefits')">Benefits</p>
+            <p class="page-button " onclick="showPage('syllabus')">Syllabus</p>
+            <p class="page-button " onclick="showPage('faq')">FAQ</p>
           </div>
         <div id="benefits"  class="page visible ">
           <p class="benifits-discription "><i class="fa-solid fa-check "></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis delectus aperiam voluptatum, omnis maxime doloremque.</p>
@@ -63,10 +63,9 @@
      </div>
      <script>
         function showPage(pageId) {
-          // Get the selected page
+
           var selectedPage = document.getElementById(pageId);
-  
-          // Check if the selected page is visible
+ 
           var isVisible = selectedPage.classList.contains('visible');
   
           // Hide all pages
@@ -74,9 +73,10 @@
           pages.forEach(function (page) {
             page.classList.remove('visible');
           });
-  
-          // If the selected page was not visible, show it
           if (!isVisible) {
+            selectedPage.classList.add('visible');
+          }
+          else{
             selectedPage.classList.add('visible');
           }
         }
