@@ -136,7 +136,32 @@ body {
   margin-top: 2rem;
 }
 
-
+@media (max-width : 890px) {
+  .main-bg-color{
+    padding: 2rem 0;
+  }
+  .company-name-after-img span, .company-name-after-img,
+  .est-date, .GEENI-EDUCATIONAL-sOCITY {
+    font-size: 1.3rem;
+  }
+  .reg-no{
+    margin-top: 1rem;
+    font-size: 0.8rem;
+  }
+  .reg-no span{
+    font-size: 1rem;
+  }
+  .company-name-after-img span{
+   padding: 0rem 0.3rem;
+  }
+  .company-About p {
+    font-size: medium;
+    font-weight: bolder;
+  }
+  .managed-by, .our-fracnhies {
+    font-size: 1rem;
+  }
+}
 
 /* timeline */
 
@@ -229,6 +254,7 @@ body {
   }
 
   #timeline-section-parent {
+    margin-top: 5rem;
     gap: 1rem
   }
 
@@ -354,5 +380,261 @@ body {
     font-size: 1.5rem;
     margin-top: 3rem;
     margin-bottom: 1.5rem;
+  }
+}
+
+
+
+.section-popular-course-container {
+  margin-top: 12rem;
+  width: 100%;
+
+}
+
+.popular-course-container-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 10rem;
+
+}
+
+.popular-course-container {
+
+  padding-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* Adjust as needed */
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.popular-course-rectangle {
+  border-radius: 20px;
+  padding: 2rem;
+  width: 500px;
+  height: 300px;
+  box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+  padding-bottom: 1rem;
+}
+
+.popular-course-rectangle p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+.popular-course-heading {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+
+.popular-course-container-heading button {
+  font-size: 1rem;
+  background:  rgb(0, 0, 101);
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 10px;
+}
+
+.popular-course-rectangle1 {
+  background: rgb(239 232 239);
+
+}
+
+.fa-solid,
+.fas {
+  font-size: 2rem;
+  color: rgb(71, 71, 71);
+}
+
+
+.numbers{
+  font-size: 1.5rem;
+  padding: 1rem 1.5rem;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  font-style: normal;
+  font-weight: 800;
+  border:1px solid rgb(0, 0, 101);
+  
+}
+
+@media (max-width:870px) {
+  .popular-course-container-heading button {
+    font-size: 12px;
+    padding: 0.3rem;
+
+  }
+
+  .popular-course-container-heading {
+    font-size: 1rem;
+    padding: 2rem;
+  }
+
+  .popular-course-rectangle {
+    width: 120px;
+    height: 200px;
+    border: 2px solid lightgray;
+    padding:1rem;
+    
+    /* Adjust as needed for spacing */
+  }
+
+  .popular-course-rectangle p {
+
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }
+
+  .popular-course-heading {
+    font-size: 1.2rem;
+  }
+
+  .fc {
+    font-size: 3rem;
+    color: white;
+  }
+
+  .section-popular-course-container {
+    margin-top: 8rem;
+  }
+  .numbers{
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+
+
+
+/* footer */
+
+.address {
+  position: relative;
+  margin-top: 15rem;
+  font-size: 1rem;
+ 
+}
+
+.address-section-genni {
+ 
+  background: white;
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+  border-radius: 20px;
+  padding-top: 1rem;
+}
+
+.address-section-genni h2 {
+  text-align: center;
+}
+
+
+#geeni-location {
+  margin-top: 5rem;
+}
+
+.contact_deatils {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+}
+.contact_deatils p {
+  gap: 1rem;
+  font-size: 1rem;
+}
+
+
+.address1 {
+  position: relative;
+
+}
+
+.header-heading-bottom {
+  background-color: blue;
+  padding: 0.5rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  transform: skewx(-20deg);
+}
+
+.header-heading-bottom h4 {
+  text-align: center;
+  color: white;
+  padding: 1rem;
+}
+
+.header-heading-bottom a {
+  color: white;
+  font-weight: bold;
+  border: 2px solid white;
+  text-decoration: none;
+}
+
+
+.address-section-genni1 {
+
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -15%);
+}
+.email-number{
+  font-size: 1rem;
+  font-weight: 600;
+}
+.contact_deatils p{
+  font-weight: 800;
+}
+
+@media (max-width : 800px) {
+
+  .contact_deatils,
+  .contact_deatils p {
+    gap: 0.5rem;
+    font-size: 10px;
+    padding: 0.5rem;
+  }
+  .header-heading-bottom a,.header-heading-bottom h4  {
+    font-size: 10px;
+    padding: 0;
+  }
+  .email-number{
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+}
+
+@media (max-width : 370px) {
+  .contact_deatils,
+  .contact_deatils p {
+    gap: 0.5rem;
+    font-size: 8px;
+    padding: 0.2rem;
+  }
+  .header-heading-bottom a,.header-heading-bottom h4  {
+    font-size: 8px;
+    padding: 0;
+  }
+  .email-number{
+    font-size: 0.5rem;
+    font-weight: 600;
+  }
+  .geeni-location{
+    height: 500px;
+  }
+  .popular-course-container{
+    padding: 0;
   }
 }
