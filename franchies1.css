@@ -1,0 +1,253 @@
+/* Googlefont Poppins CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  max-height: 100vh;
+  max-width: 100vw;
+
+  font-family: 'Luckiest Guy', cursive;
+
+
+}
+.main-bg-color{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(120deg,white, rgb(255, 173, 255), rgb(189, 189, 255));
+}
+
+.pillors-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height:700px;
+  flex-direction: column;
+  width: 65%
+}
+
+.managed-by {
+  margin-top: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+
+}
+
+.GEENI-EDUCATIONAL-sOCITY {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+
+}
+
+.reg-no {
+
+  font-size: 1.5rem;
+}
+
+.reg-no span {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.our-fracnhies{
+  font-size: 1.5rem;
+  font-weight: 900;
+  color:  rgb(0, 0, 104);
+}
+
+
+.company-img-and-est-date {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.company-img-genni {
+  border: 2px solid gray;
+  border-radius: 12px;
+  width: 500px;
+  height: 420px;
+}
+
+.company-name-after-img,
+.est-date {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2rem;
+
+}
+
+.company-name-after-img {
+  margin-top: 2rem;
+}
+
+.company-name-after-img span {
+  font-size: 2rem;
+  background: rgb(0, 0, 104);
+  color: white;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  border-radius: 3px;
+}
+
+
+.company-About p {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.about-us-introduction-container {
+  display: flex;
+}
+
+.about-us-introduction-container img {
+  height: 30px;
+  width: 30px;
+  padding: 0.2rem;
+  margin: 0 0.5rem;
+}
+
+.our-goal-discription {
+  margin: 1.5rem 0;
+}
+
+.company-introduciton-section {
+  border-radius: 12px;
+  height: 500px;
+  width: 600px;
+}
+.discription-frachies{
+  margin: 2rem 0rem;
+}
+.line{
+  height: 5px;
+  width: 40%;
+  background: red;
+  margin-top: 2rem;
+}
+
+
+
+/* timeline */
+
+#timeline-section-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  padding: 2rem 2rem;
+  background: rgb(239 232 239);
+}
+
+#timeline-section-child1 {
+  max-width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#timeline-section-child2 {
+
+  max-width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline-images {
+  height: 450px;
+  width: 550px;
+  border-radius: 15px;
+}
+
+
+
+.time_line_container {
+  max-width: 550px;
+  margin: 50px auto;
+}
+
+
+.timeline {
+  position: relative;
+}
+
+
+
+.timeline .timeline-container {
+  position: relative;
+}
+
+
+.timeline .timeline-container .timeline-body {
+
+  padding: 0.5rem 0;
+  border-radius: 3px;
+  color: black;
+}
+
+
+
+
+.timeline .timeline-container .timeline-body .timeline-title {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.timeline .timeline-container .timeline-body .timeline-title p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+
+@media (max-width : 1000px) {
+  .timeline-section-parent-heading {
+    font-size: 2rem;
+    margin-top: 3rem;
+    padding: 0.2rem;
+  }
+
+  .timeline-image1{
+    height: 450px;
+    max-width: 600px ;
+  }
+  .timeline-images{
+    height: 350px;
+    max-width: 600px ;
+  }
+
+  #timeline-section-parent {
+    gap: 1rem
+  }
+
+  .timeline .timeline-container .timeline-body .timeline-title {
+    font-size: 1rem;
+  }
+
+  .timeline .timeline-container .timeline-body .timeline-title p {
+    font-size: 10px;
+  }
+ 
+}
+@media (max-width : 600px) {
+  .timeline-image1{
+    height: 450px;
+    width: 95% ;
+  }
+  .timeline-images{
+    height: 250px;
+    max-width: 90% ;
+  }
+}

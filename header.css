@@ -412,9 +412,9 @@ nav .navbar .links li:hover .js-sub-menu {
 
 .gate-section-cureve {
   width: 72%;
-  font-size: 15px;
+  font-size: 14.5px;
   color:  rgb(0, 0, 101);;
-  font-weight: 200;
+ 
   font-style: none;
 }
 
@@ -422,7 +422,7 @@ text {
   text-align: center;
   fill:rgb(0, 0, 101);;
   text-anchor: middle;
-  font-weight: 800;
+
 
 }
 
@@ -470,7 +470,7 @@ path {
 
 
 .pillor {
- max-width: 250px;
+  max-width: 250px;
   height: 600px;
   background-color: black;
   display: flex;
@@ -526,7 +526,7 @@ path {
   font-size: 10px;
 }
 
-span {
+.reg-no span {
   font-size: 1rem;
   font-weight: bolder;
 }
@@ -598,8 +598,8 @@ span {
     text-align: center;
   }
 
-  .reg-n0 span {
-    font-size: 10px;
+  .reg-no span {
+    font-size: 12px;
   }
 
   .GITAM {
@@ -1634,7 +1634,7 @@ span {
   }
 }
 
-@media (max-width : 300px) {
+@media (max-width : 370px) {
   .contact_deatils,
   .contact_deatils p {
     gap: 0.5rem;
@@ -1651,5 +1651,8 @@ span {
   }
   .geeni-location{
     height: 500px;
+  }
+  .popular-course-container{
+    padding: 0;
   }
 }

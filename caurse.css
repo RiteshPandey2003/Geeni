@@ -58,9 +58,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 2rem 3rem;
+  padding: 2rem 1rem;
   min-height: 250px;
 }
+
 
 .tag {
   background: #cccccc;
@@ -115,7 +116,10 @@
     margin: 1rem 0;
     font-size: 1.5rem;
 }
-
+.course-count p{
+  font-size: 18px;
+  padding: 0rem 0.5rem;
+}
 
 .caurse-card-heading{
     font-size: 1.5rem;
@@ -157,7 +161,7 @@
   }
 
 
-@media (max-width : 1250px) {
+@media (max-width : 1050px) {
     .card {
          width: 90%;
         
