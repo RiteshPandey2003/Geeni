@@ -982,6 +982,8 @@ li {
     font-weight: bold;
   }
 
+  
+
   .slider-seciton-heading {
     margin: 1rem;
 
@@ -996,6 +998,9 @@ li {
     margin-top: 5rem;
   }
 
+
+
+  /* //counter */
   #counter-section-container {
     margin-top: 8rem;
   }
@@ -1533,13 +1538,13 @@ span {
 
 .address {
   position: relative;
-  margin-top: 10rem;
+  margin-top: 15rem;
   font-size: 1rem;
  
 }
 
 .address-section-genni {
-
+ 
   background: white;
   z-index: 99;
   position: absolute;
