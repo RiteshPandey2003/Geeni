@@ -219,7 +219,7 @@ nav .navbar .links li:hover .js-sub-menu {
   }
 
   nav .navbar .logo a {
-    font-size: 27px;
+    font-size: 15px;
   }
 
   nav .navbar .links li {
@@ -230,6 +230,7 @@ nav .navbar .links li:hover .js-sub-menu {
   nav .navbar .links li a {
     font-size: 15px;
   }
+  
 }
 
 @media (max-width:800px) {
@@ -469,6 +470,7 @@ path {
 
 
 .pillor {
+ max-width: 250px;
   height: 600px;
   background-color: black;
   display: flex;
@@ -477,7 +479,7 @@ path {
 }
 
 .pillor-img {
-  width: 75%;
+  
   height: 100%;
   width: 100%;
 }
@@ -487,8 +489,6 @@ path {
   position: absolute;
   bottom: 12rem;
   height: 600px;
-
-  /* border: 2px solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -565,23 +565,6 @@ span {
   font-size: 1.5rem;
 }
 
-.register-now-button-btn:disabled {
-  opacity: .5;
-}
-
-.register-now-button-btn:focus {
-  outline: 0;
-}
-
-.register-now-button-btn:hover {
-  background-color: #0A46E4;
-  border-color: #0A46E4;
-}
-
-.register-now-button-btn:active {
-  background-color: #0039D7;
-  border-color: #0039D7;
-}
 
 @media (max-width:1100px) {
   .pillor {
@@ -639,6 +622,7 @@ span {
     padding: 5px 10px;
     font-size: 0.8rem;
   }
+  
 }
 
 
@@ -646,15 +630,16 @@ span {
 
 
 .marquee-container {
-  background-color: rgb(0, 0, 101);
-  height: 30px;
+  background-color: #000065;
+  height: 40px;
   overflow: hidden;
-  line-height: 30px;
+  line-height: 40px;
   position: relative;
   width: 100%;
   overflow-x: hidden;
   display: flex;
   color: white;
+  
  
 
   .marquee {
@@ -677,7 +662,7 @@ span {
 }
 
 .marquee span {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
@@ -728,7 +713,7 @@ span {
   border: 2px solid gray;
   border-radius: 12px;
   width: 500px;
-  height: 400px;
+  height: 420px;
 }
 
 .company-name-after-img,
@@ -853,17 +838,6 @@ span {
     width: 100%;
     height: fit-content;
     padding: 1rem;
-  }
-
-  .more-about-us {
-    margin-top: 1rem;
-    margin-left: 0.5rem;
-    font-size: 0.5rem;
-    padding: 0.5rem 1rem;
-    color: white;
-    font-weight: bold;
-    background-color: rgb(0, 0, 101);
-    border-radius: 12px;
   }
 
   #About-us-section {
@@ -1019,7 +993,7 @@ li {
   }
 
   .slider-seciton {
-    margin-top: 8rem;
+    margin-top: 5rem;
   }
 
   #counter-section-container {
@@ -1034,6 +1008,17 @@ li {
     gap: 0;
 
   }
+  .more-about-us{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(0, 0, 101);
+    border-radius: 12px;
+  }
+
 }
 
 
@@ -1099,6 +1084,7 @@ li {
   width: 400px;
   height: 250px;
   box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+  padding-bottom: 1rem;
 }
 
 .popular-course-rectangle p {
@@ -1166,9 +1152,10 @@ li {
   }
 
   .popular-course-rectangle p {
-    font-size: medium;
+
     font-weight: 400;
     font-size: 0.8rem;
+    margin-top: 1rem;
   }
 
   .popular-course-heading {
@@ -1198,6 +1185,7 @@ li {
 /* .timeline section */
 .GeeniDeclaration{
   background: rgb(239 232 239);
+  
 }
 
 
@@ -1234,7 +1222,7 @@ li {
 }
 .timeline-image1{
   height: 500px;
-  width: 400px;
+  width: 550px;
   border-radius: 15px;
 }
 
@@ -1365,13 +1353,13 @@ p {
     padding: 0.2rem;
   }
 
-  .timeline-images {
-    height: 350px;
-    width: 95%;
-  }
   .timeline-image1{
+    height: 450px;
+    max-width: 600px ;
+  }
+  .timeline-images{
     height: 350px;
-    width: 100%;
+    max-width: 600px ;
   }
 
   #timeline-section-parent {
@@ -1385,8 +1373,18 @@ p {
   .timeline .timeline-container .timeline-body .timeline-title p {
     font-size: 10px;
   }
+ 
 }
-
+@media (max-width : 600px) {
+  .timeline-image1{
+    height: 450px;
+    width: 95% ;
+  }
+  .timeline-images{
+    height: 250px;
+    max-width: 90% ;
+  }
+}
 
 
 
@@ -1610,6 +1608,13 @@ span {
   left: 50%;
   transform: translate(-50%, -15%);
 }
+.email-number{
+  font-size: 1rem;
+  font-weight: 600;
+}
+.contact_deatils p{
+  font-weight: 800;
+}
 
 @media (max-width : 800px) {
 
@@ -1617,27 +1622,34 @@ span {
   .contact_deatils p {
     gap: 0.5rem;
     font-size: 10px;
+    padding: 0.5rem;
   }
   .header-heading-bottom a,.header-heading-bottom h4  {
     font-size: 10px;
     padding: 0;
   }
+  .email-number{
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
 }
+
 @media (max-width : 300px) {
   .contact_deatils,
   .contact_deatils p {
     gap: 0.5rem;
     font-size: 8px;
+    padding: 0.2rem;
   }
   .header-heading-bottom a,.header-heading-bottom h4  {
     font-size: 8px;
     padding: 0;
   }
-}
-.email-number{
-  font-size: 1rem;
-  font-weight: 600;
-}
-.contact_deatils p{
-  font-weight: 800;
+  .email-number{
+    font-size: 0.5rem;
+    font-weight: 600;
+  }
+  .geeni-location{
+    height: 500px;
+  }
 }

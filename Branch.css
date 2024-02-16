@@ -77,10 +77,10 @@
 .view-all-course-btn{
     margin: 2rem 0;
     align-content: center;
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: bolder;
-    padding: 1rem 2rem;
-    background: blue;
+    padding: 0.8rem 1.5rem;
+    background: rgb(0, 0, 101);
     color: white;
     border-radius: 12px;
 }
