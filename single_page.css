@@ -37,7 +37,7 @@ body {
   font-size: 2rem;
   font-weight: 900;
   color: white;
-  background: blue;
+  background:  rgb(0, 0, 101);
   padding: 0.3rem;
 }
 
@@ -137,7 +137,7 @@ body {
   width: fit-content;
   align-items: center;
   appearance: none;
-  background-color: blue;
+  background:  rgb(0, 0, 101);
   border: 0;
   border-radius: 6px;
   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
@@ -179,7 +179,7 @@ body {
   padding: 1rem;
 }
 .page-button:active{
-  border-bottom: 5px solid blue;
+  border-bottom: 5px solid  rgb(0, 0, 101);
 }
 
 

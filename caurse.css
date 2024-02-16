@@ -128,7 +128,7 @@
 }
 .fullWidthButton{
     padding: 10px; /* Adjust padding as needed */
-    background-color: blue;
+    background:  rgb(0, 0, 101);
     color: white;
     border: none;
     text-align: center;

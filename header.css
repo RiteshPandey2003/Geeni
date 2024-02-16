@@ -22,8 +22,8 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  height: 70px;
+ padding: 1rem 0rem;
+
   /* background: #3E8DA8; */
 
   z-index: 99;
@@ -43,9 +43,11 @@ nav .navbar {
 
 .navbar .logo a {
   font-size: 30px;
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: 600;
+  background-color: rgb(0, 0, 101);
+  padding: 0.2rem 0.5rem;
 }
 
 nav .navbar .nav-links {
@@ -353,7 +355,7 @@ nav .navbar .links li:hover .js-sub-menu {
 
 .button-26 {
   appearance: button;
-  background-color: blue;
+  background-color: rgb(0, 0, 101);
   border-radius: 4px;
   box-sizing: border-box;
   color: #FFFFFF;
@@ -362,7 +364,7 @@ nav .navbar .links li:hover .js-sub-menu {
   /* font-size: 8px; */
   line-height: 1.15;
   overflow: visible;
-  padding: 12px 14px;
+  padding: 1rem 2rem;
   position: relative;
   text-align: center;
   text-transform: none;
@@ -371,6 +373,7 @@ nav .navbar .links li:hover .js-sub-menu {
   -webkit-user-select: none;
   touch-action: manipulation;
   width: fit-content;
+  font-size: 1.2rem;
 }
 
 .button-26:disabled {
@@ -407,16 +410,18 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 
 .gate-section-cureve {
-  width: 70%;
+  width: 72%;
   font-size: 15px;
-  color: blue;
-  font-weight: 400;
+  color:  rgb(0, 0, 101);;
+  font-weight: 200;
+  font-style: none;
 }
 
 text {
   text-align: center;
-  fill: blue;
+  fill:rgb(0, 0, 101);;
   text-anchor: middle;
+  font-weight: 800;
 
 }
 
@@ -539,7 +544,7 @@ span {
 .register-now-button-btn {
   margin-top: 1rem;
   appearance: button;
-  background-color: blue;
+  background-color: rgb(0, 0, 101);
   border-radius: 4px;
   box-sizing: border-box;
   color: #FFFFFF;
@@ -548,7 +553,6 @@ span {
   /* font-size: 8px; */
   line-height: 1.15;
   overflow: visible;
-  padding: 12px 14px;
   position: relative;
   text-align: center;
   text-transform: none;
@@ -557,6 +561,8 @@ span {
   -webkit-user-select: none;
   touch-action: manipulation;
   width: fit-content;
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
 }
 
 .register-now-button-btn:disabled {
@@ -629,6 +635,10 @@ span {
   .GEENI-EDUCATIONAL-sOCITY-tail-thumb-container {
     margin-top: 1rem;
   }
+  .register-now-button-btn{
+    padding: 5px 10px;
+    font-size: 0.8rem;
+  }
 }
 
 
@@ -636,8 +646,7 @@ span {
 
 
 .marquee-container {
-  /* padding: 2rem; */
-  background: purple;
+  background-color: rgb(0, 0, 101);
   height: 30px;
   overflow: hidden;
   line-height: 30px;
@@ -646,7 +655,7 @@ span {
   overflow-x: hidden;
   display: flex;
   color: white;
-
+ 
 
   .marquee {
     top: 0;
@@ -668,12 +677,12 @@ span {
 }
 
 .marquee span {
-  font-size: 12px;
+  font-size: 1rem;
   font-weight: 500;
 }
 
 .Adveritsement-text {
-  background: purple;
+  background-color: rgb(0, 0, 101);
   z-index: 99;
 }
 
@@ -686,7 +695,15 @@ span {
     left: -100%
   }
 }
-
+@media (max-width : 800px) {
+  
+  .marquee span {
+    font-size: 0.8rem;
+  }
+  .marquee-container, .marquee{
+    top: 0;
+  }
+}
 
 /* .about-us */
 
@@ -785,7 +802,17 @@ span {
   padding: 1rem 2rem;
   color: white;
   font-weight: bold;
-  background: blue;
+  background: rgb(0, 0, 101);
+  border-radius: 12px;
+}
+.more-about-us1{
+  margin-top: 2rem;
+  margin-left: 1rem;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: rgb(0, 0, 101);
+  font-weight: bold;
+  background: white;
   border-radius: 12px;
 }
 
@@ -835,7 +862,7 @@ span {
     padding: 0.5rem 1rem;
     color: white;
     font-weight: bold;
-    background: blue;
+    background-color: rgb(0, 0, 101);
     border-radius: 12px;
   }
 
@@ -897,7 +924,7 @@ li {
 .counter-section {
   width: 75%;
   color: white;
-  background: #4400a3;
+  background-color: rgb(0, 0, 101);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -910,10 +937,7 @@ li {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
-  padding: 0.5rem 3rem;
-  border-right: 4px solid red;
-  gap: 2rem;
-  margin: 2rem;
+  gap: 1rem;
 }
 
 .counter {
@@ -926,31 +950,41 @@ li {
 }
 
 .count-one-by-one {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  flex-wrap: wrap;
-
+  
 }
 
 .counter-section-heading {
   text-align: center;
-  margin: 1rem;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+.counter-section-heading2 {
+  text-align: center;
+  margin-bottom: 1rem;
   font-size: 2.5rem;
   font-weight: bolder;
 }
 
-.more-about-us1 {
+.more-about-us{
   margin-top: 3rem;
-  padding: 0.5rem 2rem;
+  padding: 1rem 2rem;
   font-size: large;
-  color: blue;
+  background: rgb(0, 0, 101);
   font-weight: bolder;
   margin-bottom: 3rem;
-  border-radius: 12px;
+  border-radius: 5px;
 
 }
-
+.line{
+  width: 4px;
+  height: 100px;
+  background-color: red;
+}
 
 @media (max-width: 710px) {
 
@@ -960,9 +994,15 @@ li {
 
   .counter {
     font-size: 12px;
+    margin-top: 0;
   }
 
   .counter-section-heading {
+    margin: 1 0rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .counter-section-heading2 {
     margin: 1 0rem;
     font-size: 1.5rem;
     font-weight: bold;
@@ -997,16 +1037,21 @@ li {
 }
 
 
-@media(max-width:1290px) {
+@media(max-width:1150px) {
 
   .counter-container {
-    border-style: none;
-
-  }
-
-  .counter-container {
+    justify-content: center;
     margin: 0.5rem;
-    gap: 2rem;
+    gap: 1rem;
+    border-style: none;
+    flex-direction: column;
+    
+  }
+  .line{
+    display: none;
+  }
+  .counter-section{
+    padding: 1rem;
   }
 
 }
@@ -1015,6 +1060,11 @@ li {
   .count-one-by-one {
     gap: 0;
 
+  }
+}
+@media (max-width: 450px) {
+  .count-one-by-one {
+   flex-direction: column;
   }
 }
 
@@ -1040,19 +1090,21 @@ li {
   justify-content: center;
   /* Adjust as needed */
   gap: 2rem;
+  padding: 1rem;
 }
 
 .popular-course-rectangle {
-
+  border-radius: 20px;
   padding: 2rem;
   width: 400px;
   height: 250px;
-  border: 2px solid gray;
+  box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
 }
 
 .popular-course-rectangle p {
   font-size: 1.5rem;
   font-weight: bold;
+  margin-top: 1.5rem;
 }
 
 .popular-course-heading {
@@ -1060,13 +1112,10 @@ li {
   font-weight: bolder;
 }
 
-.popular-course-rectangle i {
-  padding: 1rem;
-}
 
 .popular-course-container-heading button {
   font-size: 1rem;
-  background: rgb(47, 0, 167);
+  background:  rgb(0, 0, 101);
   padding: 0.5rem 1rem;
   color: white;
   border-radius: 10px;
@@ -1080,12 +1129,19 @@ li {
 .fa-solid,
 .fas {
   font-size: 2rem;
-  color: black;
+  color: rgb(71, 71, 71);
 }
 
-.fc {
-  color: white;
-  font-size: 4rem;
+
+.numbers{
+  font-size: 1.5rem;
+  padding: 1rem 1.5rem;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  font-style: normal;
+  font-weight: 800;
+  border:1px solid rgb(0, 0, 101);
+  
 }
 
 @media (max-width:870px) {
@@ -1104,8 +1160,8 @@ li {
     width: 120px;
     height: 200px;
     border: 2px solid lightgray;
-    padding: 0.5rem;
-    font-weight: bold;
+    padding:1rem;
+    
     /* Adjust as needed for spacing */
   }
 
@@ -1121,18 +1177,28 @@ li {
 
   .fc {
     font-size: 3rem;
+    color: white;
   }
 
   .section-popular-course-container {
     margin-top: 8rem;
   }
+  .numbers{
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+.fc {
+  color: white;
+  font-size: 4rem;
 }
 
 
-
-
 /* .timeline section */
-
+.GeeniDeclaration{
+  background: rgb(239 232 239);
+}
 
 
 #timeline-section-parent {
@@ -1162,11 +1228,15 @@ li {
 }
 
 .timeline-images {
+  height: 450px;
+  width: 550px;
+  border-radius: 15px;
+}
+.timeline-image1{
   height: 500px;
   width: 400px;
   border-radius: 15px;
 }
-
 
 
 .time_line_container {
@@ -1288,7 +1358,7 @@ p {
   margin-top: 10rem;
 }
 
-@media (max-width : 800px) {
+@media (max-width : 1000px) {
   .timeline-section-parent-heading {
     font-size: 2rem;
     margin-top: 3rem;
@@ -1296,9 +1366,12 @@ p {
   }
 
   .timeline-images {
-    height: 400px;
+    height: 350px;
     width: 95%;
-    border-radius: 15px;
+  }
+  .timeline-image1{
+    height: 350px;
+    width: 100%;
   }
 
   #timeline-section-parent {
@@ -1464,6 +1537,7 @@ span {
   position: relative;
   margin-top: 10rem;
   font-size: 1rem;
+ 
 }
 
 .address-section-genni {
@@ -1474,9 +1548,12 @@ span {
   top: 0;
   left: 50%;
   transform: translate(-50%, -50%);
+  box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+  border-radius: 20px;
+  padding-top: 1rem;
 }
 
-.address-section-genni h4 {
+.address-section-genni h2 {
   text-align: center;
 }
 
@@ -1490,7 +1567,10 @@ span {
   gap: 2rem;
   padding: 2rem;
 }
-
+.contact_deatils p {
+  gap: 1rem;
+  font-size: 1rem;
+}
 
 
 .address1 {
@@ -1553,4 +1633,11 @@ span {
     font-size: 8px;
     padding: 0;
   }
+}
+.email-number{
+  font-size: 1rem;
+  font-weight: 600;
+}
+.contact_deatils p{
+  font-weight: 800;
 }

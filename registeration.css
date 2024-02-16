@@ -11,8 +11,8 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .backgound-img {
-  height: 550px;
-  background: blue;
+  height: 50vh;
+  background:  rgb(0, 0, 101);
 }
 .backgound-img p {
   text-align: center;
@@ -23,7 +23,7 @@ body {
 }
 .container {
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 800px;
@@ -73,7 +73,6 @@ form .form-row .textarea {
 .input-data input:valid ~ label,
 .textarea textarea:valid ~ label {
   transform: translateY(-20px);
-  color: #3498db;
 }
 .textarea textarea {
   resize: none;
@@ -101,7 +100,6 @@ form .form-row .textarea {
   content: "";
   height: 2px;
   width: 100%;
-  background: #3498db;
   transform: scaleX(0);
   transform-origin: center;
   transition: transform 0.3s ease;
@@ -182,11 +180,7 @@ form .form-row .textarea {
   width: 100%;
   align-items: center;
   appearance: none;
-  background-image: radial-gradient(
-    100% 100% at 100% 0,
-    #5adaff 0,
-    #5468ff 100%
-  );
+  background:  rgb(0, 0, 101);
   border: 0;
   border-radius: 6px;
   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
