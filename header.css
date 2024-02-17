@@ -22,7 +22,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
- padding: 1rem 0rem;
+  padding: 1rem 0rem;
 
   /* background: #3E8DA8; */
 
@@ -230,7 +230,7 @@ nav .navbar .links li:hover .js-sub-menu {
   nav .navbar .links li a {
     font-size: 15px;
   }
-  
+
 }
 
 @media (max-width:800px) {
@@ -413,14 +413,16 @@ nav .navbar .links li:hover .js-sub-menu {
 .gate-section-cureve {
   width: 72%;
   font-size: 14.5px;
-  color:  rgb(0, 0, 101);;
- 
+  color: rgb(0, 0, 101);
+  ;
+
   font-style: none;
 }
 
 text {
   text-align: center;
-  fill:rgb(0, 0, 101);;
+  fill: rgb(0, 0, 101);
+  ;
   text-anchor: middle;
 
 
@@ -479,7 +481,7 @@ path {
 }
 
 .pillor-img {
-  
+
   height: 100%;
   width: 100%;
 }
@@ -618,11 +620,12 @@ path {
   .GEENI-EDUCATIONAL-sOCITY-tail-thumb-container {
     margin-top: 1rem;
   }
-  .register-now-button-btn{
+
+  .register-now-button-btn {
     padding: 5px 10px;
     font-size: 0.8rem;
   }
-  
+
 }
 
 
@@ -639,8 +642,8 @@ path {
   overflow-x: hidden;
   display: flex;
   color: white;
-  
- 
+
+
 
   .marquee {
     top: 0;
@@ -680,12 +683,15 @@ path {
     left: -100%
   }
 }
+
 @media (max-width : 800px) {
-  
+
   .marquee span {
     font-size: 0.8rem;
   }
-  .marquee-container, .marquee{
+
+  .marquee-container,
+  .marquee {
     top: 0;
   }
 }
@@ -790,7 +796,8 @@ path {
   background: rgb(0, 0, 101);
   border-radius: 12px;
 }
-.more-about-us1{
+
+.more-about-us1 {
   margin-top: 2rem;
   margin-left: 1rem;
   font-size: 1rem;
@@ -902,14 +909,14 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   border-radius: 12px;
   padding: 3rem;
 }
 
 .counter-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   text-align: center;
   gap: 1rem;
 }
@@ -919,8 +926,8 @@ li {
   margin-top: 10px;
 }
 
-.fa-solid {
-  font-size: 1.5rem;
+.fc{
+  font-size: 4rem;
 }
 
 .count-one-by-one {
@@ -928,7 +935,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  
+
 }
 
 .counter-section-heading {
@@ -937,6 +944,7 @@ li {
   font-size: 2.5rem;
   font-weight: bolder;
 }
+
 .counter-section-heading2 {
   text-align: center;
   margin-bottom: 1rem;
@@ -944,7 +952,7 @@ li {
   font-weight: bolder;
 }
 
-.more-about-us{
+.more-about-us {
   margin-top: 3rem;
   padding: 1rem 2rem;
   font-size: large;
@@ -954,7 +962,8 @@ li {
   border-radius: 5px;
 
 }
-.line{
+
+.line {
   width: 4px;
   height: 100px;
   background-color: red;
@@ -971,18 +980,6 @@ li {
     margin-top: 0;
   }
 
-  .counter-section-heading {
-    margin: 1 0rem;
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  .counter-section-heading2 {
-    margin: 1 0rem;
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-
-  
 
   .slider-seciton-heading {
     margin: 1rem;
@@ -998,32 +995,31 @@ li {
     margin-top: 5rem;
   }
 
+}
 
+/* //counter */
+#counter-section-container {
+  margin-top: 8rem;
+}
 
-  /* //counter */
-  #counter-section-container {
-    margin-top: 8rem;
-  }
+.counter-container span {
+  font-size: 1rem;
+}
 
-  .counter-container span {
-    font-size: 1rem;
-  }
+.count-one-by-one {
+  gap: 0;
 
-  .count-one-by-one {
-    gap: 0;
+}
 
-  }
-  .more-about-us{
-    margin-top: 1rem;
-    margin-left: 0.5rem;
-    font-size: 0.8rem;
-    padding: 0.5rem 1rem;
-    color: white;
-    font-weight: bold;
-    background-color: rgb(0, 0, 101);
-    border-radius: 12px;
-  }
-
+.more-about-us {
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(0, 0, 101);
+  border-radius: 12px;
 }
 
 
@@ -1032,20 +1028,31 @@ li {
   .counter-container {
     justify-content: center;
     margin: 0.5rem;
-    gap: 1.5rem;
     border-style: none;
-    
-  }
-  .line{
-    display: none;
-  }
-  .counter-section{
-    padding: 1rem;
-  }
-  .counter, .counter span{
-    font-size: 1.5rem;
+    width: 100%;
+    flex-direction: column;
   }
 
+  .line {
+    display: none;
+  }
+
+  .counter-section {
+    padding: 1rem;
+  }
+
+  .counter,
+  .counter span {
+    font-size: 1rem;
+  }
+  .counter-section-heading {
+    margin: 1 0rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .fc{
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 890px) {
@@ -1054,11 +1061,14 @@ li {
 
   }
 }
-@media (max-width: 450px) {
-  .count-one-by-one {
-   flex-direction: column;
+
+@media (max-width:420px) {
+  .counter-section{
+    width: 100%;
+    border-radius: 0;
   }
 }
+
 
 .section-popular-course-container {
   margin-top: 12rem;
@@ -1108,7 +1118,7 @@ li {
 
 .popular-course-container-heading button {
   font-size: 1rem;
-  background:  rgb(0, 0, 101);
+  background: rgb(0, 0, 101);
   padding: 0.5rem 1rem;
   color: white;
   border-radius: 10px;
@@ -1119,22 +1129,17 @@ li {
 
 }
 
-.fa-solid,
-.fas {
-  font-size: 2rem;
-  color: rgb(71, 71, 71);
-}
 
 
-.numbers{
+.numbers {
   font-size: 1.5rem;
   padding: 1rem 1.5rem;
   background-color: #FFFFFF;
   border-radius: 50%;
   font-style: normal;
   font-weight: 800;
-  border:1px solid rgb(66, 66, 66);
-  
+  border: 1px solid rgb(66, 66, 66);
+
 }
 
 @media (max-width:870px) {
@@ -1152,8 +1157,8 @@ li {
   .popular-course-rectangle {
     width: 120px;
     height: 200px;
-    padding:1rem;
-    
+    padding: 1rem;
+
     /* Adjust as needed for spacing */
   }
 
@@ -1168,28 +1173,21 @@ li {
     font-size: 1.2rem;
   }
 
-  .fc {
-    font-size: 3rem;
-    color: white;
-  }
+
 
   .section-popular-course-container {
     margin-top: 8rem;
   }
-  .numbers{
+
+  .numbers {
     font-size: 1rem;
     padding: 0.5rem 1rem;
   }
 }
 
-.fc {
-  color: white;
-  font-size: 4rem;
-}
-
 
 /* .timeline section */
-.GeeniDeclaration{
+.GeeniDeclaration {
   background: rgb(239 232 239);
   margin-top: 5rem;
   padding: 2rem 0;
@@ -1227,7 +1225,8 @@ li {
   width: 550px;
   border-radius: 15px;
 }
-.timeline-image1{
+
+.timeline-image1 {
   height: 500px;
   width: 550px;
   border-radius: 15px;
@@ -1360,13 +1359,14 @@ p {
     padding: 0.2rem;
   }
 
-  .timeline-image1{
+  .timeline-image1 {
     height: 450px;
-    max-width: 600px ;
+    max-width: 600px;
   }
-  .timeline-images{
+
+  .timeline-images {
     height: 350px;
-    max-width: 600px ;
+    max-width: 600px;
   }
 
   #timeline-section-parent {
@@ -1380,16 +1380,18 @@ p {
   .timeline .timeline-container .timeline-body .timeline-title p {
     font-size: 10px;
   }
- 
+
 }
+
 @media (max-width : 600px) {
-  .timeline-image1{
+  .timeline-image1 {
     height: 450px;
-    width: 95% ;
+    width: 95%;
   }
-  .timeline-images{
+
+  .timeline-images {
     height: 250px;
-    max-width: 90% ;
+    max-width: 90%;
   }
 }
 
@@ -1542,11 +1544,11 @@ span {
   position: relative;
   margin-top: 15rem;
   font-size: 1rem;
- 
+
 }
 
 .address-section-genni {
- 
+
   background: white;
   z-index: 99;
   position: absolute;
@@ -1572,6 +1574,7 @@ span {
   gap: 2rem;
   padding: 2rem;
 }
+
 .contact_deatils p {
   gap: 1rem;
   font-size: 1rem;
@@ -1615,11 +1618,13 @@ span {
   left: 50%;
   transform: translate(-50%, -15%);
 }
-.email-number{
+
+.email-number {
   font-size: 1rem;
   font-weight: 600;
 }
-.contact_deatils p{
+
+.contact_deatils p {
   font-weight: 800;
 }
 
@@ -1631,14 +1636,18 @@ span {
     font-size: 10px;
     padding: 0.5rem;
   }
-  .header-heading-bottom a,.header-heading-bottom h4  {
+
+  .header-heading-bottom a,
+  .header-heading-bottom h4 {
     font-size: 10px;
     padding: 0;
   }
-  .email-number{
+
+  .email-number {
     font-size: 0.7rem;
     font-weight: 600;
   }
+
   .address-section-genni {
     padding: 0.2rem;
     border-radius: 5px;
@@ -1646,26 +1655,33 @@ span {
 }
 
 @media (max-width : 370px) {
+
   .contact_deatils,
   .contact_deatils p {
     gap: 0.5rem;
     font-size: 8px;
     padding: 0.2rem;
   }
-  .header-heading-bottom a,.header-heading-bottom h4  {
+
+  .header-heading-bottom a,
+  .header-heading-bottom h4 {
     font-size: 8px;
     padding: 0;
   }
-  .email-number{
+
+  .email-number {
     font-size: 0.5rem;
     font-weight: 600;
   }
-  .geeni-location{
+
+  .geeni-location {
     height: 500px;
   }
-  .popular-course-container{
+
+  .popular-course-container {
     padding: 0;
   }
+
   .address-section-genni {
     padding: 0.2rem;
     border-radius: 5px;
