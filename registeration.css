@@ -166,6 +166,9 @@ form .form-row .textarea {
     font-size: 12px;
     width: 100%;
   }
+  .background-img p{
+    padding-top:0;
+  }
 }
 @media (max-width: 390px) {
   #datepicker {

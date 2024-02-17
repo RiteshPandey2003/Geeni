@@ -359,10 +359,12 @@ body {
     font-size: 12px;
     margin-top: 0;
   }
-
+  .counter-container1 span{
+    font-size: 1rem;
+  }
   .counter-section-heading {
     margin: 1 0rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bold;
   }
   .counter-section-heading2 {
@@ -377,7 +379,7 @@ body {
     display: none;
   }
   .counter-container1 p{
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-top: 3rem;
     margin-bottom: 1.5rem;
   }
@@ -407,7 +409,7 @@ body {
   justify-content: center;
   /* Adjust as needed */
   gap: 2rem;
-  padding: 1rem;
+
 }
 
 .popular-course-rectangle {
@@ -512,6 +514,7 @@ body {
 
 /* footer */
 
+
 .address {
   position: relative;
   margin-top: 15rem;
@@ -532,7 +535,7 @@ body {
   padding-top: 1rem;
 }
 
-.address-section-genni h2 {
+.address-section-genni h3 {
   text-align: center;
 }
 
@@ -596,6 +599,11 @@ body {
 .contact_deatils p{
   font-weight: 800;
 }
+.contact_deatils_heading{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
 
 @media (max-width : 800px) {
 
@@ -619,13 +627,13 @@ body {
   }
 }
 
-@media (max-width : 370px) {
+
+@media (max-width : 374px) {
   .contact_deatils,
   .contact_deatils p {
     gap: 0.5rem;
     font-size: 8px;
     padding: 0.2rem;
-    font-size: 1.2rem;
   }
   .header-heading-bottom a,.header-heading-bottom h4  {
     font-size: 8px;
@@ -645,4 +653,8 @@ body {
     padding: 0.2rem;
     border-radius: 5px;
   }
+  .contact_deatils_heading{
+    font-size: 1rem;
+  }
 }
+
