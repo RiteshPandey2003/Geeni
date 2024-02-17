@@ -1605,8 +1605,6 @@ span {
 
 .contact_deatils {
   display: flex;
-align-items: center;
-justify-content: center;
   gap: 2rem;
   padding: 2rem;
 }
@@ -1686,7 +1684,7 @@ justify-content: center;
     font-size: 9px;
     font-weight: 600;
   }
-  .address-section-genni {
+  .address-section-genni,.address-section-genni1  {
     padding: 1rem;
     width: 100%;
     border-radius: 0;
@@ -1721,7 +1719,7 @@ justify-content: center;
   .popular-course-container {
     padding: 0;
   }
-  .address-section-genni.address-section-genni1 {
+  .address-section-genni1 {
     padding: 1rem;
     width: 100%;
     border-radius: 0;
