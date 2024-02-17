@@ -458,7 +458,7 @@ body {
   border-radius: 50%;
   font-style: normal;
   font-weight: 800;
-  border:1px solid rgb(0, 0, 101);
+  border:1px solid rgb(56, 56, 56);
   
 }
 
@@ -477,7 +477,6 @@ body {
   .popular-course-rectangle {
     width: 120px;
     height: 200px;
-    border: 2px solid lightgray;
     padding:1rem;
     
     /* Adjust as needed for spacing */
@@ -614,6 +613,10 @@ body {
     font-size: 0.7rem;
     font-weight: 600;
   }
+  .address-section-genni {
+    padding: 0.2rem;
+    border-radius: 5px;
+  }
 }
 
 @media (max-width : 370px) {
@@ -622,6 +625,7 @@ body {
     gap: 0.5rem;
     font-size: 8px;
     padding: 0.2rem;
+    font-size: 1.2rem;
   }
   .header-heading-bottom a,.header-heading-bottom h4  {
     font-size: 8px;
@@ -636,5 +640,9 @@ body {
   }
   .popular-course-container{
     padding: 0;
+  }
+  .address-section-genni {
+    padding: 0.2rem;
+    border-radius: 5px;
   }
 }

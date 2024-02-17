@@ -208,7 +208,6 @@ body {
     .popular-course-rectangle {
       width: 80%;
       height: 220px;
-      border: 2px solid lightgray;
       padding:1rem;
       
       /* Adjust as needed for spacing */

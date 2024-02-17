@@ -1032,9 +1032,8 @@ li {
   .counter-container {
     justify-content: center;
     margin: 0.5rem;
-    gap: 1rem;
+    gap: 1.5rem;
     border-style: none;
-    flex-direction: column;
     
   }
   .line{
@@ -1042,6 +1041,9 @@ li {
   }
   .counter-section{
     padding: 1rem;
+  }
+  .counter, .counter span{
+    font-size: 1.5rem;
   }
 
 }
@@ -1131,7 +1133,7 @@ li {
   border-radius: 50%;
   font-style: normal;
   font-weight: 800;
-  border:1px solid rgb(0, 0, 101);
+  border:1px solid rgb(66, 66, 66);
   
 }
 
@@ -1150,7 +1152,6 @@ li {
   .popular-course-rectangle {
     width: 120px;
     height: 200px;
-    border: 2px solid lightgray;
     padding:1rem;
     
     /* Adjust as needed for spacing */
@@ -1190,7 +1191,8 @@ li {
 /* .timeline section */
 .GeeniDeclaration{
   background: rgb(239 232 239);
-  
+  margin-top: 5rem;
+  padding: 2rem 0;
 }
 
 
@@ -1348,7 +1350,7 @@ p {
   font-size: xx-large;
   font-weight: bolder;
   padding: 2rem;
-  margin-top: 10rem;
+
 }
 
 @media (max-width : 1000px) {
@@ -1556,7 +1558,7 @@ span {
   padding-top: 1rem;
 }
 
-.address-section-genni h2 {
+.address-section-genni h3 {
   text-align: center;
 }
 
@@ -1637,6 +1639,10 @@ span {
     font-size: 0.7rem;
     font-weight: 600;
   }
+  .address-section-genni {
+    padding: 0.2rem;
+    border-radius: 5px;
+  }
 }
 
 @media (max-width : 370px) {
@@ -1659,5 +1665,9 @@ span {
   }
   .popular-course-container{
     padding: 0;
+  }
+  .address-section-genni {
+    padding: 0.2rem;
+    border-radius: 5px;
   }
 }

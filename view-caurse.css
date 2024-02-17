@@ -94,7 +94,7 @@
     cursor: pointer;
     position: absolute;
     bottom: 1rem;
-    border-radius: 12px ;
+    border-radius: 8px ;
   }
 
 
@@ -107,8 +107,17 @@
         font-weight: bolder;
     }
     .view-caurse-card-container-heading, .fa-solid, .price,.fullWidthButton{
-        font-size:1rem;
+        font-size:1.3rem;
        border-radius: 5px;
+    }
+    .discription{
+        font-size: 0.8rem;
+    }
+    .view-caurse-card{
+      height: 280px;
+    }
+    .fullWidthButton{
+        font-size: 1rem;
     }
    
     
