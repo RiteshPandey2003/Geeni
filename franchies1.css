@@ -517,9 +517,6 @@ body {
   position: relative;
   margin-top: 15rem;
   font-size: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 
 .address-section-genni {
@@ -662,7 +659,7 @@ justify-content: center;
   .popular-course-container {
     padding: 0;
   }
-  .address-section-genni {
+  .address-section-genni,.address-section-genni1 {
     padding: 1rem;
     width: 100%;
     border-radius: 0;
@@ -679,4 +676,9 @@ justify-content: center;
     gap:1rem;
     padding:0rem;
   }
+}
+.contact_deatils_heading{
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bolder;
 }
