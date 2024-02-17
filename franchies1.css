@@ -327,6 +327,7 @@ body {
   margin-bottom: 2rem;
   font-size: 2.5rem;
   font-weight: bolder;
+  color: rgb(0, 0, 101);
 }
 
 
@@ -348,21 +349,24 @@ body {
   font-weight: 900;
   word-wrap: break-word;
   padding: 1rem;
- color: blue;
+ color: rgb(0, 0, 101);
 }
 
 
 
-@media (max-width: 710px) {
+@media (max-width: 1110px) {
 
   .counter {
     font-size: 12px;
     margin-top: 0;
   }
+  .counter-section{
+    padding: 2rem;
+  }
 
   .counter-section-heading {
     margin: 1 0rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: bold;
   }
   .counter-section-heading2 {
@@ -372,14 +376,17 @@ body {
   }
   .counter-container{
     width: 90%;
+    margin-top: 2rem;
   }
   .line{
     display: none;
   }
   .counter-container1 p{
     font-size: 1rem;
-    margin-top: 3rem;
     margin-bottom: 1.5rem;
+  }
+  .counter-container1 span{
+    font-size: 1rem;
   }
 }
 
@@ -562,7 +569,7 @@ body {
 }
 
 .header-heading-bottom {
-  background-color: blue;
+  background-color: rgb(0, 0, 101);
   padding: 0.5rem 0.5rem;
   display: flex;
   align-items: center;
