@@ -17,10 +17,15 @@ body {
 }
 .background-img p {
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 5rem;
   font-size: 3rem;
   font-weight: bolder;
   color: white;
+}
+.registration-heading{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
 }
 .container {
   position: absolute;
@@ -215,4 +220,15 @@ form .form-row .textarea {
   white-space: nowrap;
   will-change: box-shadow, transform;
   font-size: 18px;
+}
+@media (max-width:1700px) {
+  .background-img {
+    display: none;
+  }
+  
+}
+@media (min-width : 1700px) {
+  .registration-heading{
+    display: none;
+  }
 }

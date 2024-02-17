@@ -317,8 +317,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  flex-direction: column;
   padding: 1rem;
+  flex-wrap: wrap;
   
 }
 
@@ -359,9 +359,7 @@ body {
     font-size: 12px;
     margin-top: 0;
   }
-  .counter-container1 span{
-    font-size: 1rem;
-  }
+
   .counter-section-heading {
     margin: 1 0rem;
     font-size: 1rem;
@@ -408,7 +406,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   /* Adjust as needed */
-  gap: 2rem;
+  gap: 3rem;
 
 }
 
@@ -514,16 +512,18 @@ body {
 
 /* footer */
 
-
+ 
 .address {
   position: relative;
   margin-top: 15rem;
   font-size: 1rem;
- 
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .address-section-genni {
- 
+
   background: white;
   z-index: 99;
   position: absolute;
@@ -546,9 +546,12 @@ body {
 
 .contact_deatils {
   display: flex;
+align-items: center;
+justify-content: center;
   gap: 2rem;
   padding: 2rem;
 }
+
 .contact_deatils p {
   gap: 1rem;
   font-size: 1rem;
@@ -557,6 +560,9 @@ body {
 
 .address1 {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 
 }
 
@@ -592,69 +598,85 @@ body {
   left: 50%;
   transform: translate(-50%, -15%);
 }
-.email-number{
+
+.email-number {
   font-size: 1rem;
   font-weight: 600;
 }
-.contact_deatils p{
+
+.contact_deatils p {
   font-weight: 800;
 }
-.contact_deatils_heading{
-  text-align: center;
-  font-size: 1.5rem;
-  font-weight: bolder;
-}
 
-@media (max-width : 800px) {
+@media (max-width : 750px) {
 
   .contact_deatils,
   .contact_deatils p {
     gap: 0.5rem;
-    font-size: 10px;
+    font-size: 9px;
     padding: 0.5rem;
   }
-  .header-heading-bottom a,.header-heading-bottom h4  {
-    font-size: 10px;
+
+  .header-heading-bottom a,
+  .header-heading-bottom h4 {
+    font-size: 9px;
     padding: 0;
   }
-  .email-number{
-    font-size: 0.7rem;
+
+  .email-number {
+    font-size: 9px;
     font-weight: 600;
   }
   .address-section-genni {
-    padding: 0.2rem;
-    border-radius: 5px;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 0;
   }
+  
 }
 
-
 @media (max-width : 374px) {
+
   .contact_deatils,
   .contact_deatils p {
     gap: 0.5rem;
-    font-size: 8px;
+    font-size: 7px;
     padding: 0.2rem;
   }
-  .header-heading-bottom a,.header-heading-bottom h4  {
-    font-size: 8px;
+
+  .header-heading-bottom a,
+  .header-heading-bottom h4 {
+    font-size: 7px;
     padding: 0;
   }
-  .email-number{
+
+  .email-number {
     font-size: 0.5rem;
     font-weight: 600;
   }
-  .geeni-location{
+
+  .geeni-location {
     height: 500px;
   }
-  .popular-course-container{
+
+  .popular-course-container {
     padding: 0;
   }
   .address-section-genni {
-    padding: 0.2rem;
-    border-radius: 5px;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 0;
   }
-  .contact_deatils_heading{
-    font-size: 1rem;
+  .popular-course-container{
+    gap:3rem;
+    padding:2rem 2rem;
   }
+
 }
 
+@media (max-width:300px) {
+  .popular-course-container{
+    gap:1rem;
+    padding:0rem;
+  }
+}

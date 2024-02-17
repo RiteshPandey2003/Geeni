@@ -21,15 +21,7 @@
     padding: 1rem;
 }
 
-@media (max-width : 800px) {
 
-    .our-branch-heading {
-
-        font-size: 1.5rem;
-        font-weight: bolder;
-    }
-
-}
 .container{
    width: 100%;
    display: flex;
@@ -94,11 +86,18 @@
     cursor: pointer;
     position: absolute;
     bottom: 1rem;
-    border-radius: 8px ;
+    border-radius: 12px ;
   }
+  @media (max-width : 1520px) {
+    
+    .view-caurse-card{
+        width: 45%;
+    }
+    .our-branch-heading {
 
-
-@media (max-width : 650px) {
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
     .time-limit p{
         font-size:1rem;
      } 
@@ -112,21 +111,18 @@
     }
     .discription{
         font-size: 0.8rem;
-    }
-    .view-caurse-card{
-      height: 280px;
-    }
-    .fullWidthButton{
+    }  
+    .fullWidthButton {
+        padding: 0.3rem;
         font-size: 1rem;
-    }
-   
-    
+    } 
 }
-@media (max-width : 1720px) {
+
+
+@media (max-width : 750px) {
+   
     .view-caurse-card{
         width: 90%;
     }
-    .fullWidthButton {
-        padding: 0.3rem;
-    }
+   
 }

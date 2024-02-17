@@ -964,7 +964,7 @@ li {
   }
 
 
-  .slider-seciton-heading,.counter-section-heading2 {
+  .slider-seciton-heading{
     margin: 1rem;
     font-size: 1.5rem;
   }
@@ -977,6 +977,7 @@ li {
   .slider-seciton {
     margin-top: 5rem;
   }
+ 
 
 }
 
@@ -1028,13 +1029,15 @@ li {
   .counter span {
     font-size: 1rem;
   }
-  .counter-section-heading {
-    margin: 1 0rem;
-    font-size: 1.2rem;
-    font-weight: bold;
-  }
+  
   .fc{
     font-size: 1rem;
+  }
+  .counter-section-heading,.counter-section-heading2 {
+    margin: 1 0rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem 0;
   }
 }
 
@@ -1189,6 +1192,16 @@ li {
   .numbers {
     font-size: 1rem;
     padding: 0.5rem 1rem;
+  }
+  .popular-course-container{
+    gap:3rem;
+    padding:2rem 2rem;
+  }
+}
+@media (max-width:300px) {
+  .popular-course-container{
+    gap:1rem;
+    padding:0rem;
   }
 }
 
@@ -1372,12 +1385,12 @@ p {
 
   .timeline-image1 {
     height: 450px;
-    max-width: 600px;
+    max-width: 400px;
   }
 
   .timeline-images {
     height: 350px;
-    max-width: 600px;
+    max-width: 400px;
   }
 
   #timeline-section-parent {
@@ -1409,6 +1422,11 @@ p {
     max-width: 90%;
   }
 } */
+@media (max-width : 1325px) {
+  .timeline-image1,.timeline-images{
+    display: none;
+  }
+}
 
 
 
@@ -1559,7 +1577,9 @@ span {
   position: relative;
   margin-top: 15rem;
   font-size: 1rem;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .address-section-genni {
@@ -1586,6 +1606,8 @@ span {
 
 .contact_deatils {
   display: flex;
+align-items: center;
+justify-content: center;
   gap: 2rem;
   padding: 2rem;
 }
@@ -1598,6 +1620,9 @@ span {
 
 .address1 {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 
 }
 
@@ -1643,24 +1668,29 @@ span {
   font-weight: 800;
 }
 
-@media (max-width : 800px) {
+@media (max-width : 750px) {
 
   .contact_deatils,
   .contact_deatils p {
     gap: 0.5rem;
-    font-size: 10px;
+    font-size: 9px;
     padding: 0.5rem;
   }
 
   .header-heading-bottom a,
   .header-heading-bottom h4 {
-    font-size: 10px;
+    font-size: 9px;
     padding: 0;
   }
 
   .email-number {
-    font-size: 0.7rem;
+    font-size: 9px;
     font-weight: 600;
+  }
+  .address-section-genni {
+    padding: 1rem;
+    width: 100%;
+    border-radius: 0;
   }
   
 }
@@ -1670,13 +1700,13 @@ span {
   .contact_deatils,
   .contact_deatils p {
     gap: 0.5rem;
-    font-size: 8px;
+    font-size: 7px;
     padding: 0.2rem;
   }
 
   .header-heading-bottom a,
   .header-heading-bottom h4 {
-    font-size: 8px;
+    font-size: 7px;
     padding: 0;
   }
 
