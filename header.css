@@ -1165,12 +1165,11 @@ li {
   }
 
   .popular-course-rectangle {
-    width: 130px;
+    width: 150px;
     height: 180px;
-    padding: 1rem 0;
-    border-radius: 5px;
+    border-radius: 10px;
     /* Adjust as needed for spacing */
-    padding:1.5rem 0.5rem;
+    padding:1.5rem ;
   }
 
   .popular-course-rectangle p {
@@ -1196,14 +1195,18 @@ li {
   }
   .popular-course-container{
     gap:1rem;
-    padding:2rem 2rem;
+    padding:2rem 1rem;
   }
 }
-@media (max-width:300px) {
+@media (max-width:320px) {
   .popular-course-container{
     gap:1rem;
     padding:0rem;
   }
+  .popular-course-rectangle {
+     width: 130px;
+  }
+
 }
 
 
@@ -1607,8 +1610,9 @@ span {
 
 .contact_deatils {
   display: flex;
-  gap: 2rem;
-  padding: 2rem;
+  place-content: center;
+  gap: 5rem;
+  padding: 2rem 1rem;
 }
 
 .contact_deatils p {
@@ -1667,7 +1671,7 @@ span {
   font-weight: 800;
 }
 
-@media (max-width : 750px) {
+@media (max-width : 1400px) {
 
   .contact_deatils,
   .contact_deatils p {
@@ -1686,11 +1690,7 @@ span {
     font-size: 9px;
     font-weight: 600;
   }
-  .address-section-genni,.address-section-genni1  {
-    padding: 1rem;
-    width: 100%;
-    border-radius: 0;
-  }
+  
   
 }
 
@@ -1729,4 +1729,11 @@ span {
 
 }
 
+@media (max-width : 1200px) {
+  .address-section-genni,.address-section-genni1  {
+    padding: 1rem;
+    width: 100%;
+    border-radius: 0;
+  }
+}
 

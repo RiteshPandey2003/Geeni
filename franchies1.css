@@ -213,6 +213,9 @@ body {
 
 .timeline .timeline-container {
   position: relative;
+  display: flex;
+  gap: 2rem;
+  place-items: center;
 }
 
 
@@ -234,6 +237,14 @@ body {
 .timeline .timeline-container .timeline-body .timeline-title p {
   margin-bottom: 1rem;
   font-size: 1rem;
+}
+.timeline_heading_registraion{
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+.time_line_container p{
+  margin-bottom: 1rem;
 }
 
 
@@ -429,11 +440,13 @@ body {
 .popular-course-rectangle p {
   font-size: 1.2rem;
   font-weight: 300;
-  margin: 1.5rem 0;
+  margin: 0;
+  padding-top: 1rem;
 }
 .popular-course-rectangle h1 {
   margin-bottom: 1.5rem ;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .popular-course-heading {
@@ -444,14 +457,17 @@ body {
 
 .mobile-number{
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 0.5rem;
   position: absolute;
   bottom: 1.5rem;
+  font-weight: 500;
 }
-.mobile-number  .fa-solid{
-  font-size: 1.5rem;
+.mobile-number  h2{
+  font-size: 1.3rem;
+  font-weight: 600;
 }
-
 
 
 .popular-course-rectangle1 {
@@ -459,13 +475,17 @@ body {
 
 }
 
-.fa-solid,
-.fas {
-  font-size: 2rem;
+.fa-solid
+{
+  font-size: 1.5rem;
   color: rgb(71, 71, 71);
+
 }
 
-
+.fa-location-dot{
+  font-size: 2.5rem;
+  padding: 1rem;
+}
 
 
 
@@ -483,8 +503,8 @@ body {
   }
 
   .popular-course-rectangle {
-    width: 90%;
-    height: 220px;
+    width: 85%;
+    height: 250px;
      padding: 2rem;
     
     /* Adjust as needed for spacing */
@@ -494,7 +514,8 @@ body {
 
     font-weight: 400;
     font-size: 1rem;
-    margin: 0;margin-top: 1rem;
+    margin: 0;
+    margin-top: 1rem;
   }
   .popular-course-rectangle h1, .mobile-number .fa-solid, .mobile-number h2{
 
@@ -563,8 +584,9 @@ body {
 
 .contact_deatils {
   display: flex;
-  gap: 2rem;
-  padding: 2rem;
+  place-content: center;
+  gap: 5rem;
+  padding: 2rem 1rem;
 }
 
 .contact_deatils p {
@@ -623,7 +645,7 @@ body {
   font-weight: 800;
 }
 
-@media (max-width : 750px) {
+@media (max-width : 1400px) {
 
   .contact_deatils,
   .contact_deatils p {
@@ -642,11 +664,7 @@ body {
     font-size: 9px;
     font-weight: 600;
   }
-  .address-section-genni,.address-section-genni1  {
-    padding: 1rem;
-    width: 100%;
-    border-radius: 0;
-  }
+  
   
 }
 
@@ -684,6 +702,16 @@ body {
   }
 
 }
+
+@media (max-width : 1200px) {
+  .address-section-genni,.address-section-genni1  {
+    padding: 1rem;
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+
 
 .contact_deatils_heading{
   text-align: center;
