@@ -339,7 +339,7 @@ body {
 .counter-container1 p{
   width: 100%;
   font-size: 2rem;
-  font-weight: 900;
+  font-weight: 600;
   word-wrap: break-word;
   margin-bottom: 3rem;
 }
@@ -348,8 +348,9 @@ body {
   font-size: 1.5rem;
   font-weight: 900;
   word-wrap: break-word;
-  padding: 1rem;
+  padding:0.2rem 1rem;
  color: rgb(0, 0, 101);
+ background: white;
 }
 
 
@@ -384,6 +385,7 @@ body {
   .counter-container1 p{
     font-size: 1rem;
     margin-bottom: 1.5rem;
+    font-weight: 600;
   }
   .counter-container1 span{
     font-size: 1rem;
@@ -399,10 +401,7 @@ body {
 }
 
 .popular-course-container-heading {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 3rem 10rem;
+  padding: 3rem;
 
 }
 
@@ -413,7 +412,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   /* Adjust as needed */
-  gap: 3rem;
+  gap: 2rem;
   padding: 1rem;
 
 }
@@ -422,30 +421,38 @@ body {
   border-radius: 20px;
   padding: 2rem;
   width: 500px;
-  height: 300px;
+  height: 250px;
   box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
-  padding-bottom: 1rem;
+  position: relative;
 }
 
 .popular-course-rectangle p {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin: 1.5rem 0;
+}
+.popular-course-rectangle h1 {
+  margin-bottom: 1.5rem ;
+  font-size: 1.8rem;
 }
 
 .popular-course-heading {
   font-size: 2rem;
   font-weight: bolder;
+  text-align: center;
+}
+
+.mobile-number{
+  display: flex;
+  gap: 0.5rem;
+  position: absolute;
+  bottom: 1.5rem;
+}
+.mobile-number  .fa-solid{
+  font-size: 1.5rem;
 }
 
 
-.popular-course-container-heading button {
-  font-size: 1rem;
-  background:  rgb(0, 0, 101);
-  padding: 0.5rem 1rem;
-  color: white;
-  border-radius: 10px;
-}
 
 .popular-course-rectangle1 {
   background: rgb(239 232 239);
@@ -459,16 +466,8 @@ body {
 }
 
 
-.numbers{
-  font-size: 1.5rem;
-  padding: 1rem 1.5rem;
-  background-color: #FFFFFF;
-  border-radius: 50%;
-  font-style: normal;
-  font-weight: 800;
-  border:1px solid rgb(56, 56, 56);
-  
-}
+
+
 
 @media (max-width:870px) {
   .popular-course-container-heading button {
@@ -480,22 +479,34 @@ body {
   .popular-course-container-heading {
     font-size: 1rem;
     padding: 2rem;
+ 
   }
 
   .popular-course-rectangle {
-    width: 120px;
-    height: 200px;
-    padding:1rem;
+    width: 90%;
+    height: 220px;
+     padding: 2rem;
     
     /* Adjust as needed for spacing */
   }
 
-  .popular-course-rectangle p {
+  .popular-course-rectangle p{
 
     font-weight: 400;
-    font-size: 0.8rem;
-    margin-top: 1rem;
+    font-size: 1rem;
+    margin: 0;margin-top: 1rem;
   }
+  .popular-course-rectangle h1, .mobile-number .fa-solid, .mobile-number h2{
+
+    font-weight: 500;
+    font-size: 1rem;
+    margin:0;
+  }
+  .popular-course-rectangle h1{
+    position: absolute;
+    font-size: 1.5rem;
+  }
+  
 
   .popular-course-heading {
     font-size: 1.2rem;
@@ -513,6 +524,7 @@ body {
     font-size: 1rem;
     padding: 0.5rem 1rem;
   }
+  
 }
 
 
@@ -673,4 +685,8 @@ body {
 
 }
 
-
+.contact_deatils_heading{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}

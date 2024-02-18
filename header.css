@@ -394,7 +394,7 @@ nav .navbar .links li:hover .js-sub-menu {
 
 .gate-section-cureve {
   width: 72%;
-  font-size: 14.5px;
+  font-size: 15px;
   color: rgb(0, 0, 101);
   ;
 
@@ -403,10 +403,9 @@ nav .navbar .links li:hover .js-sub-menu {
 
 text {
   text-align: center;
-  fill: rgb(0, 0, 101);
-  ;
+  fill: rgb(0, 0, 101);;
   text-anchor: middle;
-
+   font-weight: bolder;
 
 }
 
@@ -901,16 +900,16 @@ li {
   display: flex;
   justify-content: center;
   text-align: center;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .counter {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-top: 10px;
 }
 
 .fc{
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 .count-one-by-one {
@@ -1015,6 +1014,7 @@ li {
     border-style: none;
     width: 100%;
     flex-direction: column;
+    gap: 0.2rem;
   }
 
   .line {
@@ -1048,7 +1048,7 @@ li {
   }
 }
 
-@media (max-width:420px) {
+@media (max-width:500px) {
   .counter-section{
     width: 100%;
     border-radius: 0;
@@ -1165,16 +1165,17 @@ li {
   }
 
   .popular-course-rectangle {
-    width: 120px;
+    width: 130px;
     height: 180px;
-    padding: 1rem;
+    padding: 1rem 0;
     border-radius: 5px;
     /* Adjust as needed for spacing */
+    padding:1.5rem 0.5rem;
   }
 
   .popular-course-rectangle p {
 
-    font-weight: 400;
+    font-weight: 700;
     font-size: 0.8rem;
     margin-top: 1rem;
   }
@@ -1194,7 +1195,7 @@ li {
     padding: 0.5rem 1rem;
   }
   .popular-course-container{
-    gap:3rem;
+    gap:1rem;
     padding:2rem 2rem;
   }
 }
@@ -1277,7 +1278,7 @@ p {
   left: 0;
   top: 5%;
   width: 4px;
-  height: 75%;
+  height: 72%;
   background: red;
 }
 
@@ -1312,7 +1313,7 @@ p {
 
 .timeline .timeline-container .timeline-body {
 
-  padding: 0.5rem 0;
+  padding: 1rem 0;
   border-radius: 3px;
   color: black;
 }
@@ -1399,7 +1400,8 @@ p {
   }
 
   .timeline .timeline-container .timeline-body .timeline-title {
-    font-size: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
   }
 
   .timeline .timeline-container .timeline-body .timeline-title p {
