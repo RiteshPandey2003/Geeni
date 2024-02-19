@@ -109,12 +109,16 @@ body {
   align-items: center;
   justify-content: center;
   gap: 3rem;
+  
 }
 
 .benifits-discription {
   width: 40%;
   text-align: left;
   display: flex;
+  font-size: 1.5rem;
+  align-items: center;
+  justify-content: center;
 
 }
 
@@ -178,32 +182,38 @@ body {
   font-weight: bolder;
   padding: 1rem;
 }
-.page-button:active{
-  border-bottom: 5px solid  rgb(0, 0, 101);
+
+.button-border {
+  border-bottom: 5px solid rgb(0, 0, 101);
 }
 
-
 @media (max-width : 800px) {
-  .benifits-discription {
-    width: 80%;
-  }
+ 
 
   /* #About-us-section {
     height: 900px;
   } */
   .time-limit, .certicate_discription,.button-29{
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .price{
-   font-size: 1.2rem;
+   font-size: 1rem;
   }
-  .certificate_title{
-    font-size: 1.8rem;
+  .certificate_title,.genni{
+    font-size: 1.2rem;
   }
   .page-button{
     font-size: 1.2rem;
   }
   .page-button:hover{
-    border-bottom: 5px solid blue;
+    border-bottom: 5px solid rgb(0, 0, 101);
+  }
+  #benefits{
+    gap: 1rem;
+    font-size: 0.8rem;
+  }
+  .benifits-discription{
+    width: 100%;
+    font-size: 0.8rem;
   }
 }

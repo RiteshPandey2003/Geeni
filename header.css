@@ -742,6 +742,7 @@ path {
 
 .our-goal-discription {
   margin: 1rem 0;
+  font-size: 1rem;
 }
 
 .company-introduciton-section {
@@ -763,7 +764,7 @@ path {
 .about-us-heading {
   font-size: 2.5rem;
   font-weight: bolder;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .more-about-us {
@@ -816,8 +817,8 @@ path {
   }
 
   .about-us-heading {
-    font-size: 1.5rem;
-    padding: 1rem 0;
+    font-size: 1.2rem;
+  
 
   }
 
@@ -831,6 +832,10 @@ path {
     gap: 2rem;
     margin-bottom: 3rem;
     margin-top: 8rem;
+  }
+  .our-goal-discription {
+    font-size: 0.8rem;
+    margin:0.5rem 0 ;
   }
 
 }
@@ -963,7 +968,7 @@ li {
 
   .slider-seciton-heading{
     margin: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .center-block {
@@ -972,7 +977,7 @@ li {
   }
 
   .slider-seciton {
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
  
 
@@ -1025,7 +1030,7 @@ li {
 
   .counter,
   .counter span {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   
   .fc{
@@ -1033,7 +1038,7 @@ li {
   }
   .counter-section-heading,.counter-section-heading2 {
     margin: 1 0rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     padding: 1rem 0;
   }
@@ -1263,7 +1268,7 @@ li {
 p {
   font-weight: 300;
   line-height: 1.5;
-  font-size: 14px;
+  font-size: 0.8rem;
   opacity: 0.8;
 }
 
@@ -1381,7 +1386,7 @@ p {
     padding: 0.2rem;
   }
   .time_line_container_heading{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
   }
 
@@ -1401,7 +1406,7 @@ p {
   }
 
   .timeline .timeline-container .timeline-body .timeline-title {
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 600;
   }
 
@@ -1555,8 +1560,9 @@ span {
   }
 
   .faq-heading {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 2rem 0;
+    padding: 0;
   }
 
   .accordion button .icon {
@@ -1571,6 +1577,9 @@ span {
   .accordion-content-answere {
     font-size: 7px;
   }
+  .accordion button .accordion-title, .accordion .accordion-content p{
+    font-size: 0.8rem;
+  }
 }
 
 
@@ -1579,7 +1588,7 @@ span {
 
 .address {
   position: relative;
-  margin-top: 15rem;
+  margin-top: 10rem;
   font-size: 1rem;
   
 }

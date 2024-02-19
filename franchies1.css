@@ -231,7 +231,7 @@ body {
 
 .timeline .timeline-container .timeline-body .timeline-title {
   margin-bottom: 1rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .timeline .timeline-container .timeline-body .timeline-title p {
@@ -239,18 +239,19 @@ body {
   font-size: 1rem;
 }
 .timeline_heading_registraion{
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bolder;
   margin-bottom: 1rem;
 }
 .time_line_container p{
   margin-bottom: 1rem;
+  font-size: 0.8rem;
 }
 
 
 @media (max-width : 1000px) {
   .timeline-section-parent-heading {
-    font-size: 2rem;
+    font-size: 1.2rem;
     margin-top: 3rem;
     padding: 0.2rem;
   }
@@ -270,11 +271,14 @@ body {
   }
 
   .timeline .timeline-container .timeline-body .timeline-title {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .timeline .timeline-container .timeline-body .timeline-title p {
-    font-size: 10px;
+    font-size: 0.7rem;
+  }
+  .timeline_heading_registraion{
+    font-size: 1.2rem;
   }
  
 }
@@ -336,7 +340,7 @@ body {
 .counter-section-heading {
   text-align: center;
   margin-bottom: 2rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bolder;
   color: rgb(0, 0, 101);
 }
@@ -349,7 +353,7 @@ body {
 }
 .counter-container1 p{
   width: 100%;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   word-wrap: break-word;
   margin-bottom: 3rem;
@@ -378,7 +382,7 @@ body {
 
   .counter-section-heading {
     margin: 1 0rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
   }
   .counter-section-heading2 {

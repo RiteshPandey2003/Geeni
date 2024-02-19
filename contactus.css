@@ -141,6 +141,7 @@ body {
     justify-content: center;
     flex-direction: column;
     color: white;
+    margin:0.3rem 0;
     
 }
   
@@ -153,6 +154,8 @@ body {
     .counter-section{
         width: 100%;
       padding: 2rem;
+      border-radius: 0;
+
     }
   
     .counter-section-heading {

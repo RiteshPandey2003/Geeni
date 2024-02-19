@@ -40,9 +40,9 @@
 
     <div class="page-container">
         <div class="button-container">
-            <p class="page-button" onclick="showPage('benefits')">Benefits</p>
-            <p class="page-button " onclick="showPage('syllabus')">Syllabus</p>
-            <p class="page-button " onclick="showPage('faq')">FAQ</p>
+          <p id="buttonpage-benefits" class="page-button button-border" onclick="showPage('benefits')">Benefits</p>
+          <p id="buttonpage-syllabus" class="page-button" onclick="showPage('syllabus')">Syllabus</p>
+          <p id="buttonpage-faq" class="page-button" onclick="showPage('faq')">FAQ</p>
           </div>
         <div id="benefits"  class="page visible ">
           <p class="benifits-discription "><i class="fa-solid fa-check "></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis delectus aperiam voluptatum, omnis maxime doloremque.</p>
@@ -62,25 +62,33 @@
         </div>
      </div>
      <script>
-        function showPage(pageId) {
-
-          var selectedPage = document.getElementById(pageId);
- 
-          var isVisible = selectedPage.classList.contains('visible');
-  
-          // Hide all pages
-          var pages = document.querySelectorAll('.page');
-          pages.forEach(function (page) {
-            page.classList.remove('visible');
-          });
-          if (!isVisible) {
-            selectedPage.classList.add('visible');
-          }
-          else{
-            selectedPage.classList.add('visible');
-          }
+      function showPage(pageId) {
+        var selectedPage = document.getElementById(pageId);
+        var isVisible = selectedPage.classList.contains('visible');
+    
+        // Remove underline from all buttons
+        var buttons = document.querySelectorAll('.page-button');
+        buttons.forEach(function (button) {
+          button.classList.remove('button-border');
+        });
+    
+        // Hide all pages
+        var pages = document.querySelectorAll('.page');
+        pages.forEach(function (page) {
+          page.classList.remove('visible');
+        });
+    
+        if (!isVisible) {
+          selectedPage.classList.add('visible');
+    
+          // Add underline to the clicked button
+          var clickedButton = document.getElementById('buttonpage-' + pageId);
+          clickedButton.classList.add('button-border');
         }
-      </script>
+      }
+    </script>
+    
+        
 
       
   </body>

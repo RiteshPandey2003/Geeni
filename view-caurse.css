@@ -10,7 +10,7 @@
 .our-branch-heading {
     text-align: center;
     margin-top: 5rem;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bolder;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .view-caurse-card-container-heading, .fa-solid, .price{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bolder;
     padding: 0.5rem 0rem;
     word-wrap: break-word;
@@ -71,7 +71,7 @@
     word-wrap: break-word;
     font-weight: 600;
     padding: 1rem 0;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .fullWidthButton {
@@ -82,7 +82,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     cursor: pointer;
     position: absolute;
     bottom: 1rem;
@@ -92,21 +92,22 @@
     
     .view-caurse-card{
         width: 45%;
+        height: 300px;
     }
     .our-branch-heading {
 
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: bolder;
     }
     .time-limit p{
         font-size:1rem;
      } 
      .view-caurse-card-container-heading, .fa-solid, .price{
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: bolder;
     }
     .view-caurse-card-container-heading, .fa-solid, .price,.fullWidthButton{
-        font-size:1.3rem;
+        font-size:1rem;
        border-radius: 5px;
     }
     .discription{
