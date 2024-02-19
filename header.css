@@ -1168,7 +1168,7 @@ li {
   }
 
   .popular-course-rectangle {
-    width: 150px;
+    width: 170px;
     height: 200px;
     border-radius: 10px;
     /* Adjust as needed for spacing */
@@ -1201,7 +1201,7 @@ li {
     padding:2rem 1rem;
   }
 }
-@media (max-width:320px) {
+@media (max-width:365px) {
   .popular-course-container{
     gap:1rem;
     padding:0rem;
