@@ -91,7 +91,7 @@
     justify-content: center;
 }
 
-@media (max-width : 1070px) {
+@media (max-width : 1500px) {
     
     .card_img {
         width: 80px;
@@ -135,13 +135,19 @@
     
 }
 
-@media (max-width : 870px) {
+@media (max-width : 1060px) {
+    .card{
+        width: 45%;
+        
+    }
+    
+    
+}
+@media (max-width : 600px) {
     .card{
         width: 90%;
-        text-align: center;
+        
     }
-    .details{
-        place-content: center;
-    }
+   
     
 }
