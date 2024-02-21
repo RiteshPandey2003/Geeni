@@ -59,7 +59,7 @@
   justify-content: center;
   align-items: flex-start;
   padding: 2rem 1rem;
-  min-height: 250px;
+  min-height: 300px;
 }
 
 
@@ -117,7 +117,7 @@
     font-size: 1rem;
 }
 .course-count p{
-  font-size: 0.8rem;
+  font-size: 1rem;
   padding: 0rem 0.5rem;
 }
 
@@ -131,8 +131,8 @@
   width: 100%;
 }
 .fullWidthButton{
-    padding: 10px; /* Adjust padding as needed */
-    background:  rgb(0, 0, 101);
+    padding: 1rem; /* Adjust padding as needed */
+    background:  #191A88;
     color: white;
     border: none;
     text-align: center;
@@ -178,4 +178,9 @@
      .course-count{
       font-size: 0.8rem;
      }
+}
+.fullWidthButton:hover{
+  background: white;
+  border: 2px solid #191A88;
+  color: #191A88; 
 }
