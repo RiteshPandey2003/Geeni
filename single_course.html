@@ -11,7 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-   <link rel="stylesheet" href="single_page.css" >
+    <link rel="stylesheet" href="single_page.css" />
   </head>
   <body>
     <section id="About-us-section">
@@ -28,7 +28,9 @@
           <p>Duration : 3 months</p>
         </div>
         <div class="price">10000</div>
-        <a href="registration.html"><button class="button-29" role="button">Register</button></a>
+        <a href="registration.html"
+          ><button class="button-29" role="button">Enroll Now</button></a
+        >
       </div>
       <div class="company-introduciton-section-parent">
         <img
@@ -39,57 +41,83 @@
     </section>
 
     <div class="page-container">
-        <div class="button-container">
-          <p id="buttonpage-benefits" class="page-button button-border" onclick="showPage('benefits')">Benefits</p>
-          <p id="buttonpage-syllabus" class="page-button" onclick="showPage('syllabus')">Syllabus</p>
-          <p id="buttonpage-faq" class="page-button" onclick="showPage('faq')">FAQ</p>
-          </div>
-        <div id="benefits"  class="page visible ">
-          <p class="benifits-discription "><i class="fa-solid fa-check "></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis delectus aperiam voluptatum, omnis maxime doloremque.</p>
-          <p class="benifits-discription"><i class="fa-solid fa-check "></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis delectus aperiam vo luptatum, omnis maxime doloremque.</p>
-          <p class="benifits-discription"><i class="fa-solid fa-check "></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis delectus aperiam voluptatum, omnis maxime doloremque.</p>
-          <p class="benifits-discription" ><i class="fa-solid fa-check "></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis delectus aperiam voluptatum, omnis maxime doloremque.</p>
-        </div>
-    
-        <div id="syllabus" class="page">
-          <h2>Syllabus Page</h2>
-          <p>This is the syllabus page content.</p>
-        </div>
-    
-        <div id="faq" class="page"> 
-          <h2>FAQ Page</h2>
-          <p>This is the FAQ page content.</p>
-        </div>
-     </div>
-     <script>
+      <div class="button-container">
+        <p
+          id="buttonpage-benefits"
+          class="page-button button-border"
+          onclick="showPage('benefits')"
+        >
+          Benefits
+        </p>
+        <p
+          id="buttonpage-syllabus"
+          class="page-button"
+          onclick="showPage('syllabus')"
+        >
+          Syllabus
+        </p>
+        <p id="buttonpage-faq" class="page-button" onclick="showPage('faq')">
+          FAQ
+        </p>
+      </div>
+      <div id="benefits" class="page visible">
+        <p class="benifits-discription">
+          <i class="fa-solid fa-check"></i>Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Perspiciatis delectus aperiam
+          voluptatum, omnis maxime doloremque.
+        </p>
+        <p class="benifits-discription">
+          <i class="fa-solid fa-check"></i>Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Perspiciatis delectus aperiam vo
+          luptatum, omnis maxime doloremque.
+        </p>
+        <p class="benifits-discription">
+          <i class="fa-solid fa-check"></i>Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Perspiciatis delectus aperiam
+          voluptatum, omnis maxime doloremque.
+        </p>
+        <p class="benifits-discription">
+          <i class="fa-solid fa-check"></i>Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Perspiciatis delectus aperiam
+          voluptatum, omnis maxime doloremque.
+        </p>
+      </div>
+
+      <div id="syllabus" class="page">
+        <h2>Syllabus Page</h2>
+        <p>This is the syllabus page content.</p>
+      </div>
+
+      <div id="faq" class="page">
+        <h2>FAQ Page</h2>
+        <p>This is the FAQ page content.</p>
+      </div>
+    </div>
+    <script>
       function showPage(pageId) {
         var selectedPage = document.getElementById(pageId);
-        var isVisible = selectedPage.classList.contains('visible');
-    
+        var isVisible = selectedPage.classList.contains("visible");
+
         // Remove underline from all buttons
-        var buttons = document.querySelectorAll('.page-button');
+        var buttons = document.querySelectorAll(".page-button");
         buttons.forEach(function (button) {
-          button.classList.remove('button-border');
+          button.classList.remove("button-border");
         });
-    
+
         // Hide all pages
-        var pages = document.querySelectorAll('.page');
+        var pages = document.querySelectorAll(".page");
         pages.forEach(function (page) {
-          page.classList.remove('visible');
+          page.classList.remove("visible");
         });
-    
+
         if (!isVisible) {
-          selectedPage.classList.add('visible');
-    
+          selectedPage.classList.add("visible");
+
           // Add underline to the clicked button
-          var clickedButton = document.getElementById('buttonpage-' + pageId);
-          clickedButton.classList.add('button-border');
+          var clickedButton = document.getElementById("buttonpage-" + pageId);
+          clickedButton.classList.add("button-border");
         }
       }
     </script>
-    
-        
-
-      
   </body>
 </html>

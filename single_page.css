@@ -20,7 +20,7 @@ body {
   align-items: center;
   justify-content: space-around;
   padding: 2rem 1rem;
-  background: rgb(209, 242, 255);
+  background: #EDF1FF;
 }
 
 .company-img-genni {
@@ -37,7 +37,7 @@ body {
   font-size: 2rem;
   font-weight: 900;
   color: white;
-  background:  rgb(0, 0, 101);
+  background:  #191A88;
   padding: 0.3rem;
 }
 
@@ -48,7 +48,7 @@ body {
 }
 
 .certicate_discription {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .time-limit {
@@ -141,7 +141,7 @@ body {
   width: fit-content;
   align-items: center;
   appearance: none;
-  background:  rgb(0, 0, 101);
+  background:  #191A88;
   border: 0;
   border-radius: 6px;
   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
@@ -157,8 +157,7 @@ body {
   line-height: 1;
   list-style: none;
   overflow: hidden;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding:0.5rem 1rem;
   position: relative;
   text-align: left;
   text-decoration: none;
@@ -170,6 +169,12 @@ body {
   will-change: box-shadow, transform;
   font-size: 1.5rem;
   margin-top: 2rem;
+}
+.fa-clock{
+  background: rgb(147, 147, 186);
+  padding: 0.5rem;
+  border-radius: 50%;
+  color: #191A88;
 }
 
 .button-container{

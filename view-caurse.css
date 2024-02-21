@@ -75,8 +75,8 @@
 }
 
 .fullWidthButton {
-    padding: 10px; /* Adjust padding as needed */
-    background:  rgb(0, 0, 101);
+    padding: 0.5rem 1rem; /* Adjust padding as needed */
+    background:  #191A88;
     color: white;
     border: none;
     text-align: center;
@@ -86,7 +86,7 @@
     cursor: pointer;
     position: absolute;
     bottom: 1rem;
-    border-radius: 12px ;
+    border-radius: 5px ;
   }
   @media (max-width : 1520px) {
     
@@ -115,7 +115,7 @@
     }  
     .fullWidthButton {
         padding: 0.3rem;
-        font-size: 1rem;
+        font-size: 0.8rem;
     } 
 }
 
@@ -126,4 +126,9 @@
         width: 90%;
     }
    
+}
+.fullWidthButton:hover{
+    background: white;
+  border: 2px solid #191A88;
+  color: #191A88; 
 }
