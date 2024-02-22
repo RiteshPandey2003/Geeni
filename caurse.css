@@ -539,11 +539,10 @@ nav .navbar .links li:hover .js-sub-menu {
     justify-content: start;
     gap: 0.2rem;
     padding: 0.4rem 0.2rem;
-    
   }
   .moto img{
     padding: 0.2rem 0.2rem;
-    height: 2rem;
+    height: 1.8rem;
   }
 .fa-book{
   color: purple;
