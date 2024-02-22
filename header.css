@@ -1687,7 +1687,7 @@ span {
 
 .address {
   position: relative;
-  margin-top: 10rem;
+  margin-top: 15rem;
   font-size: 1rem;
 
 }
@@ -1796,103 +1796,46 @@ span {
   padding: 0.2rem 0.5rem;
 }
 
-@media (max-width : 1300px) {
-
-  .contact_deatils,
-  .contact_deatils p {
-    gap: 1rem;
-    font-size: 9px;
-    padding: 0.5rem;
-  }
-
-  .header-heading-bottom a,
-  .header-heading-bottom h4 {
-    font-size: 9px;
-    padding: 0;
-  }
-
-  .email-number {
-    font-size: 9px;
-    font-weight: 600;
-  }
-
-  .Administration,
-  .Director,
-  .genral_information {
-    display: flex;
-    font-size: 1rem;
-    margin-top: 1rem;
-    gap: 0.2rem;
-  }
-
-
+.innter-contactdetails{
+  display: flex;
+  gap: 1rem;
 }
 
-@media (max-width : 550px) {
 
-  .contact_deatils,
-  .contact_deatils p {
-    gap: 0.3rem;
-    font-size: 7px;
-    padding: 0.1rem;
-  }
-
-  .header-heading-bottom a,
-  .header-heading-bottom h4 {
-    font-size: 7px;
-    padding: 0;
-  }
-
-  .email-number {
-    font-size: 0.5rem;
-    font-weight: 600;
-  }
-
-  .geeni-location {
-    height: 500px;
-  }
-
-  .popular-course-container {
-    padding: 0;
-  }
-
-  .address-section-genni1 {
-    padding: 1rem;
+@media (max-width : 1190px) {
+   .address-section-genni,.address-section-genni1{
     width: 100%;
-    border-radius: 0;
+    border-radius: 0px;
+   }
+   .address{
+    margin-top : 20rem
   }
-
-  .address-section-genni h3 {
-    font-size: 1rem;
+   .header-heading-bottom {
+    transform: skew(0deg);
+    width: 100%;
   }
-
-  .Administration,
-  .Director,
-  .genral_information {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  iframe{
+    height: 700px;
+  }
+} 
+@media (max-width : 790px) {
+  .Details-upper{
     flex-direction: column;
-    font-size: 1rem;
-    margin-top: 1rem;
-    gap: 0.2rem;
-  }
-
-  .popular-course-container-heading {
-    padding: 2rem 0.5rem;
-  }
-
-}
-
-@media (max-width : 1200px) {
-
-  .address-section-genni,
-  .address-section-genni1 {
-    padding: 1rem;
     width: 100%;
-    border-radius: 0;
+    margin: auto;
+  }
+
+  .contact_deatils{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .address-section-genni1{
+    width: 100%;
   }
 }
+
+
 
 .register-now-button-btn:hover{
   border:3px solid #191A88;
@@ -1908,24 +1851,17 @@ span {
   font-weight: bolder;
   scale: 20px;
 }
+
+.more-about-us1:hover{
+  border: 2px solid white;
+  background: #191A88;
+  color: white;
+}
+
 .popular-course-container-heading button:hover{
   border:3px solid #191A88;
   background-color: #FFFFFF;
   color: #191A88;
   font-weight: bolder;
   scale: 20px;
-}
-.more-about-us1:hover{
-  border: 2px solid white;
-  background: #191A88;
-  color: white;
-}
-.rb{
-  color: #191A88;
-}
-.fb{
-  color: #191A88;
-  padding: 0.3rem;
-  border-radius: 50%;
-  box-shadow: rgba(100, 100, 111, 0.4) 2px 7px 19px 2px;
 }
