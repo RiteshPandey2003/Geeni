@@ -29,12 +29,13 @@ body {
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    color: #FFFFFF;
   }
   
   .managed-by {
     margin-top: 1.5rem;
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 500;color: #FFFFFF;
   
   }
   
@@ -42,6 +43,7 @@ body {
     margin-top: 1rem;
     font-size: 3rem;
     font-weight: bold;
+    color: white;
   
   }
   .geeni-estibleshment{
@@ -51,8 +53,11 @@ body {
     flex-direction: column;
     width: 100%;
     min-height: 250px;
-    background: linear-gradient(120deg, white, pink, rgb(100, 100, 255));
+    background-image: url("./images/amdoingweell\(20\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 5rem 0;
+    color: #FFFFFF;
   }
 
   .logo-backgound{
@@ -69,6 +74,7 @@ body {
     background-color: rgba(255, 255, 255, 0.155);
     opacity: 0.8;
     position: relative;
+    color: black;
 }
   
   .company-About p {

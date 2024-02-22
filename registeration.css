@@ -9,27 +9,33 @@
 }
 
 body {
-  min-height: 100vh;
   font-family: "Poppins", sans-serif;
 }
 
+.wrapper {
+  height: fit-content;
+
+  width: 100%;
+  position: relative;
+  background-image: url("./images/Frame\ 9113.png");
+  background-repeat: none;
+  background-size: 100% 50%;
+  background-repeat: no-repeat;
+}
+
 .background-img {
+  position: absolute;
   height: 50vh;
   background: rgb(0, 0, 101);
 }
 
-.background-img p {
+
+.resistra-page-heading {
   text-align: center;
-  padding-top: 5rem;
+  padding: 5rem 0;
   font-size: 3rem;
   font-weight: bolder;
-  color: white;
-}
-
-.registration-heading {
-  text-align: center;
-  font-size: 2rem;
-  font-weight: bolder;
+  color: white
 }
 
 
@@ -40,10 +46,6 @@ body {
   padding: 25px 40px 10px 40px;
   box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
   border-radius: 20px;
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* Center the container */
 }
 
 .container form .form-row {
@@ -77,6 +79,9 @@ form .form-row .textarea {
   font-size: 1.2rem;
   margin-top: 1rem;
   border: 2px solid gray;
+}
+.input-data span{
+  color: red;
 }
 
 .textarea textarea {
@@ -114,8 +119,47 @@ form .form-row .textarea {
   .container form .form-row {
     flex-wrap: wrap;
   }
-  .container{
-  width: 100%;
-  border-radius: 0;
+
+  .container {
+    top: 125%;
+    width: 100%;
+    border-radius: 0;
+  }
+  .resistra-page-heading{
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+
+}
+
+@media (max-width : 500px) {
+  .container form .form-row {
+    flex-wrap: wrap;
+  }
+
+  .container {
+    top: 125%;
+    width: 100%;
+    border-radius: 0;
+    padding: 0;
+    margin-top: 1rem;
+  }
+
+  .input-data input,
+  .textarea textarea {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  .input-data label {
+    font-size: 1rem;
+  }
+
+  .container form .form-row {
+    gap: 2rem;
+  }
+  .button-29 {
+    padding: 0.2rem 0.5rem;
+    font-size: 1rem;
   }
 }
