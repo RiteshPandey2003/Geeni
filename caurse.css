@@ -391,40 +391,39 @@ nav .navbar .links li:hover .js-sub-menu {
     font-weight: bolder;
 }
 
-#Our_Branch_section{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center ;
-    align-items: center;
-    padding: 1rem;
-    
-}
+
 @media (max-width : 800px) {
     
     .our-branch-heading{
         
         font-size: 1.5rem;
         font-weight: bolder;
+        margin-bottom: 2rem;
     }
     .button-26{
       font-size: 7px;
       padding: 0.2rem 0.5rem;
     }
 }
-
+#Our_Branch_section{
+  width: 100%;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  padding: 1rem;
+}
 
 .container {
   display: flex;
-  width: 1800px;
-  gap: 2rem;
+  max-width: 90%;
+  height: 50px;
   flex-wrap: wrap;
 }
 .card {
-  margin: 10px;
   background-color: #fff;
   border-radius: 10px;
   overflow: hidden;
-  width: 30%;
+  width: 31.3%;
   margin: 1rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -485,7 +484,6 @@ nav .navbar .links li:hover .js-sub-menu {
 .slogan{
     background: 100%;
     border-radius: 16px;
-    margin-bottom: 0.5rem;
     line-height: 100%;
     padding-top: 0.4rem;
 }
@@ -537,14 +535,15 @@ nav .navbar .links li:hover .js-sub-menu {
     border: 50px;
     border-radius: 20px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: start;
     gap: 0.2rem;
     padding: 0.4rem 0.2rem;
+    
   }
   .moto img{
     padding: 0.2rem 0.2rem;
-    height: 1.8rem;
+    height: 2rem;
   }
 .fa-book{
   color: purple;
@@ -552,25 +551,43 @@ nav .navbar .links li:hover .js-sub-menu {
   padding: 0.5rem;
   border-radius: 50%;
 }
-
-@media (max-width: 1690px) {
-
-
-  .card {
-    width: 29%; /* Adjust the width as needed to fit within the container */
-    margin: 1rem; /* Add margin to create space between cards */
+@media (max-width : 1800px) {
+  .card{
+    width: 31%;
   }
 }
-@media (max-width: 1280px) {
-
-  .card {
-    width: 45%; /* Adjust the width as needed to fit within the container */
-    margin: 1rem; /* Add margin to create space between cards */
+@media (max-width : 1560px) {
+  .card{
+    width: 30.6%;
   }
 }
-@media (max-width : 1000px) {
+@media (max-width : 1350px) {
+  .card{
+    width: 30.2%;
+  }
+}
+@media (max-width : 1168px) {
+  .card{
+    width: 30%;
+  }
+}
+@media (max-width : 1100px) {
+  .card{
+    width: 46%;
+
+  }
+}
+@media (max-width : 940px) {
+  .card{
+    width: 45%;
+  }
+}
+
+
+
+@media (max-width : 750px) {
     .card {
-         width: 90%; 
+       width: 70%; 
         margin: auto;
       }
       .card-body{
@@ -594,6 +611,14 @@ nav .navbar .links li:hover .js-sub-menu {
      #Our_Branch_section{
       padding: 0;
      }
+     .container{
+      gap: 2rem;
+     }
+}
+@media (max-width : 540px) {
+  .card{
+    width: 90%;
+  }
 }
 .fullWidthButton:hover{
   background: white;

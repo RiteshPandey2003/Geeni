@@ -69,7 +69,6 @@ body {
     background-color: rgba(255, 255, 255, 0.155);
     opacity: 0.8;
     position: relative;
-    margin-top: 5rem;
 }
   
   .company-About p {
@@ -117,11 +116,12 @@ body {
     .discription-frachies{
      font-size: 0.8rem;
     }
+    
   }
 
 
   .section-popular-course-container {
-    margin-top: 5rem;
+    margin-top: 3rem;
     width: 100%;
      padding-bottom: 15rem;
   }
@@ -148,7 +148,7 @@ body {
     padding: 2rem;
     width: 22%;
     height: 250px;
-    box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+    box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
     padding-bottom: 1rem;
     display: flex;
     align-items: center;
@@ -206,7 +206,7 @@ body {
     }
   
     .popular-course-rectangle {
-      width: 80%;
+      width: 40%;
       height: 220px;
       padding:1rem;
       
@@ -242,4 +242,9 @@ body {
   .fc {
     color: white;
     font-size: 4rem;
+  }
+  @media (max-width : 560px) {
+    .popular-course-rectangle{
+      width: 90%;
+    }
   }
