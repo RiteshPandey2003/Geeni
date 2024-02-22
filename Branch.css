@@ -397,6 +397,7 @@ nav .navbar .links li:hover .js-sub-menu {
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    gap: 2rem;
 }
 @media (max-width : 800px) {
     
@@ -418,13 +419,7 @@ nav .navbar .links li:hover .js-sub-menu {
     font-weight: bolder;
 }
 
-#Our_Branch_section{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    padding: 1rem;
-}
+
 
 .card {
     padding: 1rem;
@@ -493,6 +488,21 @@ nav .navbar .links li:hover .js-sub-menu {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@media (max-width: 1690px) {
+
+
+  .card {
+    width: 29%; /* Adjust the width as needed to fit within the container */
+    margin: 1rem; /* Add margin to create space between cards */
+  }
+}
+@media (max-width: 1280px) {
+
+  .card {
+    width: 45%; /* Adjust the width as needed to fit within the container */
+    margin: 1rem; /* Add margin to create space between cards */
+  }
 }
 
 @media (max-width : 1500px) {

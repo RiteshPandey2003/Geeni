@@ -828,7 +828,7 @@ path {
 }
 
 .more-about-us1 {
-  margin-top: 2rem;
+  margin: 4rem 0;
   margin-left: 1rem;
   font-size: 1rem;
   padding: 0.5rem 1rem;
@@ -836,6 +836,7 @@ path {
   font-weight: bold;
   background: white;
   border-radius: 5px;
+  
 }
 
 @media (max-width:1250px) {
@@ -955,7 +956,6 @@ li {
   justify-content: center;
   border-radius: 12px;
   padding: 6rem 0 ;
-
   margin-top: 3rem;
 }
 
@@ -997,6 +997,7 @@ li {
   font-size: 2.5rem;
   font-weight: bolder;
   color: white;
+padding-top: 3rem;
 }
 
 .more-about-us {
@@ -1103,19 +1104,18 @@ li {
 
   .counter,
   .counter span {
-    font-size: 0.8rem;
+    font-size: 1rem;
+  }
+  .counter-section span{
+     font-size: 0.8rem;
   }
 
-  .fc {
-    font-size: 1.5rem;
-  }
 
   .counter-section-heading,
   .counter-section-heading2 {
     margin: 1 0rem;
     font-size: 1.2rem;
     font-weight: bold;
-    padding: 1rem 0;
   }
   .more-about-us {
     font-size: 0.8rem;
@@ -1241,8 +1241,8 @@ li {
 }
 
 .course-icon{
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
 }
 
 @media (max-width : 1250px) {

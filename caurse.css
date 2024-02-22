@@ -394,9 +394,10 @@ nav .navbar .links li:hover .js-sub-menu {
 #Our_Branch_section{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:center ;
     align-items: center;
     padding: 1rem;
+    
 }
 @media (max-width : 800px) {
     
@@ -414,8 +415,7 @@ nav .navbar .links li:hover .js-sub-menu {
 
 .container {
   display: flex;
-  width: 100%;
-  justify-content: center;
+  width: 1800px;
   gap: 2rem;
   flex-wrap: wrap;
 }
@@ -424,7 +424,7 @@ nav .navbar .links li:hover .js-sub-menu {
   background-color: #fff;
   border-radius: 10px;
   overflow: hidden;
-  width: 25%;
+  width: 30%;
   margin: 1rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -483,10 +483,11 @@ nav .navbar .links li:hover .js-sub-menu {
   border-radius: 12px;
 }
 .slogan{
-    margin: 0 0.5rem;
     background: 100%;
     border-radius: 16px;
     margin-bottom: 0.5rem;
+    line-height: 100%;
+    padding-top: 0.4rem;
 }
 .course-count{
     display: flex;
@@ -500,6 +501,7 @@ nav .navbar .links li:hover .js-sub-menu {
   font-size: 1rem;
   padding: 0rem 0.5rem;
 }
+
 
 .caurse-card-heading{
     font-size: 1.5rem;
@@ -529,16 +531,20 @@ nav .navbar .links li:hover .js-sub-menu {
   }
 
   .moto{
-    height: 1.8rem;
     width: 100%;
     font-size: 1rem;
     background-color: #FFE7B6;
     border: 50px;
-    align-content: center;
-    display: flex;
-    word-wrap: break-word;
-    padding: 0.2rem 1rem;
     border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    gap: 0.2rem;
+    padding: 0.4rem 0.2rem;
+  }
+  .moto img{
+    padding: 0.2rem 0.2rem;
+    height: 1.8rem;
   }
 .fa-book{
   color: purple;
@@ -547,10 +553,25 @@ nav .navbar .links li:hover .js-sub-menu {
   border-radius: 50%;
 }
 
-@media (max-width : 890px) {
+@media (max-width: 1690px) {
+
+
+  .card {
+    width: 29%; /* Adjust the width as needed to fit within the container */
+    margin: 1rem; /* Add margin to create space between cards */
+  }
+}
+@media (max-width: 1280px) {
+
+  .card {
+    width: 45%; /* Adjust the width as needed to fit within the container */
+    margin: 1rem; /* Add margin to create space between cards */
+  }
+}
+@media (max-width : 1000px) {
     .card {
-         width: 90%;
-        
+         width: 90%; 
+        margin: auto;
       }
       .card-body{
         padding: 2rem 1rem;
@@ -559,13 +580,19 @@ nav .navbar .links li:hover .js-sub-menu {
        font-size: 1.2rem;
       }
       .moto{
-        font-size:0.8rem;
+        font-size:0.7rem;
+        padding: 0;
+        place-content: center;
+        align-items: center;
       }
      .course-count{
       font-size: 0.8rem;
      }
      .button-26{
       font: 7px;
+     }
+     #Our_Branch_section{
+      padding: 0;
      }
 }
 .fullWidthButton:hover{
