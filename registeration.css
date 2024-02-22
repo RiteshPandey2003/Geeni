@@ -14,11 +14,10 @@ body {
 
 .wrapper {
   height: fit-content;
-
   width: 100%;
   position: relative;
   background-image: url("./images/Frame\ 9113.png");
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: 100% 50%;
   background-repeat: no-repeat;
 }
