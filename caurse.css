@@ -7,7 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;  
-  font-family: 'Poppins', sans-serif;
+  
 
 }
 
@@ -87,6 +87,7 @@ nav .navbar .links li a {
   color: black;
   font-size: 15px;
   font-weight: 500;
+  font-family: "STIX Two Text", serif;
 }
 
 .links li:hover .htmlcss-arrow,
@@ -415,6 +416,7 @@ nav .navbar .links li:hover .js-sub-menu {
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 
@@ -424,6 +426,7 @@ nav .navbar .links li:hover .js-sub-menu {
   justify-content:center ;
   align-items: center;
   padding: 1rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 .container {
