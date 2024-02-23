@@ -608,10 +608,11 @@ nav .navbar .links li:hover .js-sub-menu {
        font-size: 1.2rem;
       }
       .moto{
-        font-size:0.9rem;
+        font-size:0.7rem;
         padding: 0;
-        place-content: center;
+        justify-content: space-around;
         align-items: center;
+        
       }
      .course-count{
       font-size: 0.8rem;

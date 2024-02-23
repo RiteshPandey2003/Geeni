@@ -1901,6 +1901,10 @@ span {
 }
 
 @media (max-width : 830px) {
+  .address-icons-footer{
+    height: 40px;
+    width: 40px;
+  }
   .Details-upper {
     flex-direction: column;
     width: 100%;
