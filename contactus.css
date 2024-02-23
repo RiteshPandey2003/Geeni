@@ -374,6 +374,9 @@ nav .navbar .links li:hover .js-sub-menu {
   .navbar .nav-links.show2 .links .more-arrow {
     transform: rotate(90deg);
   }
+  .since{
+    display: none;
+  }
 
 }
 

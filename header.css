@@ -371,6 +371,9 @@ nav .navbar .links li:hover .js-sub-menu {
   .navbar .nav-links.show2 .links .more-arrow {
     transform: rotate(90deg);
   }
+  .since{
+    display: none;
+  }
 
 }
 
@@ -1605,7 +1608,8 @@ p {
   padding: 2rem;
   margin: 3rem 0;
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: bold; 
+  font-family: 'Poppins', sans-serif;
 }
 
 .accordion .accordion-item {
