@@ -1133,6 +1133,11 @@ nav .navbar .links li:hover .js-sub-menu {
   .address-section-genni1{
     width: 100%;
   }
+  .Administration,
+  .Director,
+  .genral_information{
+    gap: 0;
+  }
 }
 
 
