@@ -208,7 +208,7 @@ h1{
     }
     
     input, textarea{
-      padding: 0;
+      padding: 1;
       font-size: 1rem;
     }
     label{
@@ -287,29 +287,9 @@ h1{
     height: 22px;
     border: 1px solid;
     border-radius: 22px;
+    color: blue;
   }
   
-  .accordion button .icon::before {
-    display: block;
-    position: absolute;
-    content: '';
-    top: 9px;
-    left: 5px;
-    width: 10px;
-    height: 2px;
-    background: currentColor;
-  }
-  
-  .accordion button .icon::after {
-    display: block;
-    position: absolute;
-    content: '';
-    top: 5px;
-    left: 9px;
-    width: 2px;
-    height: 10px;
-    background: currentColor;
-  }
   
   .accordion button[aria-expanded='true'] .icon::after {
     width: 0;
@@ -371,4 +351,15 @@ h1{
     .accordion-content-answere {
       font-size: 7px;
     }
+    .accordion .accordion-content p{
+      font-size: 0.8rem;
+    }
+  }
+
+  .submitbtn:hover{
+    border:3px solid #191A88;
+    background-color: #FFFFFF;
+    color: #191A88;
+    font-weight: bolder;
+
   }

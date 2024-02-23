@@ -77,20 +77,24 @@ function toggleAccordion() {
   for (i = 0; i < items.length; i++) {
     items[i].setAttribute('aria-expanded', 'false');
   }
-  
+  const icon = this.querySelector('.icon img')
   if (itemToggle == 'false') {
     this.setAttribute('aria-expanded', 'true');
+    icon.style.display = "none";
+    const newArrow  = document.createElement('span')
+    newArrow.classList.add('icon','new-arrow');
+    newArrow.innerHTML = '<img src="./images/ic_baseline-arrow-drop-down (1).png"/>';
+    this.appendChild(newArrow);
+  }else{
+    icon.style.display = "block";
+    const newArrow = this.querySelector(".new-arrow");
+    if(newArrow){
+      newArrow.remove();
+    }
   }
 }
 
 items.forEach(item => item.addEventListener('click', toggleAccordion));
 
 
-$(".bxslider").bxSlider({
-  minSlides: 6,
-  maxSlides: 6,
-  slideWidth: 120,
-  slideMargin: 300,
-  ticker: true,
-  speed: 31000,
-});
+

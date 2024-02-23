@@ -560,3 +560,13 @@ h3{
 .card_info span{
   font-weight: 600;
 }
+
+
+
+.view-all-course-btn:hover{
+  border:3px solid #191A88;
+  background-color: #FFFFFF;
+  color: #191A88;
+  font-weight: bolder;
+  scale: 20px;
+}

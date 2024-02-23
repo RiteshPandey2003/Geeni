@@ -428,7 +428,7 @@ body {
   border-radius: 12px;
   padding: 2rem;
   width: 500px;
-  height: 250px;
+  height: 300px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   position: relative;
 }
@@ -496,8 +496,8 @@ body {
   }
 
   .popular-course-rectangle {
-    width: 75%;
-    height: 250px;
+    width: 90%;
+    height: 300px;
      padding: 2rem;
     
     /* Adjust as needed for spacing */
@@ -557,7 +557,6 @@ body {
 .fn{
   font-size: 2rem;
 }
-
 
 
 
@@ -665,7 +664,7 @@ body {
 .Director,
 .genral_information {
   display: flex;
-  place-content: center;
+
   gap: 1rem;
 }
 
@@ -680,22 +679,43 @@ body {
 
 
 @media (max-width : 1190px) {
-  .address{
-    margin-top : 20rem
-  }
-   .address-section-genni,.address-section-genni1{
+   .address-section-genni{
     width: 100%;
     border-radius: 0px;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
    }
+   .address-section-genni1{
+    width: 100%;
+    border-radius: 0px;
+    box-shadow: none;
+   }
+   .address{
+    margin-top : 20rem
+  }
    .header-heading-bottom {
     transform: skew(0deg);
     width: 100%;
   }
   iframe{
-    height: 700px;
+    height: 500px;
+  }
+  .email-number,.contact_deatils p  {
+    font-size: 0.8em;
+  }
+  .header-heading-bottom h4{
+    font-size: 0.7rem;
+    padding: 0;
+  }
+  .header-heading-bottom a{
+    font-size: 0.7rem;
+    padding: 0.1rem 0.3rem;
   }
 } 
-@media (max-width : 790px) {
+@media (max-width : 830px) {
   .Details-upper{
     flex-direction: column;
     width: 100%;
@@ -706,20 +726,40 @@ body {
     display: flex;
     flex-direction: column;
     margin: auto;
+    gap: 1rem;
   }
   .address-section-genni1{
     width: 100%;
   }
 }
 
-@media (max-width : 1200px) {
-  .address-section-genni,.address-section-genni1  {
-    padding: 1rem;
-    width: 100%;
-    border-radius: 0;
-  }
-  .fn{
-    font-size: 2rem;
-  }
+
+
+.register-now-button-btn:hover{
+  border:3px solid #191A88;
+  background-color: #FFFFFF;
+  color: #191A88;
+  font-weight: bolder;
+  scale: 20px;
+}
+.more-about-us:hover{
+  border:3px solid #191A88;
+  background-color: #FFFFFF;
+  color: #191A88;
+  font-weight: bolder;
+  scale: 20px;
 }
 
+.more-about-us1:hover{
+  border: 2px solid white;
+  background: #191A88;
+  color: white;
+}
+
+.popular-course-container-heading button:hover{
+  border:3px solid #191A88;
+  background-color: #FFFFFF;
+  color: #191A88;
+  font-weight: bolder;
+  scale: 20px;
+}
