@@ -519,6 +519,10 @@ nav .navbar .links li:hover .js-sub-menu {
     font-weight: 900;
     padding: 1rem 0rem;
 }
+.heroicon{
+  height: 20px;
+  width: 30px;
+}
 .user{
   width: 100%;
 }
@@ -542,7 +546,7 @@ nav .navbar .links li:hover .js-sub-menu {
 
   .moto{
     width: 100%;
-    font-size: 1rem;
+    font-size: 0.9rem;
     background-color: #FFE7B6;
     border: 50px;
     border-radius: 20px;
@@ -552,9 +556,10 @@ nav .navbar .links li:hover .js-sub-menu {
     gap: 0.2rem;
     padding: 0.4rem 0.2rem;
   }
-  .moto img{
+.heroicon{
     padding: 0.2rem 0.2rem;
-    height: 1.8rem;
+    height: 30px;
+    width: 30px;
   }
 .fa-book{
   color: purple;
@@ -608,11 +613,8 @@ nav .navbar .links li:hover .js-sub-menu {
        font-size: 1.2rem;
       }
       .moto{
-        font-size:0.8rem;
+        font-size:0.7rem;
         padding: 0;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
         
       }
      .course-count{
