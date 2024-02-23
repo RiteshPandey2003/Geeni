@@ -1,160 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="contactus.css">
-  <script src="app.js" defer></script>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contactus.css" />
+    <script src="app.js" defer></script>
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
-<div class="wrapper">
-  <div class="container">
-    <div class="first-div">
-     <h1>contact us</h1>
-      <div class="getintouch">Get In Touch</div>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nesciunt, vel id nihil ex facere culpa, quisquam a laborum placeat corrupti consectetur iure.</p>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <i class="bx bx-menu"></i>
+        <div class="logo"><a href="#">GEENI</a></div>
+        <div class="nav-links">
+          <div class="sidebar-logo">
+            <span class="logo-name">GEENI</span>
+            <i class="bx bx-x"></i>
+          </div>
+          <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about_us.html">About</a></li>
+            <li>
+              <a href="caurse.html">Caurses</a>
+            </li>
+            <li>
+              <a href="Branch.html">Branches</a>
+            </li>
+            <li><a href="franchies1.html">Franchies</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+          </ul>
+        </div>
+        <!-- <div class="search-box">
+    <i class='bx bx-search'></i>
+    <div class="input-box">
+      <input type="text" placeholder="Search...">
     </div>
-  
-    <div class="second-div">
-      <form>
-        <label for="fullName">Full Name:</label>
-        <input type="text" id="fullName" name="fullName" required>
-  
-        <label for="email">Email ID:</label>
-        <input type="email" id="email" name="email" required>
-  
-        <label for="description">Description:</label>
-        <textarea id="description" name="description" rows="4" required></textarea>
-  
-        <button type="submit" class="submitbtn">Submit</button>
-      </form>
+  </div> -->
+        <!-- HTML !-->
+        <button class="button-26" role="button" styte="font-size:8px">
+         Student Verification
+        </button>
+      </div>
+    </nav>
+    <div class="wrapper">
+      <div class="container">
+        <div class="first-div">
+          <h1>contact us</h1>
+          <div class="getintouch">Get In Touch</div>
+          <p class="getintouch-discritpion">
+            "Explore our diverse range of online and offline courses to enhance your skills and knowledge. Get in touch with us to embark on your learning journey today. Your success starts here!".
+          </p>
+        </div>
+
+        <div class="second-div">
+          <form>
+            <label for="fullName"> Your Full Name<sapn class="astrick">*</sapn></label>
+            <input type="text" id="fullName" name="fullName" required />
+
+            <label for="email">Email ID<sapn class="astrick">*</sapn></label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="description">Description<sapn class="astrick">*</sapn></label>
+            <textarea
+              id="description"
+              name="description"
+              rows="4"
+              required
+            ></textarea>
+
+            <button type="submit" class="submitbtn">Submit</button>
+          </form>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-<!-- //contact -->
-<section id="counter-section-container">
-  <div class="counter-section">
-    <p class="counter-section-heading">
-      Contact Details
-    </p>
-    <div class="count-one-by-one">
-      <div class="counter-container">
-        <img src="./images/akar-icons_location (14).png" class="counter-icons"/>
-        <div class="counter-container1">
-          <p>Genral Information</p>
-          <div class="email">
-            <span>info@gmail.com</span>
-          <span>8989898989</span>
+    <!-- //contact -->
+    <section id="counter-section-container">
+      <div class="counter-section">
+        <p class="counter-section-heading">Contact Details</p>
+        <div class="count-one-by-one">
+          <div class="counter-container">
+            <img
+              src="./images/akar-icons_location (14).png"
+              class="counter-icons"
+            />
+            <div class="counter-container1">
+              <p>Genral Information</p>
+              <div class="email">
+                <span>info@gmail.com</span>
+                <span>8989898989</span>
+              </div>
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="counter-container">
+            <img src="./images/shield.png" class="counter-icons" />
+            <div class="counter-container1">
+              <p>Asminstrattive Inquaires</p>
+              <div class="email">
+                <span>asmin@gmail.com</span> <span>8989898989</span>
+              </div>
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="counter-container">
+            <img
+              src="./images/akar-icons_location (15).png"
+              class="counter-icons"
+            />
+            <div class="counter-container1">
+              <p>Managing Director</p>
+
+              <div class="email"><span>8989898989</span></div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="line"></div>
-      <div class="counter-container">
-        <img src="./images/shield.png" class="counter-icons"/>
-        <div class="counter-container1">
-          <p>Asminstrattive Inquaires</p>
-          <div class="email"><span>asmin@gmail.com</span>
-            <span>8989898989</span></div>
-        </div>
-      </div>
-      <div class="line"></div>
-      <div class="counter-container">
-        <img src="./images/akar-icons_location (15).png" class="counter-icons"/>
-        <div class="counter-container1">
-          <p>Managing Director</p>
-          
-          <div class="email"><span>8989898989</span></div>
+    </section>
+
+    <!-- //faq -->
+    <div id="faq-container-section">
+      <div class="faq-container">
+        <p class="faq-heading">Frequently Asked Questions</p>
+        <div class="accordion">
+          <div class="accordion-item">
+            <button id="accordion-button-1" aria-expanded="false">
+              <span class="accordion-title"
+                >Are the Course Recogonized by the Goverment?</span
+              ><span class="icon" aria-hidden="true"
+                ><img src="./images/ic_baseline-arrow-drop-down.png"
+              /></span>
+            </button>
+            <div class="accordion-content">
+              <p class="accordion-content-answere">
+                Yes, course are Goverment Approved.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-2" aria-expanded="false">
+              <span class="accordion-title">is Geeni a University?</span
+              ><span class="icon" aria-hidden="true"
+                ><img src="./images/ic_baseline-arrow-drop-down.png"
+              /></span>
+            </button>
+            <div class="accordion-content">
+              <p class="accordion-content-answere">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Elementum sagittis vitae et leo duis ut. Ut tortor pretium
+                viverra suspendisse potenti.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-3" aria-expanded="false">
+              <span class="accordion-title"
+                >Geeni Provide online resilt for all The Corses?</span
+              ><span class="icon" aria-hidden="true"
+                ><img src="./images/ic_baseline-arrow-drop-down.png"
+              /></span>
+            </button>
+            <div class="accordion-content">
+              <p class="accordion-content-answere">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-4" aria-expanded="false">
+              <span class="accordion-title">who can join Geeni Course?</span
+              ><span class="icon" aria-hidden="true"
+                ><img src="./images/ic_baseline-arrow-drop-down.png"
+              /></span>
+            </button>
+            <div class="accordion-content">
+              <p class="accordion-content-answere">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-4" aria-expanded="false">
+              <span class="accordion-title">can i get honorary Doctrate?</span
+              ><span class="icon" aria-hidden="true"
+                ><img src="./images/ic_baseline-arrow-drop-down.png"
+              /></span>
+            </button>
+            <div class="accordion-content">
+              <p class="accordion-content-answere">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false">
+              <span class="accordion-title"
+                >Dose Geeni Offer online Course?</span
+              ><span class="icon" aria-hidden="true"
+                ><img src="./images/ic_baseline-arrow-drop-down.png"
+              /></span>
+            </button>
+            <div class="accordion-content">
+              <p class="accordion-content-answere">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-
-<!-- //faq -->
-<div id="faq-container-section">
-  <div class="faq-container">
-    <p class="faq-heading">Frequently Asked Questions</p>
-    <div class="accordion">
-      <div class="accordion-item">
-        <button id="accordion-button-1" aria-expanded="false">
-          <span class="accordion-title"
-            >Are the Course Recogonized by the Goverment?</span
-          ><span class="icon" aria-hidden="true"><img src="./images/ic_baseline-arrow-drop-down.png"/></span>
-        </button>
-        <div class="accordion-content">
-          <p class="accordion-content-answere">
-            Yes, course are Goverment Approved.
-          </p>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <button id="accordion-button-2" aria-expanded="false">
-          <span class="accordion-title">is Geeni a University?</span
-          ><span class="icon" aria-hidden="true"><img src="./images/ic_baseline-arrow-drop-down.png"/></span>
-        </button>
-        <div class="accordion-content">
-          <p class="accordion-content-answere">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Elementum sagittis vitae et leo duis ut. Ut tortor pretium
-            viverra suspendisse potenti.
-          </p>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <button id="accordion-button-3" aria-expanded="false">
-          <span class="accordion-title"
-            >Geeni Provide online resilt for all The Corses?</span
-          ><span class="icon" aria-hidden="true"><img src="./images/ic_baseline-arrow-drop-down.png"/></span>
-        </button>
-        <div class="accordion-content">
-          <p class="accordion-content-answere">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor
-          </p>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <button id="accordion-button-4" aria-expanded="false">
-          <span class="accordion-title">who can join Geeni Course?</span
-          ><span class="icon" aria-hidden="true"><img src="./images/ic_baseline-arrow-drop-down.png"/></span>
-        </button>
-        <div class="accordion-content">
-          <p class="accordion-content-answere">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor
-          </p>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <button id="accordion-button-4" aria-expanded="false">
-          <span class="accordion-title">can i get honorary Doctrate?</span
-          ><span class="icon" aria-hidden="true"><img src="./images/ic_baseline-arrow-drop-down.png"/></span>
-        </button>
-        <div class="accordion-content">
-          <p class="accordion-content-answere">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor
-          </p>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <button id="accordion-button-5" aria-expanded="false">
-          <span class="accordion-title"
-            >Dose Geeni Offer online Course?</span
-          ><span class="icon" aria-hidden="true"><img src="./images/ic_baseline-arrow-drop-down.png"/></span>
-        </button>
-        <div class="accordion-content">
-          <p class="accordion-content-answere">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-</body>
+  </body>
 </html>

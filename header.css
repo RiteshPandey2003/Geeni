@@ -1,19 +1,17 @@
 /* Googlefont Poppins CDN Link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap');
+
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  
 }
 
 body {
   min-height: 100vh;
-
-
-  font-family: 'Luckiest Guy', cursive;
-
 
 }
 
@@ -23,7 +21,7 @@ nav {
   left: 0;
   width: 100%;
   padding: 1rem 0rem;
-
+  font-family: 'Poppins', sans-serif;
   /* background: #3E8DA8; */
 
   z-index: 99;
@@ -238,8 +236,9 @@ nav .navbar .links li:hover .js-sub-menu {
   width: fit-content;
   font-size: 1.2rem;
 }
-.button-26:hover{
-  border:3px solid #191A88;
+
+.button-26:hover {
+  border: 3px solid #191A88;
   background-color: #FFFFFF;
   color: #191A88;
   font-weight: bolder;
@@ -365,6 +364,7 @@ nav .navbar .links li:hover .js-sub-menu {
   }
 
 }
+
 @media (max-width:920px) {
   nav .navbar {
     max-width: 100%;
@@ -383,6 +383,7 @@ nav .navbar .links li:hover .js-sub-menu {
   nav .navbar .links li a {
     font-size: 15px;
   }
+
   .button-26 {
     font-size: 7px;
     padding: 3px;
@@ -408,11 +409,12 @@ nav .navbar .links li:hover .js-sub-menu {
 
 .gate-section-cureve {
   width: 72%;
-  font-size: 14.2px;
+  font-size: 15px;
   color: #191A88;
   ;
 
-  font-style: none;
+  font-family: "STIX Two Text", serif;
+  
 }
 
 text {
@@ -462,7 +464,7 @@ path {
   gap: 5rem;
 }
 
-.pillor-section-container{
+.pillor-section-container {
   width: 85%;
   display: flex;
   align-items: center;
@@ -493,6 +495,7 @@ path {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "";
 
 }
 
@@ -502,10 +505,11 @@ path {
 }
 
 .GITAM {
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
   font-weight: bolder;
   color: rgb(255, 96, 96);
+  font-family: "STIX Two Text", serif;
 }
 
 .managed-by {
@@ -513,6 +517,7 @@ path {
   font-size: 14px;
   font-weight: 500;
   text-align: center;
+  font-family: "STIX Two Text", serif;
 }
 
 .GEENI-EDUCATIONAL-sOCITY {
@@ -520,27 +525,32 @@ path {
   font-size: x-large;
   font-weight: bold;
   text-align: center;
+  font-family: "STIX Two Text", serif;
 }
 
 .reg-no {
   text-align: center;
   font-size: 1rem;
+  font-family: "STIX Two Text", serif;
 }
 
 .reg-no span {
   font-size: 1.5rem;
   font-weight: bolder;
+  font-family: "STIX Two Text", serif;
 }
 
 .GEENI-EDUCATIONAL-sOCITY-tail-thumb-container {
   margin-top: 3rem;
+  font-family: "STIX Two Text", serif;
 }
 
 .GEENI-EDUCATIONAL-sOCITY-tail-thumb {
   font-size: xx-large;
   font-weight: bolder;
   text-align: center;
-  color:#191A88 ;
+  color: #191A88;
+  font-family: "STIX Two Text", serif;
 }
 
 .register-now-button-btn {
@@ -626,15 +636,17 @@ path {
     padding: 5px 10px;
     font-size: 0.8rem;
   }
-  .pillors-section-container{
+
+  .pillors-section-container {
     width: 100%;
     gap: 0rem;
     align-items: center;
   }
 
 }
+
 @media (max-width :360px) {
-  .pillor-img{
+  .pillor-img {
     display: none;
   }
 }
@@ -642,23 +654,25 @@ path {
 
 
 /* live scooling-animaiton */
-.marquee-section{
+.marquee-section {
   display: flex;
   background-color: #191A88;
   padding: 0.2rem 0;
 }
-.Adverisement-marqee{
+
+.Adverisement-marqee {
   font-size: 1.2rem;
   font-weight: bolder;
   z-index: 99;
   color: white;
   padding: 0 0.5rem;
+  font-family: 'Poppins', sans-serif;
 
 }
 
 
 .marquee-container {
- 
+
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -690,6 +704,7 @@ path {
 .marquee span {
   font-size: 1.2rem;
   font-weight: 500;
+  font-family: 'Poppins', sans-serif;
 }
 
 .Adveritsement-text {
@@ -706,13 +721,15 @@ path {
     left: -95%
   }
 }
-.start{
+
+.start {
   height: 12px;
   width: 12px;
 }
+
 @media (max-width : 1250px) {
 
-  .marquee span{
+  .marquee span {
     font-size: 0.8rem;
   }
 
@@ -732,9 +749,10 @@ path {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   gap: 8rem;
   margin-bottom: 8rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 .company-img-and-est-date {
@@ -810,7 +828,7 @@ path {
 .our-goal {
   font-size: 1.7rem;
   font-weight: 500;
-  padding:0 0.5rem;
+  padding: 0 0.5rem;
 }
 
 .about-us-heading {
@@ -839,7 +857,7 @@ path {
   font-weight: bold;
   background: white;
   border-radius: 5px;
-  
+
 }
 
 @media (max-width:1250px) {
@@ -880,12 +898,14 @@ path {
     width: 100%;
     height: fit-content;
     padding: 1rem;
+    font-family: 'Poppins', sans-serif;
   }
 
   #About-us-section {
     gap: 2rem;
     margin-bottom: 3rem;
     margin-top: 8rem;
+    font-family: 'Poppins', sans-serif;
   }
 
   .our-goal-discription {
@@ -910,7 +930,7 @@ path {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
 
 }
 
@@ -945,6 +965,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Poppins', sans-serif;
 
 
 }
@@ -958,7 +979,7 @@ li {
   align-items: center;
   justify-content: center;
   border-radius: 12px;
-  padding: 6rem 0 ;
+  padding: 6rem 0;
   margin-top: 8rem;
 }
 
@@ -974,8 +995,10 @@ li {
   margin-top: 10px;
 }
 
-.counter-icon{
-  height: 100px; width: 100px ;margin: auto;
+.counter-icon {
+  height: 100px;
+  width: 100px;
+  margin: auto;
 }
 
 .count-one-by-one {
@@ -1000,7 +1023,7 @@ li {
   font-size: 2.5rem;
   font-weight: bolder;
   color: white;
-padding-top: 3rem;
+  padding-top: 3rem;
 }
 
 .more-about-us {
@@ -1015,7 +1038,7 @@ padding-top: 3rem;
 }
 
 
-.line{
+.line {
   width: 4px;
   height: 100px;
   background-color: red;
@@ -1046,26 +1069,33 @@ padding-top: 3rem;
   .slider-seciton {
     margin-top: 3rem;
   }
-  .slider-seciton-heading{
+
+  .slider-seciton-heading {
     font-size: 1.2rem;
   }
-  .counter-icon{
-    height: 50px; width: 50px ;
+
+  .counter-icon {
+    height: 50px;
+    width: 50px;
   }
+
   .counter-section {
     margin-top: 3rem;
   }
 
 }
+
 @media (max-width:320px) {
-  .counter-icon{
-    height: 30px; width: 30px ;
+  .counter-icon {
+    height: 30px;
+    width: 30px;
   }
 }
 
 /* //counter */
 #counter-section-container {
   margin-top: 2rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 .counter-container span {
@@ -1112,8 +1142,9 @@ padding-top: 3rem;
   .counter span {
     font-size: 1rem;
   }
-  .counter-section span{
-     font-size: 0.8rem;
+
+  .counter-section span {
+    font-size: 0.8rem;
   }
 
 
@@ -1123,6 +1154,7 @@ padding-top: 3rem;
     font-size: 1.2rem;
     font-weight: bold;
   }
+
   .more-about-us {
     font-size: 0.8rem;
   }
@@ -1153,7 +1185,8 @@ padding-top: 3rem;
   }
 
 }
-.bx-wrapper .bx-viewport{
+
+.bx-wrapper .bx-viewport {
   height: min-content;
 }
 
@@ -1164,6 +1197,7 @@ padding-top: 3rem;
 .section-popular-course-container {
   margin-top: 12rem;
   width: 100%;
+  font-family: 'Poppins', sans-serif;
 
 }
 
@@ -1174,6 +1208,7 @@ padding-top: 3rem;
   width: 90%;
   margin: auto;
   padding: 3rem 0;
+  font-family: 'Poppins', sans-serif;
 
 }
 
@@ -1246,7 +1281,7 @@ padding-top: 3rem;
   color: gray;
 }
 
-.course-icon{
+.course-icon {
   height: 50px;
   width: 50px;
 }
@@ -1311,9 +1346,10 @@ padding-top: 3rem;
     gap: 1rem;
     padding: 2rem 1rem;
   }
-  .course-icon{
-     height: 22px;
-     width: 22px;
+
+  .course-icon {
+    height: 22px;
+    width: 22px;
   }
 }
 
@@ -1335,6 +1371,7 @@ padding-top: 3rem;
   background: #EDF1FF;
   margin-top: 5rem;
   padding: 2rem 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 
@@ -1346,6 +1383,7 @@ padding-top: 3rem;
   gap: 10rem;
   padding: 2rem 2rem;
   background: #EDF1FF;
+  font-family: 'Poppins', sans-serif;
 }
 
 #timeline-section-child1 {
@@ -1353,7 +1391,7 @@ padding-top: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding:0 1rem;
+  padding: 0 1rem;
 
 }
 
@@ -1363,7 +1401,7 @@ padding-top: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding:0 1rem;
+  padding: 0 1rem;
 }
 
 .timeline-images {
@@ -1419,7 +1457,8 @@ p {
   text-align: center;
   font-size: 2rem;
 }
-.time-line-icon-child{
+
+.time-line-icon-child {
   position: absolute;
   left: -35px;
   top: -35px;
@@ -1521,22 +1560,24 @@ p {
   .timeline .timeline-container .timeline-body .timeline-title p {
     font-size: 10px;
   }
- 
+
 }
 
 
 @media (max-width : 1300px) {
+
   .timeline-image1,
   .timeline-images {
     display: none;
   }
+
   #timeline-section-parent {
     padding: 0;
     gap: 0;
   }
 }
 
-.time-line-image-icon{
+.time-line-image-icon {
   height: 12px;
   width: 12px;
 }
@@ -1586,14 +1627,13 @@ span {
   font-size: 1.2rem;
 }
 
-.accordion button .icon {
+.accordion button .icon img{
   display: inline-block;
   position: absolute;
   top: 18px;
   right: 0;
   width: 22px;
   height: 22px;
-  border: 1px solid;
   border-radius: 22px;
 }
 
@@ -1674,11 +1714,12 @@ span {
   position: relative;
   margin-top: 15rem;
   font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
 
 }
 
 .address-section-genni {
-
+  font-family: 'Poppins', sans-serif;
   background: white;
   z-index: 99;
   position: absolute;
@@ -1718,7 +1759,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: space-around;
-
+  font-family: 'Poppins', sans-serif;
 }
 
 .header-heading-bottom {
@@ -1754,7 +1795,9 @@ span {
   transform: translate(-50%, -15%);
   width: 1000px;
 }
-.e, .m{
+
+.e,
+.m {
   font-family: 200;
   color: gray;
 }
@@ -1781,14 +1824,20 @@ span {
   padding: 0.2rem 0.5rem;
 }
 
-.innter-contactdetails{
+.innter-contactdetails {
   display: flex;
   gap: 1rem;
 }
 
+.copyright {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 1rem;
+}
 
 @media (max-width : 1190px) {
-   .address-section-genni{
+  .address-section-genni {
     width: 100%;
     border-radius: 0px;
     box-shadow: none;
@@ -1796,77 +1845,92 @@ span {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-   }
-   .address-section-genni1{
+  }
+
+  .address-section-genni1 {
     width: 100%;
     border-radius: 0px;
     box-shadow: none;
-   }
-   .address{
-    margin-top : 20rem
+    background-color: white;
   }
-   .header-heading-bottom {
+
+  .address {
+    margin-top: 20rem
+  }
+
+  .header-heading-bottom {
     transform: skew(0deg);
     width: 100%;
   }
-  iframe{
+
+  iframe {
     height: 500px;
   }
-  .email-number,.contact_deatils p  {
+
+  .email-number,
+  .contact_deatils p {
     font-size: 0.8em;
+    font-weight: 400;
   }
-  .header-heading-bottom h4{
+
+  .header-heading-bottom h4 {
     font-size: 0.7rem;
     padding: 0;
+    font-weight: 600;
   }
-  .header-heading-bottom a{
+
+  .header-heading-bottom a {
     font-size: 0.7rem;
     padding: 0.1rem 0.3rem;
+    font-weight: 600;
   }
-} 
+}
+
 @media (max-width : 830px) {
-  .Details-upper{
+  .Details-upper {
     flex-direction: column;
     width: 100%;
     margin: auto;
   }
 
-  .contact_deatils{
+  .contact_deatils {
     display: flex;
     flex-direction: column;
     margin: auto;
     gap: 1rem;
   }
-  .address-section-genni1{
+
+  .address-section-genni1 {
     width: 100%;
   }
 }
 
 
 
-.register-now-button-btn:hover{
-  border:3px solid #191A88;
-  background-color: #FFFFFF;
-  color: #191A88;
-  font-weight: bolder;
-  scale: 20px;
-}
-.more-about-us:hover{
-  border:3px solid #191A88;
+.register-now-button-btn:hover {
+  border: 3px solid #191A88;
   background-color: #FFFFFF;
   color: #191A88;
   font-weight: bolder;
   scale: 20px;
 }
 
-.more-about-us1:hover{
+.more-about-us:hover {
+  border: 3px solid #191A88;
+  background-color: #FFFFFF;
+  color: #191A88;
+  font-weight: bolder;
+  scale: 20px;
+}
+
+.more-about-us1:hover {
   border: 2px solid white;
   background: #191A88;
   color: white;
 }
 
-.popular-course-container-heading button:hover{
-  border:3px solid #191A88;
+.popular-course-container-heading button:hover {
+  border: 3px solid #191A88;
   background-color: #FFFFFF;
   color: #191A88;
   font-weight: bolder;
