@@ -1,6 +1,8 @@
 /* Googlefont Poppins CDN Link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -11,10 +13,6 @@
 body {
   min-height: 100vh;
 
-
-  font-family: 'Luckiest Guy', cursive;
-
-
 }
 
 nav {
@@ -23,7 +21,7 @@ nav {
   left: 0;
   width: 100%;
   padding: 1rem 0rem;
-
+  font-family: 'Poppins', sans-serif;
   /* background: #3E8DA8; */
 
   z-index: 99;
@@ -40,13 +38,15 @@ nav .navbar {
   /* background: red; */
   padding: 0 50px;
 }
-.logo{
+
+.logo {
   display: flex;
   flex-direction: column;
   font-family: "STIX Two Text", serif;
 }
-.since{
-  font-size: 12px ;
+
+.since {
+  font-size: 12px;
   color: black;
   text-align: center;
 }
@@ -58,6 +58,7 @@ nav .navbar {
   font-weight: 600;
   background-color: #191A88;
   padding: 0.2rem 0.5rem;
+  border-radius: 2px;
 }
 
 nav .navbar .nav-links {
@@ -154,8 +155,8 @@ nav .navbar .links li:hover .js-sub-menu {
 
 .navbar .search-box {
   position: relative;
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
 }
 
 .navbar .search-box i {
@@ -229,24 +230,14 @@ nav .navbar .links li:hover .js-sub-menu {
 .button-26 {
   appearance: button;
   background-color: #191A88;
-  border-radius: 4px;
-  box-sizing: border-box;
+  border-radius: 2px;
   color: #FFFFFF;
   cursor: pointer;
-  font-family: Graphik, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  /* font-size: 8px; */
-  line-height: 1.15;
-  overflow: visible;
   padding: 1rem 2rem;
-  position: relative;
-  text-align: center;
-  text-transform: none;
-  transition: all 80ms ease-in-out;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  width: fit-content;
   font-size: 1.2rem;
+  border: none;
+  text-align: center;
+
 }
 
 .button-26:hover {
@@ -294,8 +285,23 @@ nav .navbar .links li:hover .js-sub-menu {
 
   .sidebar-logo i,
   .navbar .bx-menu {
-    font-size: 25px;
+    width: 50px;
+    height: 25px;
     color: black;
+  }
+  .sidebar-logo i,
+  .navbar .bx-menu {
+    width: 50px;
+    height: 25px;
+    color: black;
+  }
+  .bx-menu::before{
+    height: 25px;
+    font-size: 1.8rem;
+  }
+  .bx-x::before{
+    height: 25px;
+    font-size: 1.5rem;
   }
 
   nav .navbar .links {
@@ -374,7 +380,8 @@ nav .navbar .links li:hover .js-sub-menu {
   .navbar .nav-links.show2 .links .more-arrow {
     transform: rotate(90deg);
   }
-  .since{
+
+  .since {
     display: none;
   }
 
@@ -383,7 +390,7 @@ nav .navbar .links li:hover .js-sub-menu {
 @media (max-width:920px) {
   nav .navbar {
     max-width: 100%;
-    padding: 0 25px;
+    padding: 0 15px;
   }
 
   nav .navbar .logo a {
@@ -400,19 +407,22 @@ nav .navbar .links li:hover .js-sub-menu {
   }
 
   .button-26 {
-    font-size: 7px;
-    padding: 3px;
+    font-size: 6px;
+    padding: 0.2rem 0.5rem;
+    width: 50px;
+    text-align: center;
+    font-weight: 500;
   }
 
 }
 
 
-.main-bg-color{
+.main-bg-color {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: linear-gradient(120deg,white, rgb(255, 173, 255), rgb(189, 189, 255));
+  background: linear-gradient(120deg, white, rgb(255, 173, 255), rgb(189, 189, 255));
   font-family: "STIX Two Text", serif;
 }
 
@@ -421,7 +431,7 @@ nav .navbar .links li:hover .js-sub-menu {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height:700px;
+  height: 700px;
   flex-direction: column;
   width: 65%
 }
@@ -450,10 +460,10 @@ nav .navbar .links li:hover .js-sub-menu {
   font-weight: bolder;
 }
 
-.our-fracnhies{
+.our-fracnhies {
   font-size: 1.5rem;
   font-weight: 900;
-  color:  #191A88;
+  color: #191A88;
 }
 
 
@@ -518,10 +528,12 @@ nav .navbar .links li:hover .js-sub-menu {
   height: 500px;
   width: 600px;
 }
-.discription-frachies{
+
+.discription-frachies {
   margin: 2rem 0rem;
 }
-.line1{
+
+.line1 {
   height: 5px;
   width: 40%;
   background: red;
@@ -529,28 +541,37 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 
 @media (max-width : 890px) {
-  .main-bg-color{
+  .main-bg-color {
     padding: 2rem 0;
   }
-  .company-name-after-img span, .company-name-after-img,
-  .est-date, .GEENI-EDUCATIONAL-sOCITY {
+
+  .company-name-after-img span,
+  .company-name-after-img,
+  .est-date,
+  .GEENI-EDUCATIONAL-sOCITY {
     font-size: 1.3rem;
   }
-  .reg-no{
+
+  .reg-no {
     margin-top: 1rem;
     font-size: 0.8rem;
   }
-  .reg-no span{
+
+  .reg-no span {
     font-size: 1rem;
   }
-  .company-name-after-img span{
-   padding: 0rem 0.3rem;
+
+  .company-name-after-img span {
+    padding: 0rem 0.3rem;
   }
+
   .company-About p {
     font-size: medium;
     font-weight: bolder;
   }
-  .managed-by, .our-fracnhies {
+
+  .managed-by,
+  .our-fracnhies {
     font-size: 1rem;
   }
 }
@@ -631,12 +652,14 @@ nav .navbar .links li:hover .js-sub-menu {
   margin-bottom: 1rem;
   font-size: 1rem;
 }
-.timeline_heading_registraion{
+
+.timeline_heading_registraion {
   font-size: 1.5rem;
   font-weight: bolder;
   margin-bottom: 1rem;
 }
-.time_line_container p{
+
+.time_line_container p {
   margin-bottom: 1rem;
   font-size: 0.8rem;
 }
@@ -651,7 +674,7 @@ nav .navbar .links li:hover .js-sub-menu {
     padding: 0.2rem;
   }
 
-  
+
 
   #timeline-section-parent {
     margin-top: 5rem;
@@ -665,18 +688,21 @@ nav .navbar .links li:hover .js-sub-menu {
   .timeline .timeline-container .timeline-body .timeline-title p {
     font-size: 0.7rem;
   }
-  .timeline_heading_registraion{
+
+  .timeline_heading_registraion {
     font-size: 1.2rem;
   }
- 
+
 }
+
 @media (max-width : 1900px) {
-  .timeline-image1{
+  .timeline-image1 {
     height: 450px;
-    width: 95% ;
+    width: 95%;
   }
-  .timeline-images{
-   display: none;
+
+  .timeline-images {
+    display: none;
   }
 }
 
@@ -697,7 +723,7 @@ nav .navbar .links li:hover .js-sub-menu {
 .counter-section {
   width: 100%;
   color: white;
- background:  #EDF1FF;
+  background: #EDF1FF;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -722,7 +748,7 @@ nav .navbar .links li:hover .js-sub-menu {
   justify-content: space-evenly;
   padding: 1rem;
   flex-wrap: wrap;
-  
+
 }
 
 .counter-section-heading {
@@ -733,25 +759,27 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 
 
-.line{
+.line {
   width: 4px;
   height: 200px;
   background-color: red;
 }
-.counter-container1 p{
+
+.counter-container1 p {
   width: 100%;
   font-size: 1.5rem;
   font-weight: 600;
   word-wrap: break-word;
   margin-bottom: 3rem;
 }
-.counter-container1 span{
+
+.counter-container1 span {
   width: 100%;
   font-size: 1.5rem;
   font-weight: 900;
   word-wrap: break-word;
-  padding:0.2rem 1rem;
- background: white;
+  padding: 0.2rem 1rem;
+  background: white;
 }
 
 
@@ -762,7 +790,8 @@ nav .navbar .links li:hover .js-sub-menu {
     font-size: 12px;
     margin-top: 0;
   }
-  .counter-section{
+
+  .counter-section {
     padding: 2rem;
   }
 
@@ -771,24 +800,29 @@ nav .navbar .links li:hover .js-sub-menu {
     font-size: 1.2rem;
     font-weight: bold;
   }
+
   .counter-section-heading2 {
     margin: 1 0rem;
     font-size: 1.5rem;
     font-weight: bold;
   }
-  .counter-container{
+
+  .counter-container {
     width: 90%;
     margin-top: 2rem;
   }
-  .line{
+
+  .line {
     display: none;
   }
-  .counter-container1 p{
+
+  .counter-container1 p {
     font-size: 1rem;
     margin-bottom: 1.5rem;
     font-weight: 600;
   }
-  .counter-container1 span{
+
+  .counter-container1 span {
     font-size: 1rem;
   }
 }
@@ -835,8 +869,9 @@ nav .navbar .links li:hover .js-sub-menu {
   margin: 0;
   padding-top: 1rem;
 }
+
 .popular-course-rectangle h1 {
-  margin-bottom: 1.5rem ;
+  margin-bottom: 1.5rem;
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -847,7 +882,7 @@ nav .navbar .links li:hover .js-sub-menu {
   text-align: center;
 }
 
-.mobile-number{
+.mobile-number {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -856,7 +891,8 @@ nav .navbar .links li:hover .js-sub-menu {
   bottom: 1.5rem;
   font-weight: 500;
 }
-.mobile-number  h2{
+
+.mobile-number h2 {
   font-size: 1.3rem;
   font-weight: 600;
 }
@@ -867,8 +903,7 @@ nav .navbar .links li:hover .js-sub-menu {
 
 }
 
-.fa-solid
-{
+.fa-solid {
   font-size: 1.5rem;
   color: rgb(71, 71, 71);
 
@@ -888,34 +923,38 @@ nav .navbar .links li:hover .js-sub-menu {
   .popular-course-container-heading {
     font-size: 1rem;
     padding: 2rem;
- 
+
   }
 
   .popular-course-rectangle {
     width: 90%;
     height: 300px;
-     padding: 2rem;
-    
+    padding: 2rem;
+
     /* Adjust as needed for spacing */
   }
 
-  .popular-course-rectangle p{
+  .popular-course-rectangle p {
 
     font-weight: 400;
     font-size: 0.8rem;
     margin: 0;
   }
-  .popular-course-rectangle h1, .mobile-number .fa-solid, .mobile-number h2{
+
+  .popular-course-rectangle h1,
+  .mobile-number .fa-solid,
+  .mobile-number h2 {
 
     font-weight: 500;
     font-size: 1rem;
-    margin:0;
+    margin: 0;
   }
-  .popular-course-rectangle h1{
+
+  .popular-course-rectangle h1 {
     position: absolute;
     font-size: 1rem;
   }
-  
+
 
   .popular-course-heading {
     font-size: 1.2rem;
@@ -929,30 +968,35 @@ nav .navbar .links li:hover .js-sub-menu {
   .section-popular-course-container {
     margin-top: 8rem;
   }
-  .numbers{
+
+  .numbers {
     font-size: 1rem;
     padding: 0.5rem 1rem;
   }
-  
+
 }
-.counter-akr-icon{
+
+.counter-akr-icon {
   height: 60px;
   width: 60px;
   margin: auto;
 }
-.counter-location{
+
+.counter-location {
   height: 30px;
   width: 30px;
 }
 
-.contact_deatils_heading{
+.contact_deatils_heading {
   text-align: center;
   font-size: 1.5rem;
   font-weight: 600;
 }
-.fn{
+
+.fn {
   font-size: 2rem;
 }
+
 
 
 
@@ -962,10 +1006,11 @@ nav .navbar .links li:hover .js-sub-menu {
   margin-top: 15rem;
   font-size: 1rem;
   font-family: 'Poppins', sans-serif;
+  background: yellow;
 }
 
 .address-section-genni {
-
+  font-family: 'Poppins', sans-serif;
   background: white;
   z-index: 99;
   position: absolute;
@@ -976,7 +1021,6 @@ nav .navbar .links li:hover .js-sub-menu {
   border-radius: 20px;
   padding-top: 1rem;
   width: 1000px;
-  font-family: 'Poppins', sans-serif;
 }
 
 .address-section-genni h3 {
@@ -990,8 +1034,10 @@ nav .navbar .links li:hover .js-sub-menu {
 
 .contact_deatils {
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   place-content: center;
-  gap: 3rem;
+  gap: 10rem;
   padding: 2rem 1rem;
 }
 
@@ -1007,7 +1053,6 @@ nav .navbar .links li:hover .js-sub-menu {
   align-items: center;
   justify-content: space-around;
   font-family: 'Poppins', sans-serif;
-
 }
 
 .header-heading-bottom {
@@ -1043,7 +1088,9 @@ nav .navbar .links li:hover .js-sub-menu {
   transform: translate(-50%, -15%);
   width: 1000px;
 }
-.e, .m{
+
+.e,
+.m {
   font-family: 200;
   color: gray;
 }
@@ -1070,20 +1117,22 @@ nav .navbar .links li:hover .js-sub-menu {
   padding: 0.2rem 0.5rem;
 }
 
-.innter-contactdetails{
+.innter-contactdetails {
   display: flex;
-  gap: 1rem;
+  justify-content: space-between;
+  gap: 3rem;
+
 }
+
 .copyright {
   text-align: center;
   font-size: 12px;
   font-weight: 600;
-  padding:0 1rem;
+  padding: 1rem;
 }
 
-
 @media (max-width : 1190px) {
-   .address-section-genni{
+  .address-section-genni {
     width: 100%;
     border-radius: 0px;
     box-shadow: none;
@@ -1091,89 +1140,126 @@ nav .navbar .links li:hover .js-sub-menu {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-   }
-   .address-section-genni1{
+    bottom: gray;
+  }
+
+  .address-section-genni1 {
     width: 100%;
     border-radius: 0px;
     box-shadow: none;
     background-color: white;
-   }
-   .address{
-    margin-top : 20rem
   }
-   .header-heading-bottom {
+
+  .address {
+    margin-top: 20rem
+  }
+
+  .header-heading-bottom {
     transform: skew(0deg);
     width: 100%;
   }
-  iframe{
+
+  iframe {
     height: 500px;
   }
-  .email-number,.contact_deatils p  {
+
+  .email-number,
+  .contact_deatils p {
     font-size: 0.8em;
+    font-weight: 400;
   }
-  .header-heading-bottom h4{
+
+  .header-heading-bottom h4 {
     font-size: 0.7rem;
     padding: 0;
+    font-weight: 600;
   }
-  .header-heading-bottom a{
+
+  .header-heading-bottom a {
     font-size: 0.7rem;
     padding: 0.1rem 0.3rem;
+    font-weight: 600;
   }
-} 
+
+  .innter-contactdetails {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+
+  }
+
+  .innter-contactdetails {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    width: 60%
+  }
+
+
+}
+
 @media (max-width : 830px) {
-  .address-icons-footer{
+  .address-section-genni {
+    width: 80%;
+    border-radius: 12px;
+  }
+
+  .address-icons-footer {
     height: 40px;
     width: 40px;
   }
-  .Details-upper{
+
+  .Details-upper {
     flex-direction: column;
     width: 100%;
     margin: auto;
   }
 
-  .contact_deatils{
+  .contact_deatils {
     display: flex;
     flex-direction: column;
     margin: auto;
     gap: 1rem;
+
   }
-  .address-section-genni1{
+
+  .address-section-genni1 {
     width: 100%;
+    color: gray;
   }
+
   .Administration,
   .Director,
-  .genral_information{
-    gap: 0;
+  .genral_information {
+    margin: auto;
+    width: 200px;
   }
 }
 
-
-
-.register-now-button-btn:hover{
-  border:3px solid #191A88;
-  background-color: #FFFFFF;
-  color: #191A88;
-  font-weight: bolder;
-  scale: 20px;
-}
-.more-about-us:hover{
-  border:3px solid #191A88;
-  background-color: #FFFFFF;
-  color: #191A88;
-  font-weight: bolder;
-  scale: 20px;
+@media (max-width: 551px) {
+  .innter-contactdetails {
+    width: 70%;
+  }
 }
 
-.more-about-us1:hover{
-  border: 2px solid white;
-  background: #191A88;
-  color: white;
+@media (max-width: 509px) {
+  .innter-contactdetails {
+    width: 90%;
+  }
 }
 
-.popular-course-container-heading button:hover{
-  border:3px solid #191A88;
-  background-color: #FFFFFF;
-  color: #191A88;
-  font-weight: bolder;
-  scale: 20px;
+@media (max-width : 370px) {
+  .address-section-genni {
+    width: 80%;
+  }
+
+  .header-heading-bottom a {
+    font-size: 0.6rem;
+    padding: 0.1rem;
+    padding-left: 0.2rem;
+  }
+
+  .header-heading-bottom h4 {
+    font-size: 0.5rem;
+  }
 }

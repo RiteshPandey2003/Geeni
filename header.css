@@ -7,7 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+
 }
 
 body {
@@ -38,16 +38,19 @@ nav .navbar {
   /* background: red; */
   padding: 0 50px;
 }
-.logo{
+
+.logo {
   display: flex;
   flex-direction: column;
   font-family: "STIX Two Text", serif;
 }
-.since{
-  font-size: 12px ;
+
+.since {
+  font-size: 12px;
   color: black;
   text-align: center;
 }
+
 .navbar .logo a {
   font-size: 30px;
   color: rgb(255, 255, 255);
@@ -55,6 +58,7 @@ nav .navbar {
   font-weight: 600;
   background-color: #191A88;
   padding: 0.2rem 0.5rem;
+  border-radius: 2px;
 }
 
 nav .navbar .nav-links {
@@ -151,8 +155,8 @@ nav .navbar .links li:hover .js-sub-menu {
 
 .navbar .search-box {
   position: relative;
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
 }
 
 .navbar .search-box i {
@@ -226,24 +230,14 @@ nav .navbar .links li:hover .js-sub-menu {
 .button-26 {
   appearance: button;
   background-color: #191A88;
-  border-radius: 4px;
-  box-sizing: border-box;
+  border-radius: 2px;
   color: #FFFFFF;
   cursor: pointer;
-  font-family: Graphik, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  /* font-size: 8px; */
-  line-height: 1.15;
-  overflow: visible;
   padding: 1rem 2rem;
-  position: relative;
-  text-align: center;
-  text-transform: none;
-  transition: all 80ms ease-in-out;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  width: fit-content;
   font-size: 1.2rem;
+  border: none;
+  text-align: center;
+
 }
 
 .button-26:hover {
@@ -291,8 +285,26 @@ nav .navbar .links li:hover .js-sub-menu {
 
   .sidebar-logo i,
   .navbar .bx-menu {
-    font-size: 25px;
+    width: 50px;
+    height: 25px;
     color: black;
+  }
+
+  .sidebar-logo i,
+  .navbar .bx-menu {
+    width: 50px;
+    height: 25px;
+    color: black;
+  }
+
+  .bx-menu::before {
+    height: 25px;
+    font-size: 1.8rem;
+  }
+
+  .bx-x::before {
+    height: 25px;
+    font-size: 1.5rem;
   }
 
   nav .navbar .links {
@@ -371,7 +383,8 @@ nav .navbar .links li:hover .js-sub-menu {
   .navbar .nav-links.show2 .links .more-arrow {
     transform: rotate(90deg);
   }
-  .since{
+
+  .since {
     display: none;
   }
 
@@ -380,7 +393,7 @@ nav .navbar .links li:hover .js-sub-menu {
 @media (max-width:920px) {
   nav .navbar {
     max-width: 100%;
-    padding: 0 25px;
+    padding: 0 15px;
   }
 
   nav .navbar .logo a {
@@ -397,8 +410,11 @@ nav .navbar .links li:hover .js-sub-menu {
   }
 
   .button-26 {
-    font-size: 7px;
-    padding: 3px;
+    font-size: 6px;
+    padding: 0.2rem 0.5rem;
+    width: 50px;
+    text-align: center;
+    font-weight: 500;
   }
 
 }
@@ -424,9 +440,8 @@ nav .navbar .links li:hover .js-sub-menu {
   font-size: 15px;
   color: #191A88;
   ;
-
   font-family: "STIX Two Text", serif;
-  
+
 }
 
 text {
@@ -567,26 +582,15 @@ path {
 
 .register-now-button-btn {
   margin-top: 3rem;
-  appearance: button;
   background-color: #191A88;
   border-radius: 4px;
-  box-sizing: border-box;
   color: #FFFFFF;
   cursor: pointer;
-  font-family: Graphik, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  /* font-size: 8px; */
-  line-height: 1.15;
-  overflow: visible;
-  position: relative;
-  text-align: center;
-  text-transform: none;
-  transition: all 80ms ease-in-out;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+  ;
   width: fit-content;
   padding: 0.5rem 2rem;
   font-size: 1.5rem;
+  border: none;
 }
 
 
@@ -673,11 +677,10 @@ path {
 }
 
 .Adverisement-marqee {
-  font-size: 1.2rem;
   font-weight: bolder;
   z-index: 99;
   color: white;
-  padding: 0 0.5rem;
+  padding: 0.5rem;
   font-family: 'Poppins', sans-serif;
 
 }
@@ -858,17 +861,18 @@ path {
   font-weight: bold;
   background: #191A88;
   border-radius: 12px;
+  border: none;
 }
 
 .more-about-us1 {
   margin: 4rem 0;
-  margin-left: 1rem;
   font-size: 1rem;
   padding: 0.5rem 1rem;
   color: #191A88;
   font-weight: bold;
   background: white;
   border-radius: 5px;
+  border: none;
 
 }
 
@@ -882,6 +886,7 @@ path {
 
   .company-name-after-img span {
     font-size: 1rem;
+    padding: 0.2rem 0.5rem;
   }
 
   .company-name-after-img,
@@ -961,8 +966,8 @@ li {
 
 .slider-seciton-heading {
   text-align: center;
-  font-size: 2rem;
-  font-weight: bold;
+  font-size: 2.5rem;
+  font-weight: bolder;
   font-family: 'Poppins', sans-serif;
 
 }
@@ -1087,23 +1092,20 @@ li {
     font-size: 1.2rem;
   }
 
-  .counter-icon {
-    height: 50px;
-    width: 50px;
-  }
+
 
   .counter-section {
     margin-top: 3rem;
   }
 
+  .counter-icon {
+    height: 50px;
+    width: 50px;
+  }
+
 }
 
-@media (max-width:320px) {
-  .counter-icon {
-    height: 30px;
-    width: 30px;
-  }
-}
+
 
 /* //counter */
 #counter-section-container {
@@ -1115,10 +1117,13 @@ li {
   font-size: 1rem;
 }
 
-.count-one-by-one {
-  gap: 0;
-
+.count-one-by-one-parent {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
+
 
 .more-about-us {
   margin-top: 1rem;
@@ -1153,23 +1158,28 @@ li {
 
   .counter,
   .counter span {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .counter-section span {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
 
   .counter-section-heading,
   .counter-section-heading2 {
     margin: 1 0rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: bold;
   }
 
   .more-about-us {
     font-size: 0.8rem;
+  }
+
+  .count-one-by-one-parent {
+    flex-wrap: wrap;
+    gap: 2rem;
   }
 }
 
@@ -1178,6 +1188,12 @@ li {
     gap: 0;
 
   }
+
+  .counter,
+  .counter span {
+    font: 1.5rem;
+  }
+
 }
 
 @media (max-width:500px) {
@@ -1188,13 +1204,18 @@ li {
   }
 }
 
-@media (max-width:325px) {
+@media (max-width:300px) {
   .counter {
     font-size: 0.7rem;
   }
 
   .counter-container span {
     font-size: 0.7rem;
+  }
+
+  .counter-icon {
+    height: 30px;
+    width: 30px;
   }
 
 }
@@ -1268,6 +1289,7 @@ li {
   padding: 0.5rem 1rem;
   color: white;
   border-radius: 5px;
+  border: none;
 }
 
 .popular-course-rectangle1 {
@@ -1609,7 +1631,7 @@ p {
   padding: 2rem;
   margin: 3rem 0;
   font-size: 2rem;
-  font-weight: bold; 
+  font-weight: bold;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -1641,7 +1663,7 @@ span {
   font-size: 1.2rem;
 }
 
-.accordion button .icon img{
+.accordion button .icon img {
   display: inline-block;
   position: absolute;
   top: 18px;
@@ -1729,7 +1751,7 @@ span {
   margin-top: 15rem;
   font-size: 1rem;
   font-family: 'Poppins', sans-serif;
-
+  background: yellow;
 }
 
 .address-section-genni {
@@ -1757,6 +1779,8 @@ span {
 
 .contact_deatils {
   display: flex;
+  align-items: center;
+  justify-content: center;
   place-content: center;
   gap: 3rem;
   padding: 2rem 1rem;
@@ -1840,7 +1864,9 @@ span {
 
 .innter-contactdetails {
   display: flex;
-  gap: 1rem;
+  justify-content: space-between;
+  gap: 3rem;
+
 }
 
 .copyright {
@@ -1859,7 +1885,17 @@ span {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    bottom: gray;
   }
+  .contact_deatils {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-content: center;
+    gap: 10rem;
+    padding: 2rem 1rem;
+  }
+  
 
   .address-section-genni1 {
     width: 100%;
@@ -1898,13 +1934,35 @@ span {
     padding: 0.1rem 0.3rem;
     font-weight: 600;
   }
+
+  .innter-contactdetails {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+
+  }
+
+  .innter-contactdetails {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    width: 60%
+  }
+
+
 }
 
 @media (max-width : 830px) {
-  .address-icons-footer{
+  .address-section-genni {
+    width: 80%;
+    border-radius: 12px;
+  }
+
+  .address-icons-footer {
     height: 40px;
     width: 40px;
   }
+
   .Details-upper {
     flex-direction: column;
     width: 100%;
@@ -1916,16 +1974,48 @@ span {
     flex-direction: column;
     margin: auto;
     gap: 1rem;
+
   }
 
   .address-section-genni1 {
     width: 100%;
+    color: gray;
   }
+
   .Administration,
-.Director,
-.genral_information{
-  gap: 0;
+  .Director,
+  .genral_information {
+    margin: auto;
+    width: 200px;
+  }
 }
+
+@media (max-width: 551px) {
+  .innter-contactdetails {
+    width: 70%;
+  }
+}
+
+@media (max-width: 519px) {
+  .innter-contactdetails {
+    width: 90%;
+  }
+}
+
+@media (max-width : 370px) {
+  .address-section-genni {
+    width: 80%;
+  }
+
+  .header-heading-bottom a {
+    font-size: 0.6rem;
+    padding: 0.1rem;
+    padding-left: 0.2rem;
+  }
+
+  .header-heading-bottom h4 {
+    font-size: 0.5rem;
+  }
 }
 
 

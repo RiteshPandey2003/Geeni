@@ -1,18 +1,19 @@
 /* Googlefont Poppins CDN Link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+/* Googlefont Poppins CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+
 }
 
 body {
   min-height: 100vh;
 
-
-  font-family: 'Luckiest Guy', cursive;
 
 
 }
@@ -52,16 +53,19 @@ body {
   color: white;
   background:  #191A88;
   padding: 0.3rem;
+  font-style:"STIX Two Text", serif ;
 }
 
 .certificate_title {
   padding: 1rem 0;
   font-size: 2.5rem;
   font-weight: bold;
+  font-family: 'Poppins', sans-serif;
 }
 
 .certicate_discription {
   font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 .time-limit {
@@ -72,12 +76,14 @@ body {
   gap: 0.5rem;
   width: fit-content;
   font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 .price {
   font-size: 2rem;
   font-weight: bolder;
   margin-top: 2rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 
@@ -97,12 +103,14 @@ body {
 
 .button-container {
   margin-top: 20px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .page-button {
   padding: 10px 5px;
   font-size: 16px;
   cursor: pointer;
+  font-family: 'Poppins', sans-serif;
 
 }
 
@@ -115,6 +123,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 3rem;
+  font-family: 'Poppins', sans-serif;
   
 }
 
@@ -155,25 +164,12 @@ body {
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
-  display: inline-flex;
-  font-family: "JetBrains Mono", monospace;
-  height: 48px;
-  justify-content: center;
-  line-height: 1;
-  list-style: none;
-  overflow: hidden;
-  padding:0.2rem 1rem;
-  position: relative;
-  text-align: left;
-  text-decoration: none;
-  transition: box-shadow 0.15s, transform 0.15s;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  white-space: nowrap;
-  will-change: box-shadow, transform;
+
+  padding:0.5rem 1rem;
+
   font-size: 1.2rem;
   margin-top: 1rem;
+  border: none;
 }
 
 .button-container{
@@ -240,4 +236,11 @@ body {
     display: none;
   }
 
+}
+.button-29:hover{
+  border: 3px solid #191A88;
+  background-color: #FFFFFF;
+  color: #191A88;
+  font-weight: bolder;
+  scale: 20px;
 }
