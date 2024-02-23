@@ -40,7 +40,16 @@ nav .navbar {
   /* background: red; */
   padding: 0 50px;
 }
-
+.logo{
+  display: flex;
+  flex-direction: column;
+  font-family: "STIX Two Text", serif;
+}
+.since{
+  font-size: 12px ;
+  color: black;
+  text-align: center;
+}
 .navbar .logo a {
   font-size: 30px;
   color: rgb(255, 255, 255);
