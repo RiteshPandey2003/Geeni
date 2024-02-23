@@ -241,7 +241,7 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 
 .button-26:hover {
-  border: 3px solid #191A88;
+  border: 1px solid #191A88;
   background-color: #FFFFFF;
   color: #191A88;
   font-weight: bolder;
@@ -408,7 +408,7 @@ nav .navbar .links li:hover .js-sub-menu {
 
   .button-26 {
     font-size: 6px;
-    padding: 0.2rem 0.5rem;
+    padding: 0.3rem 0.5rem;
     width: 50px;
     text-align: center;
     font-weight: 500;
