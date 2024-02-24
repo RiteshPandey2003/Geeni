@@ -52,7 +52,7 @@ nav .navbar {
 }
 
 .navbar .logo a {
-  margin-top: 0.5rem;
+  margin-top: 0.8rem;
   font-size: 30px;
   color: rgb(255, 255, 255);
   text-decoration: none;
@@ -378,6 +378,9 @@ nav .navbar .links li:hover .js-sub-menu {
 
   .since {
     display: none;
+  }
+  .navbar .logo a {
+    margin-top: 0rem
   }
 
 }
