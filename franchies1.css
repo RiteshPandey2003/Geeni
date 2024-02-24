@@ -1041,6 +1041,9 @@ nav .navbar .links li:hover .js-sub-menu {
   gap: 10rem;
   padding: 2rem 1rem;
 }
+.Details-upper{
+  gap: 3rem;
+}
 
 .contact_deatils p {
   gap: 1rem;
