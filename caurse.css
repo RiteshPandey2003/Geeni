@@ -87,7 +87,6 @@ nav .navbar .links li a {
   color: black;
   font-size: 15px;
   font-weight: 500;
-  font-family: "STIX Two Text", serif;
 }
 
 .links li:hover .htmlcss-arrow,
@@ -287,7 +286,7 @@ nav .navbar .links li:hover .js-sub-menu {
 
   .sidebar-logo i,
   .navbar .bx-menu {
-    width: 50px;
+    width: 70px;
     height: 25px;
     color: black;
   }
@@ -403,10 +402,13 @@ nav .navbar .links li:hover .js-sub-menu {
   }
 
   .button-26 {
-    font-size: 6px;
-    padding: 0.3rem 0.5rem;
-    width: 50px;
+    font-size: 6.5px;
+    padding: 0.45rem 0.2rem;
+    width: 70px;
     text-align: center;
+    font-weight: 500;
+    white-space:nowrap;
+    background-color: #191A88;
   }
 
 }
@@ -537,7 +539,7 @@ nav .navbar .links li:hover .js-sub-menu {
     border: none;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
     margin: 2rem 0rem;
     width: 90%;
@@ -590,6 +592,9 @@ nav .navbar .links li:hover .js-sub-menu {
   .card{
     width: 30%;
   }
+  .fullWidthButton{
+    font-size: 16px;
+  }
 }
 @media (max-width : 1100px) {
   .card{
@@ -637,6 +642,9 @@ nav .navbar .links li:hover .js-sub-menu {
 @media (max-width : 540px) {
   .card{
     width: 90%;
+  }
+  .slogan{
+    font-size: 10px;
   }
 }
 .fullWidthButton:hover{

@@ -292,7 +292,7 @@ nav .navbar .links li:hover .js-sub-menu {
 
   .sidebar-logo i,
   .navbar .bx-menu {
-    width: 50px;
+    width: 70px;
     height: 25px;
     color: black;
   }
@@ -410,11 +410,13 @@ nav .navbar .links li:hover .js-sub-menu {
   }
 
   .button-26 {
-    font-size: 6px;
-    padding: 0.3rem 0.5rem;
-    width: 50px;
+    font-size: 6.5px;
+    padding: 0.45rem 0.2rem;
+    width: 70px;
     text-align: center;
     font-weight: 500;
+    white-space:nowrap;
+    background-color: #191A88;
   }
 
 }
@@ -1338,13 +1340,14 @@ li {
 @media (max-width:1250px) {
   .popular-course-container-heading button {
     font-size: 10px;
-    padding: 0.2rem;
+    padding: 0.2rem 1rem;
+    white-space: nowrap;
 
   }
 
   .popular-course-container-heading {
     font-size: 1rem;
-    padding: 1rem;
+    padding: 1rem 0;
   }
 
   .popular-course-rectangle {
@@ -1801,7 +1804,7 @@ span {
 
 .header-heading-bottom {
   background-color: #130CB7;
-  padding: 0.5rem 0.5rem;
+  padding: 0.5rem 0.2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1878,8 +1881,8 @@ span {
 @media (max-width : 1190px) {
   .address-section-genni {
     width: 100%;
-    border-radius: 0px;
-    box-shadow: none;
+    border-radius: 12px;
+    box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2042,6 +2045,13 @@ span {
 }
 
 .popular-course-container-heading button:hover {
+  border: 3px solid #191A88;
+  background-color: #FFFFFF;
+  color: #191A88;
+  font-weight: bolder;
+  scale: 20px;
+}
+.header-heading-bottom a:hover{
   border: 3px solid #191A88;
   background-color: #FFFFFF;
   color: #191A88;

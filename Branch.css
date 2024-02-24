@@ -286,7 +286,7 @@ nav .navbar .links li:hover .js-sub-menu {
 
   .sidebar-logo i,
   .navbar .bx-menu {
-    width: 50px;
+    width: 70px;
     height: 25px;
     color: black;
   }
@@ -402,11 +402,13 @@ nav .navbar .links li:hover .js-sub-menu {
   }
 
   .button-26 {
-    font-size: 6px;
-    padding: 0.2rem 0.5rem;
-    width: 50px;
+    font-size: 6.5px;
+    padding: 0.45rem 0.2rem;
+    width: 70px;
     text-align: center;
-    font-family: 500;
+    font-weight: 500;
+    white-space:nowrap;
+    background-color: #191A88;
   }
 
 }
