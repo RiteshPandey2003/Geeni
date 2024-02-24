@@ -51,7 +51,7 @@ body {
   font-size: 2rem;
   font-weight: 900;
   color: white;
-  background:  #191A88;
+  background-color:  #191A88;
   padding: 0.3rem;
   font-style:"STIX Two Text", serif ;
 }
@@ -203,8 +203,11 @@ body {
   /* #About-us-section {
     height: 900px;
   } */
-  .time-limit, .certicate_discription,.button-29{
+  .time-limit,.button-29,.certicate_discription{
     font-size: 0.8rem;
+  }
+  .certicate_discription{
+    width: 90%;
   }
   .price{
    font-size: 1rem;
@@ -234,6 +237,9 @@ body {
   }
   .company-introduciton-section-parent{
     display: none;
+  }
+  .time-limit,.button-29,.certicate_discription{
+    font-size: 0.8rem;
   }
 
 }
