@@ -52,12 +52,13 @@ nav .navbar {
 }
 
 .navbar .logo a {
+  margin-top: 0.5rem;
   font-size: 30px;
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: 600;
   background-color: #191A88;
-  padding: 0.2rem 0.5rem;
+  padding: 0.3rem 0.5rem;
   border-radius: 2px;
 }
 
@@ -1083,10 +1084,7 @@ li {
     font-size: 1rem;
   }
 
-  .counter {
-    font-size: 12px;
-    margin-top: 0;
-  }
+
 
 
   .slider-seciton-heading {
@@ -1113,10 +1111,6 @@ li {
     margin-top: 3rem;
   }
 
-  .counter-icon {
-    height: 50px;
-    width: 50px;
-  }
 
 }
 
@@ -1158,7 +1152,6 @@ li {
     justify-content: center;
     margin: 0.5rem;
     border-style: none;
-    width: 100%;
     flex-direction: column;
     gap: 1rem;
   }
@@ -1166,6 +1159,12 @@ li {
   .line {
     display: none;
   }
+  .count-one-by-one-parent {
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+}
+@media(max-width:700px) {
 
   .counter-section {
     padding: 1rem;
@@ -1191,13 +1190,15 @@ li {
   .more-about-us {
     font-size: 0.8rem;
   }
-
-  .count-one-by-one-parent {
-    flex-wrap: wrap;
-    gap: 2rem;
+  .counter-icon {
+    height: 50px;
+    width: 50px;
+  }
+  .counter {
+    font-size: 1.2rem;
+    margin-top: 0;
   }
 }
-
 @media (max-width: 890px) {
   .count-one-by-one {
     gap: 0;
@@ -1352,7 +1353,7 @@ li {
 
 @media (max-width:1250px) {
   .popular-course-container-heading button {
-    font-size: 10px;
+    font-size: 16px;
     padding: 0.5rem 1rem;
     white-space: nowrap;
 
@@ -1360,7 +1361,7 @@ li {
 
   .popular-course-container-heading {
     font-size: 1rem;
-    padding: 1rem 0.5rem;
+    padding: 3rem 0.5rem;
   }
 
   .popular-course-rectangle {
@@ -1379,7 +1380,7 @@ li {
   }
 
   .popular-course-heading {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
 

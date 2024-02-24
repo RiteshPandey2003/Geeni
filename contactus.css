@@ -52,14 +52,14 @@ nav .navbar {
 }
 
 .navbar .logo a {
+  margin-top: 0.5rem;
   font-size: 30px;
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: 600;
   background-color: #191A88;
-  padding: 0.2rem 0.5rem;
+  padding: 0.3rem 0.5rem;
   border-radius: 2px;
-  font-family: "STIX Two Text", serif;
 }
 
 nav .navbar .nav-links {
