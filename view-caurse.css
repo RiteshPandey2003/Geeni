@@ -130,8 +130,8 @@ body {
     border-radius: 5px ;
   }
   .start-icon{
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
   }
   @media (max-width : 1650px) {
     
@@ -162,8 +162,8 @@ body {
         font-size: 0.8rem;
     } 
     .start-icon{
-        height: 15px;
-        width: 18px;
+        height: 12px;
+        width: 12px;
     }
     #Our_Branch_section{
       padding: 0;
