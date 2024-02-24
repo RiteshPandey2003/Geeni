@@ -675,52 +675,87 @@ path {
 .marquee-section {
   display: flex;
   background-color: #191A88;
+  padding: 0.5rem 0;
   width: 100%;
-  padding: 0.5rem;
+  overflow: hidden;
+  position: relative;
 }
 
-.Adverisement-marquee {
+.Adverisement-marqee {
   font-weight: bold;
   z-index: 99;
   color: white;
+  padding: 0 0.5rem;
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
-  padding: 0 0.5rem;
 }
 
 .marquee-container {
-  display: flex;
-  color: white;
   overflow: hidden;
+  position: relative;
+  width: 100%;
+  display: flex;
 }
 
 .marquee {
+  top: 0;
+  right: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
   white-space: nowrap;
   animation: marquee 30s linear infinite;
+}
+
+.marquee2 {
+  animation-delay: 15s;
 }
 
 .marquee span {
   font-size: 1rem;
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
+  color: white;
 }
 
-.start {
-  height: 18px;
-  width: 18px;
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #191A88;
+  z-index: 98; /* Place the overlay below the text */
 }
 
 @keyframes marquee {
   0% {
-    transform: translateX(100%);
+    left: 100%;
   }
+
   100% {
-    transform: translateX(-100%);
+    left: -100%
   }
 }
+.add{
+  color: white;
+  font-weight: bold;
+  z-index: 99;
+  color: white;
+  padding: 0 0.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+}
+
+.start {
+  height: 12px;
+  width: 12px;
+}
+
+
 
 @media (max-width: 1250px) {
-  .marquee span,.Adverisement-marquee {
+  .marquee span,.add {
     font-size: 0.7rem;
   }
 }
@@ -1318,7 +1353,7 @@ li {
 @media (max-width:1250px) {
   .popular-course-container-heading button {
     font-size: 10px;
-    padding: 0.2rem 1rem;
+    padding: 0.5rem 1rem;
     white-space: nowrap;
 
   }
