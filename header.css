@@ -137,9 +137,7 @@ nav .navbar .links li:hover .js-sub-menu {
   line-height: 40px;
 }
 
-.navbar .links li .htmlCss-more-sub-menu {
-  /* line-height: 40px; */
-}
+
 
 .navbar .links li .sub-menu .more-sub-menu {
   position: absolute;
@@ -427,49 +425,21 @@ nav .navbar .links li:hover .js-sub-menu {
 
 
 .main-bg-color {
-  background: linear-gradient(170deg, rgb(192, 199, 255), rgb(255, 255, 255), rgb(252, 204, 252));
+  background-image: url("./images/geniibgimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   padding: 1rem 0;
 }
 
 /* main-section-home */
 
 
-.main-section-home {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-.gate-section-cureve {
-  width: 72%;
-  font-size: 15px;
-  color: #191A88;
-  ;
-  font-family: "STIX Two Text", serif;
 
-}
 
-text {
-  text-align: center;
-  fill: #191A88;
-  ;
-  text-anchor: middle;
-  font-weight: bolder;
 
-}
 
-.view-box {
-  width: 100%;
-  display: flex;
-  min-height: calc(100vh - 70px);
-  /* Subtract the header height */
-}
 
-path {
-  fill: transparent;
-  display: none;
-}
 
 
 @media (max-width:800px) {
@@ -495,66 +465,55 @@ path {
   align-items: center;
   justify-content: center;
   gap: 5rem;
+  color: white;
 }
 
 .pillor-section-container {
-  width: 85%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 15rem;
+  height: 500px;
 }
 
-.pillor {
-  max-width: 250px;
-  height: 700px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-.pillor-img {
-
-  height: 100%;
-  width: 100%;
-
-}
 
 .pillor-content {
   padding-top: 5rem;
-  position: absolute;
-  bottom: 12rem;
-  height: 750px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   font-family: "";
-
+  padding-bottom: 3rem;
 }
 
-.geeni-logo img {
-  width: 250px;
-  height: 250px;
+.mainscreenlogo{
+  margin-top: 0.8rem;
+  font-size: 2.5rem;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 600;
+  background-color: #191A88;
+  padding: 0.3rem 0.5rem;
+  border-radius: 2px;
+  width: fit-content;
+  margin: auto;
 }
-
-.GITAM {
-  font-size: 25px;
-  text-align: center;
-  font-weight: bolder;
-  color: rgb(255, 96, 96);
-  font-family: "STIX Two Text", serif;
+.mainscreenlogoline{
+  font-size: 2.5rem;
+  margin: 1rem 0;
+  font-weight: 800;
 }
-
 .managed-by {
   margin-top: 1rem;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   text-align: center;
   font-family: "STIX Two Text", serif;
 }
 
 .GEENI-EDUCATIONAL-sOCITY {
-  margin-top: 1rem;
   font-size: x-large;
   font-weight: bold;
   text-align: center;
@@ -574,7 +533,7 @@ path {
 }
 
 .GEENI-EDUCATIONAL-sOCITY-tail-thumb-container {
-  margin-top: 3rem;
+  margin-top: 0.5rem;
   font-family: "STIX Two Text", serif;
 }
 
@@ -582,32 +541,52 @@ path {
   font-size: xx-large;
   font-weight: bolder;
   text-align: center;
-  color: #191A88;
   font-family: "STIX Two Text", serif;
+}
+.register-now-button-container1{
+  gap: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.register-now-button-btn-1{
+  margin-top: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  width: fit-content;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 3px solid #191A88;
+  background-color: #FFFFFF;
+  color: #191A88;
 }
 
 .register-now-button-btn {
-  margin-top: 3rem;
-  background-color: #191A88;
+  margin-top: 1rem;
   border-radius: 4px;
-  color: #FFFFFF;
   cursor: pointer;
-  ;
   width: fit-content;
   padding: 0.5rem 2rem;
-  font-size: 1.5rem;
-  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 3px solid #191A88;
+  background-color: #FFFFFF;
+  color: #191A88;
 }
 
 
+
 @media (max-width:1250px) {
-  .pillor {
-    height: 380px;
 
+
+  .register-now-button-btn,.register-now-button-btn-1 {
+    padding: 5px 10px;
+    font-size: 7px;
   }
-
-  .register-now-button-btn {
-    padding: 3px 5px;
+  .mainscreenlogoline,.mainscreenlogo{
+    font-size: 1.2rem;
   }
 
   .pillor-content {
@@ -623,11 +602,6 @@ path {
     margin-top: 0.5rem;
   }
 
-  .managed-by {
-    margin-top: 1rem;
-    font-size: 6px;
-  }
-
   .reg-no {
     font-size: 10px;
     text-align: center;
@@ -637,28 +611,13 @@ path {
     font-size: 12px;
   }
 
-  .GITAM {
-    font-size: 16px;
-  }
-
-  .geeni-logo img {
-    height: 100px;
-    width: 120px;
-  }
-
   .GEENI-EDUCATIONAL-sOCITY-tail-thumb {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .GEENI-EDUCATIONAL-sOCITY-tail-thumb-container {
     margin-top: 1rem;
   }
-
-  .register-now-button-btn {
-    padding: 5px 10px;
-    font-size: 0.8rem;
-  }
-
   .pillors-section-container {
     width: 100%;
     gap: 0rem;
@@ -2042,12 +2001,11 @@ span {
 
 
 
-.register-now-button-btn:hover {
-  border: 3px solid #191A88;
-  background-color: #FFFFFF;
-  color: #191A88;
+.register-now-button-btn:hover,.register-now-button-btn-1:hover {
+  border: 2px solid white;
+  background: #191A88;
+  color: white;
   font-weight: bolder;
-  scale: 20px;
 }
 
 .more-about-us:hover {

@@ -437,9 +437,10 @@ nav .navbar .links li:hover .js-sub-menu {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 700px;
+  height: fit-content;
   flex-direction: column;
-  width: 65%
+  width: 65%;
+  padding:2rem 0;
 }
 
 .managed-by {
