@@ -499,11 +499,13 @@ nav .navbar .links li:hover .js-sub-menu {
   border-radius: 2px;
   width: fit-content;
   margin: auto;
+  font-family: "STIX Two Text", serif;
 }
 .mainscreenlogoline{
   font-size: 2.5rem;
   margin: 1rem 0;
   font-weight: 800;
+  font-family: "STIX Two Text", serif;
 }
 .managed-by {
   margin-top: 1rem;
@@ -558,9 +560,9 @@ nav .navbar .links li:hover .js-sub-menu {
   padding: 0.5rem 2rem;
   font-size: 1rem;
   font-weight: 600;
-  border: 3px solid #191A88;
   background-color: #FFFFFF;
   color: #191A88;
+  border: none;
 }
 
 .register-now-button-btn {
@@ -571,9 +573,9 @@ nav .navbar .links li:hover .js-sub-menu {
   padding: 0.5rem 2rem;
   font-size: 1rem;
   font-weight: 600;
-  border: 3px solid #191A88;
   background-color: #FFFFFF;
   color: #191A88;
+  border: none;
 }
 
 
@@ -593,8 +595,8 @@ nav .navbar .links li:hover .js-sub-menu {
     /* width: 280px; */
     /* top: 0rem; */
     padding-top: 0;
-    bottom: 3rem;
     height: 100%;
+    padding-bottom: 0rem;
   }
 
   .GEENI-EDUCATIONAL-sOCITY {
@@ -622,6 +624,9 @@ nav .navbar .links li:hover .js-sub-menu {
     width: 100%;
     gap: 0rem;
     align-items: center;
+  }
+  .pillor-section-container{
+    height: 350px;
   }
 
 }
