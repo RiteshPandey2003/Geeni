@@ -925,8 +925,8 @@ nav .navbar .links li:hover .js-sub-menu {
     font-family: 'Poppins', sans-serif;
   }
   .company-img-genni {
-    width: 80%;
     height: 320px;
+    width: 320px;
   }
   .company-introduciton-section {
     height: fit-content;
@@ -937,7 +937,7 @@ nav .navbar .links li:hover .js-sub-menu {
   }
 }
 
-@media (max-width : 540px) {
+@media (max-width : 340px) {
   .company-img-genni {
     width: 80%;
     height: 220px;
