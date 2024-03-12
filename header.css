@@ -733,14 +733,6 @@ nav .navbar .links li:hover .js-sub-menu {
 
 
 
-@media (max-width: 1250px) {
-
-  .marquee span,
-  .add {
-    font-size: 0.7rem;
-  }
-}
-
 
 /* .about-us */
 
@@ -922,26 +914,13 @@ nav .navbar .links li:hover .js-sub-menu {
   }
 
 }
-/* @media (max-width : 800px) {
-  .company-img-genni {
-    width: 80%;
-    height: 220px;
-  }
-  .company-introduciton-section {
-    height: fit-content;
-    padding: 1rem;
-    margin: auto;
-    font-family: 'Poppins', sans-serif;
-  }
 
-} */
 
 @media (max-width : 760px) {
 
   .company-introduciton-section-parent,.company-img-and-est-date {
-    width: 90%;
+    width: 100%;
     height: fit-content;
-    padding: 1rem;
     margin: auto;
     font-family: 'Poppins', sans-serif;
   }
@@ -951,6 +930,7 @@ nav .navbar .links li:hover .js-sub-menu {
   }
   .company-introduciton-section {
     height: fit-content;
+    width: 90%;
     padding: 1rem;
     margin: auto;
     font-family: 'Poppins', sans-serif;

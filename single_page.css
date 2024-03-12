@@ -250,3 +250,133 @@ body {
   font-weight: bolder;
   scale: 20px;
 }
+
+
+
+.faq-container {
+  margin: 0 auto;
+  width: 60%;
+  margin-bottom: 7rem;
+}
+
+.faq-heading {
+  text-align: center;
+  padding: 2rem;
+  margin: 3rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.accordion .accordion-item {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+
+
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1.5em 0;
+  font-size: 0.5rem;
+  word-wrap: break-word;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.accordion button .accordion-title {
+  padding: 2rem 1.5rem 2rem 0;
+}
+
+span {
+  font-size: 1.5rem;
+}
+
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border-radius: 22px;
+  color: blue;
+}
+
+
+.accordion button[aria-expanded='true'] .icon::after {
+  width: 0;
+}
+
+.accordion button[aria-expanded='true']+.accordion-content {
+  opacity: 1;
+  max-height: 9em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+
+.accordion .accordion-content p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 2em 0;
+}
+
+#faq-container-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.accordion-content-answere {
+  font-size: 10px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+  .faq-container {
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .faq-heading {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+  }
+
+  .accordion button .icon {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .accordion-title {
+    font-size: 16px;
+  }
+
+  .accordion-content-answere {
+    font-size: 7px;
+  }
+  .accordion .accordion-content p{
+    font-size: 0.8rem;
+  }
+}
+
+.submitbtn:hover{
+  border:3px solid #191A88;
+  background-color: #FFFFFF;
+  color: #191A88;
+  font-weight: bolder;
+
+}

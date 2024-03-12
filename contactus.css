@@ -138,9 +138,6 @@ nav .navbar .links li:hover .js-sub-menu {
   line-height: 40px;
 }
 
-.navbar .links li .htmlCss-more-sub-menu {
-  /* line-height: 40px; */
-}
 
 .navbar .links li .sub-menu .more-sub-menu {
   position: absolute;
@@ -681,6 +678,7 @@ h1{
     margin: 3rem 0;
     font-size: 2rem;
     font-weight: bold;
+    font-family: 'Poppins', sans-serif;
   }
   
   .accordion .accordion-item {
